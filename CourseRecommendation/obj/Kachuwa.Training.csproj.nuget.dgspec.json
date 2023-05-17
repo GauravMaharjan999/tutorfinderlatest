@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\Github\\New folder\\TutorFinder\\LiveTraining\\LiveTraining\\Kachuwa.Training\\Kachuwa.Training.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\Github\\New folder\\TutorFinder\\LiveTraining\\LiveTraining\\Kachuwa.Training\\Kachuwa.Training.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\Github\\New folder\\TutorFinder\\LiveTraining\\LiveTraining\\Kachuwa.Training\\Kachuwa.Training.csproj",
+        "projectName": "CourseRecommendation",
+        "projectPath": "E:\\Projects\\Github\\New folder\\TutorFinder\\LiveTraining\\LiveTraining\\Kachuwa.Training\\Kachuwa.Training.csproj",
+        "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Github\\New folder\\TutorFinder\\LiveTraining\\LiveTraining\\CourseRecommendation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

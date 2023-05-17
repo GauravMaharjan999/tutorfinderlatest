@@ -1,0 +1,7 @@
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\KachuwaSchedularService\obj\Debug\netcoreapp2.2\KachuwaSchedularService.csproj.AssemblyReference.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\KachuwaSchedularService\obj\Debug\netcoreapp2.2\KachuwaSchedularService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\KachuwaSchedularService\obj\Debug\netcoreapp2.2\KachuwaSchedularService.AssemblyInfoInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\KachuwaSchedularService\obj\Debug\netcoreapp2.2\KachuwaSchedularService.AssemblyInfo.cs
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\KachuwaSchedularService\obj\Debug\netcoreapp2.2\KachuwaSchedularService.csproj.CoreCompileInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\KachuwaSchedularService\obj\Debug\netcoreapp2.2\KachuwaSchedularService.RazorAssemblyInfo.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\KachuwaSchedularService\obj\Debug\netcoreapp2.2\KachuwaSchedularService.RazorAssemblyInfo.cs

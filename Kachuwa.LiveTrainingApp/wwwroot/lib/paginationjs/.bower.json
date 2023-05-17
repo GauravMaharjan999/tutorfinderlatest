@@ -1,0 +1,39 @@
+{
+  "name": "paginationjs",
+  "version": "2.1.3",
+  "main": "dist/pagination.min.js",
+  "keywords": [
+    "paginationjs",
+    "pagination.js",
+    "pagination",
+    "jquery.pagination",
+    "jquery pagination"
+  ],
+  "ignore": [
+    "**/.*",
+    "src",
+    "docs",
+    "examples",
+    "node_modules",
+    "LICENSE",
+    "component.json",
+    "bower.json",
+    "package.json",
+    "README*.md",
+    "example.js",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "jquery": "git://github.com/components/jquery.git#~1.8.3"
+  },
+  "homepage": "https://github.com/superRaytin/paginationjs",
+  "_release": "2.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.1.3",
+    "commit": "5a7e41a5801d28695925acff8b35d5290cdee796"
+  },
+  "_source": "https://github.com/superRaytin/paginationjs.git",
+  "_target": "v2.1.3",
+  "_originalSource": "paginationjs"
+}

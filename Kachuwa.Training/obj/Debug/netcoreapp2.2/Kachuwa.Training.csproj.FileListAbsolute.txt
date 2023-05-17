@@ -1,0 +1,119 @@
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\smidge.json
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.deps.json
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csprojAssemblyReference.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfoInputs.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfo.cs
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CoreCompileInputs.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CopyComplete
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\smidge.json
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.deps.json
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.AssemblyReference.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfoInputs.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfo.cs
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CoreCompileInputs.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CopyComplete
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\smidge.json
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.deps.json
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.AssemblyReference.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfoInputs.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfo.cs
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CoreCompileInputs.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CopyComplete
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfoInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfo.cs
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CoreCompileInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\smidge.json
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.deps.json
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.AssemblyReference.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CopyComplete
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\smidge.json
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.deps.json
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfoInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfo.cs
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CopyComplete
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\smidge.json
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.deps.json
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Training.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Admin.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Identity.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\bin\Debug\netcoreapp2.2\Kachuwa.Web.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.AssemblyReference.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfoInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.AssemblyInfo.cs
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CoreCompileInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.csproj.CopyComplete
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Training\obj\Debug\netcoreapp2.2\Kachuwa.Training.pdb

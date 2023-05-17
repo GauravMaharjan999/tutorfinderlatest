@@ -1,0 +1,1313 @@
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\aac2mp4.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Bento4CDll.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42aac.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42avc.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hevc.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hls.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42ts.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4compact.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dash.bat
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dashclone.bat
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dcfpackager.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4decrypt.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dump.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4edit.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4encrypt.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4extract.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4fragment.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4hls.bat
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Mp4IframeIndex.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4info.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4mux.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4rtphintinfo.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4split.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4tag.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avcodec-58.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avdevice-58.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avfilter-7.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avformat-58.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avutil-56.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffmpeg.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffplay.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffprobe.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\postproc-55.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swresample-3.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swscale-5.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avcodec-58.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avdevice-58.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avfilter-7.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avformat-58.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avutil-56.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffmpeg.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffplay.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffprobe.exe
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\postproc-55.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swresample-3.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swscale-5.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap48bdlAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AdtsParser.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AesBlockCipher.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AinfAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Array.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Atom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomFactory.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomixAdapters.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomSampleTable.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvccAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvcParser.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BitStream.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BlocAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ByteStream.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Co64Atom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Command.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommandFactory.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommonEncryption.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Config.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Constants.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ContainerAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CttsAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DataBuffer.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Debug.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Dec3Atom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderConfigDescriptor.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Descriptor.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DescriptorFactory.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DrefAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DvccAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DynamicCast.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ElstAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsDescriptor.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsdsAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Expandable.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4File.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileByteStream.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileCopier.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileWriter.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FragmentSampleTable.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FrmaAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FtypAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4GrpiAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HdlrAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HevcParser.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HintTrackReader.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Hmac.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HmhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HvccAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IkmsAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Interfaces.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IodsAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Ipmp.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IproAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsfmAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsltAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsmaCryp.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4KeyWrap.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4LinearReader.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4List.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Marlin.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MdhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MehdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MetaData.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfroAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MoovAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Movie.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MovieFragment.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mp4AudioInfo.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mpeg2Ts.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MvhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NalParser.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NeptuneAdapters.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NmhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ObjectDescriptor.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdafAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OddaAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdheAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OhdrAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OmaDcf.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PdinAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Piff.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Processor.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Protection.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PsshAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Results.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpHint.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaioAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaizAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Sample.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleDescription.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleEntry.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleSource.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleTable.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SbgpAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SchmAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SdpAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SegmentBuilder.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SencAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SgpdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SidxAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SLConfigDescriptor.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SmhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StcoAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SthdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StreamCipher.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4String.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StscAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StsdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StssAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StszAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SttsAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Stz2Atom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SyntheticSampleTable.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TencAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfdtAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfraAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TimsAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TkhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Track.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrakAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrefTypeAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrexAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrunAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Types.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UrlAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Utils.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UuidAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Version.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4VmhdAtom.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Bento4C.h
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\aes.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\check-indexes.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-clone.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-encode.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-hls.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.pyc
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\pr-derive-key.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\skm.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.pyc
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\wv-request.py
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X1080P.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X144P.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X240P.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X2K.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X360P.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X480P.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X4K.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X720P.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X8K.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_XQHD.png
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.deps.json
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csprojAssemblyReference.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfoInputs.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfo.cs
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CoreCompileInputs.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CopyComplete
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\aac2mp4.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Bento4CDll.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42aac.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42avc.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hevc.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hls.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42ts.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4compact.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dash.bat
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dashclone.bat
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dcfpackager.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4decrypt.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dump.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4edit.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4encrypt.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4extract.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4fragment.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4hls.bat
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Mp4IframeIndex.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4info.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4mux.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4rtphintinfo.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4split.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4tag.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avcodec-58.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avdevice-58.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avfilter-7.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avformat-58.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avutil-56.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffmpeg.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffplay.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffprobe.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\postproc-55.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swresample-3.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swscale-5.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avcodec-58.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avdevice-58.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avfilter-7.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avformat-58.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avutil-56.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffmpeg.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffplay.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffprobe.exe
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\postproc-55.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swresample-3.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swscale-5.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap48bdlAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AdtsParser.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AesBlockCipher.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AinfAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Array.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Atom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomFactory.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomixAdapters.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomSampleTable.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvccAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvcParser.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BitStream.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BlocAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ByteStream.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Co64Atom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Command.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommandFactory.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommonEncryption.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Config.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Constants.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ContainerAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CttsAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DataBuffer.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Debug.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Dec3Atom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderConfigDescriptor.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Descriptor.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DescriptorFactory.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DrefAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DvccAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DynamicCast.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ElstAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsDescriptor.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsdsAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Expandable.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4File.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileByteStream.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileCopier.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileWriter.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FragmentSampleTable.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FrmaAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FtypAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4GrpiAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HdlrAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HevcParser.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HintTrackReader.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Hmac.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HmhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HvccAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IkmsAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Interfaces.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IodsAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Ipmp.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IproAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsfmAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsltAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsmaCryp.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4KeyWrap.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4LinearReader.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4List.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Marlin.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MdhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MehdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MetaData.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfroAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MoovAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Movie.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MovieFragment.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mp4AudioInfo.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mpeg2Ts.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MvhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NalParser.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NeptuneAdapters.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NmhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ObjectDescriptor.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdafAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OddaAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdheAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OhdrAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OmaDcf.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PdinAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Piff.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Processor.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Protection.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PsshAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Results.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpHint.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaioAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaizAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Sample.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleDescription.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleEntry.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleSource.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleTable.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SbgpAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SchmAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SdpAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SegmentBuilder.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SencAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SgpdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SidxAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SLConfigDescriptor.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SmhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StcoAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SthdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StreamCipher.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4String.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StscAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StsdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StssAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StszAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SttsAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Stz2Atom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SyntheticSampleTable.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TencAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfdtAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfraAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TimsAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TkhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Track.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrakAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrefTypeAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrexAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrunAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Types.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UrlAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Utils.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UuidAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Version.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4VmhdAtom.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Bento4C.h
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\aes.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\check-indexes.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-clone.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-encode.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-hls.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.pyc
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\pr-derive-key.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\skm.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.pyc
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\wv-request.py
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X1080P.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X144P.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X240P.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X2K.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X360P.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X480P.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X4K.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X720P.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X8K.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_XQHD.png
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.deps.json
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.AssemblyReference.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfoInputs.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfo.cs
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CoreCompileInputs.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CopyComplete
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\aac2mp4.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Bento4CDll.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42aac.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42avc.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hevc.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hls.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42ts.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4compact.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dash.bat
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dashclone.bat
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dcfpackager.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4decrypt.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dump.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4edit.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4encrypt.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4extract.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4fragment.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4hls.bat
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Mp4IframeIndex.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4info.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4mux.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4rtphintinfo.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4split.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4tag.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avcodec-58.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avdevice-58.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avfilter-7.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avformat-58.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avutil-56.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffmpeg.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffplay.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffprobe.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\postproc-55.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swresample-3.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swscale-5.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avcodec-58.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avdevice-58.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avfilter-7.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avformat-58.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avutil-56.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffmpeg.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffplay.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffprobe.exe
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\postproc-55.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swresample-3.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swscale-5.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap48bdlAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AdtsParser.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AesBlockCipher.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AinfAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Array.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Atom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomFactory.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomixAdapters.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomSampleTable.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvccAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvcParser.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BitStream.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BlocAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ByteStream.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Co64Atom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Command.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommandFactory.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommonEncryption.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Config.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Constants.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ContainerAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CttsAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DataBuffer.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Debug.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Dec3Atom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderConfigDescriptor.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Descriptor.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DescriptorFactory.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DrefAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DvccAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DynamicCast.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ElstAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsDescriptor.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsdsAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Expandable.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4File.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileByteStream.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileCopier.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileWriter.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FragmentSampleTable.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FrmaAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FtypAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4GrpiAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HdlrAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HevcParser.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HintTrackReader.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Hmac.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HmhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HvccAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IkmsAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Interfaces.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IodsAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Ipmp.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IproAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsfmAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsltAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsmaCryp.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4KeyWrap.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4LinearReader.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4List.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Marlin.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MdhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MehdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MetaData.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfroAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MoovAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Movie.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MovieFragment.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mp4AudioInfo.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mpeg2Ts.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MvhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NalParser.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NeptuneAdapters.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NmhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ObjectDescriptor.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdafAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OddaAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdheAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OhdrAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OmaDcf.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PdinAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Piff.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Processor.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Protection.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PsshAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Results.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpHint.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaioAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaizAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Sample.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleDescription.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleEntry.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleSource.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleTable.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SbgpAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SchmAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SdpAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SegmentBuilder.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SencAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SgpdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SidxAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SLConfigDescriptor.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SmhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StcoAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SthdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StreamCipher.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4String.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StscAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StsdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StssAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StszAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SttsAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Stz2Atom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SyntheticSampleTable.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TencAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfdtAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfraAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TimsAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TkhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Track.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrakAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrefTypeAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrexAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrunAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Types.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UrlAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Utils.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UuidAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Version.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4VmhdAtom.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Bento4C.h
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\aes.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\check-indexes.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-clone.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-encode.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-hls.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.pyc
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\pr-derive-key.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\skm.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.pyc
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\wv-request.py
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X1080P.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X144P.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X240P.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X2K.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X360P.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X480P.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X4K.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X720P.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X8K.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_XQHD.png
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.deps.json
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.AssemblyReference.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfoInputs.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfo.cs
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CoreCompileInputs.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CopyComplete
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfoInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfo.cs
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CoreCompileInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\aac2mp4.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Bento4CDll.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42aac.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42avc.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hevc.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hls.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42ts.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4compact.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dash.bat
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dashclone.bat
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dcfpackager.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4decrypt.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dump.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4edit.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4encrypt.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4extract.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4fragment.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4hls.bat
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Mp4IframeIndex.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4info.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4mux.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4rtphintinfo.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4split.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4tag.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avcodec-58.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avdevice-58.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avfilter-7.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avformat-58.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avutil-56.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffmpeg.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffplay.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffprobe.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\postproc-55.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swresample-3.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swscale-5.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avcodec-58.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avdevice-58.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avfilter-7.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avformat-58.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avutil-56.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffmpeg.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffplay.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffprobe.exe
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\postproc-55.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swresample-3.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swscale-5.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap48bdlAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AdtsParser.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AesBlockCipher.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AinfAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Array.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Atom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomFactory.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomixAdapters.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomSampleTable.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvccAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvcParser.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BitStream.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BlocAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ByteStream.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Co64Atom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Command.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommandFactory.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommonEncryption.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Config.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Constants.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ContainerAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CttsAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DataBuffer.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Debug.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Dec3Atom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderConfigDescriptor.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Descriptor.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DescriptorFactory.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DrefAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DvccAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DynamicCast.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ElstAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsDescriptor.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsdsAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Expandable.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4File.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileByteStream.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileCopier.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileWriter.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FragmentSampleTable.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FrmaAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FtypAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4GrpiAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HdlrAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HevcParser.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HintTrackReader.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Hmac.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HmhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HvccAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IkmsAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Interfaces.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IodsAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Ipmp.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IproAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsfmAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsltAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsmaCryp.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4KeyWrap.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4LinearReader.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4List.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Marlin.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MdhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MehdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MetaData.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfroAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MoovAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Movie.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MovieFragment.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mp4AudioInfo.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mpeg2Ts.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MvhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NalParser.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NeptuneAdapters.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NmhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ObjectDescriptor.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdafAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OddaAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdheAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OhdrAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OmaDcf.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PdinAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Piff.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Processor.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Protection.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PsshAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Results.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpHint.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaioAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaizAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Sample.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleDescription.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleEntry.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleSource.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleTable.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SbgpAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SchmAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SdpAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SegmentBuilder.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SencAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SgpdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SidxAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SLConfigDescriptor.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SmhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StcoAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SthdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StreamCipher.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4String.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StscAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StsdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StssAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StszAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SttsAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Stz2Atom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SyntheticSampleTable.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TencAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfdtAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfraAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TimsAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TkhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Track.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrakAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrefTypeAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrexAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrunAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Types.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UrlAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Utils.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UuidAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Version.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4VmhdAtom.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Bento4C.h
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\aes.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\check-indexes.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-clone.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-encode.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-hls.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.pyc
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\pr-derive-key.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\skm.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.pyc
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\wv-request.py
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X1080P.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X144P.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X240P.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X2K.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X360P.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X480P.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X4K.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X720P.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X8K.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_XQHD.png
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.deps.json
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.AssemblyReference.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CopyComplete
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\aac2mp4.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Bento4CDll.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42aac.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42avc.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hevc.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hls.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42ts.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4compact.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dash.bat
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dashclone.bat
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dcfpackager.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4decrypt.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dump.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4edit.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4encrypt.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4extract.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4fragment.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4hls.bat
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Mp4IframeIndex.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4info.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4mux.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4rtphintinfo.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4split.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4tag.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avcodec-58.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avdevice-58.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avfilter-7.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avformat-58.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avutil-56.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffmpeg.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffplay.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffprobe.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\postproc-55.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swresample-3.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swscale-5.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avcodec-58.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avdevice-58.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avfilter-7.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avformat-58.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avutil-56.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffmpeg.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffplay.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffprobe.exe
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\postproc-55.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swresample-3.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swscale-5.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap48bdlAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AdtsParser.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AesBlockCipher.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AinfAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Array.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Atom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomFactory.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomixAdapters.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomSampleTable.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvccAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvcParser.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BitStream.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BlocAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ByteStream.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Co64Atom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Command.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommandFactory.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommonEncryption.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Config.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Constants.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ContainerAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CttsAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DataBuffer.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Debug.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Dec3Atom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderConfigDescriptor.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Descriptor.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DescriptorFactory.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DrefAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DvccAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DynamicCast.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ElstAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsDescriptor.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsdsAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Expandable.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4File.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileByteStream.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileCopier.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileWriter.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FragmentSampleTable.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FrmaAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FtypAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4GrpiAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HdlrAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HevcParser.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HintTrackReader.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Hmac.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HmhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HvccAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IkmsAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Interfaces.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IodsAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Ipmp.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IproAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsfmAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsltAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsmaCryp.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4KeyWrap.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4LinearReader.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4List.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Marlin.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MdhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MehdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MetaData.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfroAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MoovAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Movie.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MovieFragment.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mp4AudioInfo.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mpeg2Ts.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MvhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NalParser.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NeptuneAdapters.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NmhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ObjectDescriptor.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdafAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OddaAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdheAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OhdrAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OmaDcf.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PdinAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Piff.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Processor.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Protection.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PsshAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Results.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpHint.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaioAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaizAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Sample.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleDescription.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleEntry.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleSource.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleTable.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SbgpAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SchmAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SdpAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SegmentBuilder.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SencAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SgpdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SidxAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SLConfigDescriptor.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SmhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StcoAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SthdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StreamCipher.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4String.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StscAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StsdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StssAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StszAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SttsAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Stz2Atom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SyntheticSampleTable.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TencAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfdtAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfraAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TimsAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TkhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Track.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrakAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrefTypeAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrexAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrunAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Types.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UrlAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Utils.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UuidAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Version.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4VmhdAtom.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Bento4C.h
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\aes.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\check-indexes.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-clone.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-encode.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-hls.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.pyc
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\pr-derive-key.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\skm.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.pyc
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\wv-request.py
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X1080P.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X144P.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X240P.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X2K.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X360P.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X480P.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X4K.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X720P.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X8K.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_XQHD.png
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.deps.json
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfoInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfo.cs
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CopyComplete
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\aac2mp4.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Bento4CDll.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42aac.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42avc.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hevc.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42hls.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp42ts.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4compact.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dash.bat
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dashclone.bat
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dcfpackager.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4decrypt.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4dump.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4edit.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4encrypt.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4extract.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4fragment.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4hls.bat
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\Mp4IframeIndex.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4info.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4mux.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4rtphintinfo.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4split.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\bin\mp4tag.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avcodec-58.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avdevice-58.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avfilter-7.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avformat-58.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\avutil-56.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffmpeg.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffplay.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\ffprobe.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\postproc-55.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swresample-3.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x64\swscale-5.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avcodec-58.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avdevice-58.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avfilter-7.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avformat-58.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\avutil-56.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffmpeg.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffplay.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\ffprobe.exe
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\postproc-55.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swresample-3.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\ffmpeg\x86\swscale-5.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap48bdlAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AdtsParser.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AesBlockCipher.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AinfAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Array.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Atom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomFactory.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomixAdapters.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AtomSampleTable.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvccAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4AvcParser.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BitStream.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4BlocAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ByteStream.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Co64Atom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Command.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommandFactory.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CommonEncryption.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Config.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Constants.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ContainerAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4CttsAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DataBuffer.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Debug.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Dec3Atom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderConfigDescriptor.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Descriptor.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DescriptorFactory.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DrefAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DvccAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4DynamicCast.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ElstAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsDescriptor.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4EsdsAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Expandable.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4File.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileByteStream.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileCopier.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FileWriter.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FragmentSampleTable.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FrmaAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4FtypAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4GrpiAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HdlrAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HevcParser.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HintTrackReader.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Hmac.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HmhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4HvccAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IkmsAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Interfaces.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IodsAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Ipmp.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IproAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsfmAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsltAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4IsmaCryp.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4KeyWrap.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4LinearReader.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4List.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Marlin.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MdhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MehdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MetaData.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MfroAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MoovAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Movie.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MovieFragment.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mp4AudioInfo.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Mpeg2Ts.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4MvhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NalParser.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NeptuneAdapters.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4NmhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4ObjectDescriptor.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdafAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OddaAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OdheAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OhdrAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4OmaDcf.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PdinAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Piff.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Processor.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Protection.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4PsshAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Results.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4RtpHint.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaioAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SaizAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Sample.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleDescription.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleEntry.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleSource.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SampleTable.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SbgpAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SchmAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SdpAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SegmentBuilder.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SencAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SgpdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SidxAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SLConfigDescriptor.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SmhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StcoAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SthdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StreamCipher.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4String.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StscAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StsdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StssAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4StszAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SttsAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Stz2Atom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4SyntheticSampleTable.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TencAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfdtAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TfraAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TimsAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TkhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Track.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrakAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrefTypeAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrexAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4TrunAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Types.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UrlAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Utils.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4UuidAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4Version.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Ap4VmhdAtom.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\include\Bento4C.h
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\aes.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\check-indexes.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-clone.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash-encode.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-dash.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4-hls.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\mp4utils.pyc
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\pr-derive-key.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\skm.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\subtitles.pyc
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\external\bento4\utils\wv-request.py
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X1080P.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X144P.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X240P.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X2K.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X360P.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X480P.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X4K.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X720P.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_X8K.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\logos\logo_XQHD.png
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.deps.json
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Dash.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.AssemblyReference.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfoInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.AssemblyInfo.cs
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CoreCompileInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.csproj.CopyComplete
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa.Dash\obj\Debug\netcoreapp2.2\Kachuwa.Dash.pdb

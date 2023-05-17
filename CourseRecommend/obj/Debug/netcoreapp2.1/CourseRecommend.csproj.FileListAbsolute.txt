@@ -1,0 +1,36 @@
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\Data\courses.csv
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\Data\recommendation-ratings-test.csv
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.deps.json
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.csproj.AssemblyReference.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.AssemblyInfoInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.AssemblyInfo.cs
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.csproj.CoreCompileInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\Data\courses.csv
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\Data\recommendation-ratings-test.csv
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.deps.json
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.AssemblyInfoInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.AssemblyInfo.cs
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\bin\Debug\netcoreapp2.1\Data\courses.csv
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\bin\Debug\netcoreapp2.1\Data\recommendation-ratings-test.csv
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.deps.json
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.dll
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\bin\Debug\netcoreapp2.1\CourseRecommend.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.csproj.AssemblyReference.cache
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.AssemblyInfoInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.AssemblyInfo.cs
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.csproj.CoreCompileInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.dll
+F:\Tutor Finder\TutorFinder(BackUp)\CourseRecommend\obj\Debug\netcoreapp2.1\CourseRecommend.pdb

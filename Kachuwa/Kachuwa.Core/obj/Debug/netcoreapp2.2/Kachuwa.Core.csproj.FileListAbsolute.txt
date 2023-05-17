@@ -1,0 +1,58 @@
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.deps.json
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfoInputs.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfo.cs
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.CoreCompileInputs.cache
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\BECALL\Desktop\Projects\GrayCodeOfficeProjects\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.deps.json
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.AssemblyReference.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfoInputs.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfo.cs
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.CoreCompileInputs.cache
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\rahul\Downloads\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.deps.json
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.AssemblyReference.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfoInputs.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfo.cs
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.CoreCompileInputs.cache
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\.Net\LiveTrainingSourceCodeWithDBBackup\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfoInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfo.cs
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.CoreCompileInputs.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.deps.json
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.AssemblyReference.cache
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.dll
+E:\Projects\Github\New folder\TutorFinder\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.deps.json
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfo.cs
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.dll
+C:\Users\hp\Downloads\LiveTraining\LiveTraining\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.deps.json
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\bin\Debug\netcoreapp2.2\Kachuwa.Core.pdb
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.AssemblyReference.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfoInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.AssemblyInfo.cs
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.csproj.CoreCompileInputs.cache
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.dll
+F:\Tutor Finder\TutorFinder(BackUp)\Kachuwa\Kachuwa.Core\obj\Debug\netcoreapp2.2\Kachuwa.Core.pdb

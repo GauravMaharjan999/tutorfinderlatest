@@ -1,0 +1,14 @@
+{"LogId":null,"Status":"Razor engine module adding error.","DateTime":"24/01/2021 9:25:24 AM","LogType":4,"Error":"{\"s\":\"System.Private.CoreLib\",\"st\":\"   at System.Collections.Generic.Dictionary`2.FindEntry(TKey key)\\r\\n   at System.Collections.Generic.Dictionary`2.TryGetValue(TKey key, TValue& value)\\r\\n   at Kachuwa.Data.QueryBuilder.GetColumnName(PropertyInfo propertyInfo) in C:\\\\Users\\\\BECALL\\\\Desktop\\\\Projects\\\\GrayCodeOfficeProjects\\\\LiveTraining\\\\LiveTraining\\\\Kachuwa\\\\Kachuwa.Core\\\\Data\\\\QueryBuilder.cs:line 842\\r\\n   at Kachuwa.Data.QueryBuilder.BuildSelect(StringBuilder sb, IEnumerable`1 props) in C:\\\\Users\\\\BECALL\\\\Desktop\\\\Projects\\\\GrayCodeOfficeProjects\\\\LiveTraining\\\\LiveTraining\\\\Kachuwa\\\\Kachuwa.Core\\\\Data\\\\QueryBuilder.cs:line 617\\r\\n   at Kachuwa.Data.QueryBuilder.GetList[T](String conditions, Object parameters) in C:\\\\Users\\\\BECALL\\\\Desktop\\\\Projects\\\\GrayCodeOfficeProjects\\\\LiveTraining\\\\LiveTraining\\\\Kachuwa\\\\Kachuwa.Core\\\\Data\\\\QueryBuilder.cs:line 144\\r\\n   at Kachuwa.Data.Crud.CRUDHelper.GetList[T](IDbConnection connection, String conditions, Object parameters, IDbTransaction transaction, Nullable`1 commandTimeout) in C:\\\\Users\\\\BECALL\\\\Desktop\\\\Projects\\\\GrayCodeOfficeProjects\\\\LiveTraining\\\\LiveTraining\\\\Kachuwa\\\\Kachuwa.Core\\\\Data\\\\Crud\\\\CRUDHelper.cs:line 83\\r\\n   at Kachuwa.Data.CrudService`1.GetList(String conditions, Object parameters) in C:\\\\Users\\\\BECALL\\\\Desktop\\\\Projects\\\\GrayCodeOfficeProjects\\\\LiveTraining\\\\LiveTraining\\\\Kachuwa\\\\Kachuwa.Core\\\\Data\\\\Crud\\\\CrudService.cs:line 139\\r\\n   at Kachuwa.Web.Module.ModuleRegistrar.Register() in C:\\\\Users\\\\BECALL\\\\Desktop\\\\Projects\\\\GrayCodeOfficeProjects\\\\LiveTraining\\\\LiveTraining\\\\Kachuwa\\\\Kachuwa.Web\\\\Module\\\\ModuleRegistrar.cs:line 64\",\"ie\":null,\"data\":{},\"HelpLink\":null}"}
+
+{"LogId":null,"Status":"Total 2 Modules Found.","DateTime":"24/01/2021 9:28:31 AM","LogType":0,"Error":""}
+
+{"LogId":null,"Status":"Razor engine module file provider added.","DateTime":"24/01/2021 9:28:31 AM","LogType":0,"Error":""}
+
+{"LogId":null,"Status":"Total 2 Modules Found.","DateTime":"24/01/2021 9:36:25 AM","LogType":0,"Error":""}
+
+{"LogId":null,"Status":"Razor engine module file provider added.","DateTime":"24/01/2021 9:36:25 AM","LogType":0,"Error":""}
+
+{"LogId":null,"Status":"Total 2 Modules Found.","DateTime":"24/01/2021 9:50:38 AM","LogType":0,"Error":""}
+
+{"LogId":null,"Status":"Razor engine module file provider added.","DateTime":"24/01/2021 9:50:38 AM","LogType":0,"Error":""}
+
