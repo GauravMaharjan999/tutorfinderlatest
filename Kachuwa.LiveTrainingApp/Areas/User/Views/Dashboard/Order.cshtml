@@ -1,0 +1,108 @@
+﻿@using Kachuwa.Training.Model
+@model IEnumerable<EnrollViewModelForUser>
+
+@{
+    ViewData["Title"] = "Enrolled Courses";
+}
+
+
+<div class="col-lg-12">
+    <div class="my_course_content_container">
+        <div class="my_setting_content">
+            <div class="my_setting_content_header">
+                <div class="my_sch_title">
+                    <h4 class="m0">Enrolled Courses</h4>
+                </div>
+            </div>
+            <div class="my_setting_content_details pb0">
+                <div class="cart_page_form style2">
+
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr class="carttable_row">
+                                <th class="cartm_title">Course</th>
+                                @*<th class="cartm_title">Date</th>*@
+                                <th class="cartm_title">Course Fee</th>
+                                <th class="cartm_title">Payment Status</th>
+                                <th class="cartm_title">Payment Verification Status</th>
+                                <th class="cartm_title">Action</th>
+                                <th class="cartm_title">Rate</th>
+                                
+                            </tr>
+                        </thead>
+                        @if (Model.Count() != 0)
+                        {
+                            <tbody class="table_body">
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th scope="row">
+                                            <ul class="cart_list">
+                                                @if (item.CourseProfileImagePath != "/")
+                                                {
+                                                    <li class="list-inline-item pr20"><a href='/Course/@item.CourseId'><img src="@item.CourseProfileImagePath" alt="courseimage.png" style="width:150px; height:100px;"></a></li>
+
+                                                }
+                                                <li class="list-inline-item"><a class="cart_title" href='/Course/@item.CourseId'>@item.CourseName</a></li>
+                                            </ul>
+                                        </th>
+                                        @*<td>@item.AddedOn.ToString("yyyy- mm - dd")</td>*@
+                                        <td class="cart_total">Rs @item.CourseFee</td>
+                                        @if (item.IsPaid == false)
+                                        {
+                                            <td><span style="color:red;">Not Paid </span></td>
+                                            <td></td>
+                                            <td class="text-thm tdu"><a href="/enroll/payment/@item.Id">Pay Now</a></td>
+                                            <td></td>
+
+
+                                        }
+                                        else
+                                        {
+                                            <td>Paid</td>
+                                            @if (item.IsPaidVerified == false)
+                                            {
+                                                <td><span style="color:red;"> &#10060; Not Verified </span></td>
+                                                <td></td>
+                                            }
+                                            else
+                                            {
+                                                <td> &#9989; Verified</td>
+                                                <td></td>
+                                                <td>
+                                                    <select id="dropdown" asp-for="@item.Rate">
+                                                        <option value=0 selected disabled hidden>Please select</option>
+                                                        <option value=1>1</option>
+                                                        <option value=2>2</option>
+                                                        <option value=3>3</option>
+                                                        <option value=4>4</option>
+                                                        <option value=5>5</option>
+                                                    </select>
+                                                </td>
+                                            }
+                                        }
+
+                                    </tr>
+                                }
+
+
+                            </tbody>
+                        }
+                        else
+                        {
+                            <tbody class="table_body">
+                                <tr>
+                                    <td>No Enrolled Course</td>
+                                </tr>
+                            </tbody>
+                        }
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

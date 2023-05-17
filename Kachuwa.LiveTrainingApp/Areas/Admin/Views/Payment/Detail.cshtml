@@ -1,0 +1,84 @@
+﻿@using Kachuwa.Training.Model
+@model PaymentLogViewModel
+
+<div id="contestantform" class="kachuwa-form">
+    <section name="section1" class="cardform-section">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <h4 class="title"> Voucher Details</h4>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Voucher Number</th>
+                                <th>Deposited By</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Model.VoucherNumber
+                                </td>
+                                <td>
+                                    @Model.DepositedBy
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                    <h4 class="title">Course Detail</h4>
+                    <table class="table table-bordered table-striped table-responsive">
+                        <thead>
+                            <tr>
+                                <th width="70%">Course Name</th>
+                                <th width="30%">Course Fee</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Model.CourseName
+                                </td>
+                                <td>
+                                    @Model.CourseFee
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                    @if (Model.IsVerified != true)
+                    {
+                        <span class=" title">Click Below To Approve Payment</span><br /><br />
+                        <button type="button" class="btn btn-primary" onclick="location.href='/admin/payment/approve/@Model.Id'">Approve</button>
+                    }
+                    else
+                    {
+                        <span style=" color : green">Payment Has Been Approved</span>
+                    }
+
+                </div>
+
+                <div class="col-lg-6 col-xl-6">
+                    <div class="order_sidebar_widget mb30">
+                        <h4 class="title">Bank Voucher Preview</h4>
+                        @if (Model.VoucherAttachmentPath != "/")
+                        {
+                            <img id="smimg" src="@Model.VoucherAttachmentPath" height="400" width="550" />
+                        }
+                        else
+                        {
+                            <span><br /> No Voucher Attachment found</span>
+                        }
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+</div>

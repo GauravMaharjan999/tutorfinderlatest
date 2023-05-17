@@ -1,0 +1,612 @@
+﻿@using Kachuwa.Web.Optimizer
+@using Microsoft.AspNetCore.Routing
+@using Kachuwa.Identity.Extensions;
+@inject IKachuwaBundler bundler
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    @RenderSection("styles", required: false)
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/additional-methods.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1//themes/shared/default/css/all.css" />
+
+    <link rel="stylesheet" href="/themes/shared/default/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/themes/shared/default/css/menu.css">
+    <link rel="stylesheet" href="/themes/shared/default/css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="/themes/shared/default/css/responsive.css">
+    <link href="~/lib/sweetalert/sweet-alert.css" rel="stylesheet" />
+    <script src="~/lib/sweetalert/sweet-alert.js"></script>
+</head>
+<body>
+    <div class="preloader"></div>
+
+    <!-- Main Header Nav -->
+    <header class="header-nav menu_style_home_one dashbord_pages navbar-scrolltofixed stricky main-menu">
+        <div class="container-fluid">
+            <!-- Ace Responsive Menu -->
+            <nav>
+                <!-- Menu Toggle btn-->
+                <div class="menu-toggle">
+                    <img class="nav_logo_img img-fluid" src="images/header-logo.png" alt="header-logo.png">
+                    <button type="button" id="menu-btn">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <a href="/" class="navbar_brand float-left dn-smd">
+                    @*<img class="logo1 img-fluid" src="images/logo.png" alt="header-logo.png">*@
+                    <span style="color: black;">Tutor Finder</span>
+                </a>
+                <!-- Responsive Menu Structure-->
+                <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+                <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                    <li>
+                        <a href="/"><span class="title" style="color: black;">Home</span></a>
+
+                    </li>
+                    <li>
+                        <a href="/courses"><span class="title" style="color: black;">Courses</span></a>
+                    </li>
+                    <li>
+                        <a href="/tutors"><span class="title" style="color: black;">Tutors</span></a>
+                    </li>
+                    <li class="last">
+                        <a href="/contactus"><span class="title" style="color: black;">Contact</span></a>
+                    </li>
+                </ul>
+                <ul class="header_user_notif pull-right dn-smd">
+                    <li class="user_setting">
+                        <div class="dropdown">
+                            <a class="btn dropdown-toggle" href="#" data-toggle="dropdown">@User.Identity.Name </a>
+                            <div class="dropdown-menu">
+                                <div class="user_set_header">
+                                    @*<img class="float-left" src="images/team/e1.png" alt="e1.png">*@
+                                    <p>@User.Identity.Name <br>@*<span class="address"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="503b393d38253e24352210373d31393c7e333f3d">[email&#160;protected]</a></span>*@</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-inline-item"><a href="/account/logout"><strong>Log Out</strong></a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Header Nav For Mobile -->
+    <div id="page" class="stylehome1 h0">
+        <div class="mobile-menu">
+            <ul class="header_user_notif dashbord_pages_mobile_version pull-right">
+                <li class="user_notif">
+                    <div class="dropdown">
+                        <a class="notification_icon" href="#" data-toggle="dropdown"><span class="flaticon-email"></span></a>
+                        <div class="dropdown-menu notification_dropdown_content">
+                            <div class="so_heading">
+                                <p>Notifications</p>
+                            </div>
+                            <div class="so_content" data-simplebar="init">
+                                <ul>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a class="view_all_noti text-thm" href="#">View all alerts</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="user_notif">
+                    <div class="dropdown">
+                        <a class="notification_icon" href="#" data-toggle="dropdown"><span class="flaticon-alarm"></span></a>
+                        <div class="dropdown-menu notification_dropdown_content">
+                            <div class="so_heading">
+                                <p>Notifications</p>
+                            </div>
+                            <div class="so_content" data-simplebar="init">
+                                <ul>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Status Update</h5>
+                                        <p>This is an automated server response message. All systems are online.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a class="view_all_noti text-thm" href="#">View all alerts</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="user_setting">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" data-toggle="dropdown"><img class="rounded-circle" src="images/team/e1.png" alt="e1.png"></a>
+                        <div class="dropdown-menu">
+                            <div class="user_set_header">
+                                <img class="float-left" src="images/team/e1.png" alt="e1.png">
+                                <p>@User.Identity.Name <br></p>
+                            </div>
+                            <div class="user_setting_content">
+                                <a class="dropdown-item active" href="#">My Profile</a>
+                                <a class="dropdown-item" href="#">Messages</a>
+                                <a class="dropdown-item" href="#">Purchase history</a>
+                                <a class="dropdown-item" href="#">Help</a>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="header stylehome1 dashbord_mobile_logo dashbord_pages">
+                <div class="main_logo_home2">
+                    <img class="nav_logo_img img-fluid float-left mt20" src="images/header-logo.png" alt="header-logo.png">
+                    <span>edumy</span>
+                </div>
+                <ul class="menu_bar_home2">
+                    <li class="list-inline-item"></li>
+                    <li class="list-inline-item"><a href="#menu"><span></span></a></li>
+                </ul>
+            </div>
+        </div><!-- /.mobile-menu -->
+        <nav id="menu" class="stylehome1">
+            <ul>
+                <li>
+                    <span>Home</span>
+                    <ul>
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="index2.html">Home 2</a></li>
+                        <li><a href="index3.html">Home 3</a></li>
+                        <li><a href="index4.html">Home 4</a></li>
+                        <li><a href="index5.html">Home 5</a></li>
+                        <li><a href="index6.html">Home - University</a></li>
+                        <li><a href="index7.html">Home College</a></li>
+                        <li><a href="index8.html">Home Kindergarten</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Courses</span>
+                    <ul>
+                        <li>
+                            <span>Courses List</span>
+                            <ul>
+                                <li><a href="page-course-v1.html">Courses v1</a></li>
+                                <li><a href="page-course-v2.html">Courses v2</a></li>
+                                <li><a href="page-course-v3.html">Courses v3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Courses Single</span>
+                            <ul>
+                                <li><a href="page-course-single-v1.html">Single V1</a></li>
+                                <li><a href="page-course-single-v2.html">Single V2</a></li>
+                                <li><a href="page-course-single-v3.html">Single V3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="page-instructors.html">Instructors</a></li>
+                        <li><a href="page-instructors-single.html">Instructor Single</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Events</span>
+                    <ul>
+                        <li><a href="page-event.html">Event List</a></li>
+                        <li><a href="page-event-single.html">Event Single</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Pages</span>
+                    <ul>
+                        <li>
+                            <span>Shop Pages</span>
+                            <ul>
+                                <li><a href="page-shop.html">Shop</a></li>
+                                <li><a href="page-shop-single.html">Shop Single</a></li>
+                                <li><a href="page-shop-cart.html">Cart</a></li>
+                                <li><a href="page-shop-checkout.html">Checkout</a></li>
+                                <li><a href="page-shop-order.html">Order</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>User Admin</span>
+                            <ul>
+                                <li><a href="page-dashboard.html">Dashboard</a></li>
+                                <li><a href="page-my-courses.html">My Courses</a></li>
+                                <li><a href="page-my-order.html">My Order</a></li>
+                                <li><a href="page-my-message.html">My Message</a></li>
+                                <li><a href="page-my-review.html">My Review</a></li>
+                                <li><a href="page-my-bookmarks.html">My Bookmarks</a></li>
+                                <li><a href="page-my-listing.html">My Listing</a></li>
+                                <li><a href="page-my-setting.html">My Setting</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="page-about.html">About Us</a></li>
+                        <li><a href="page-gallery.html">Gallery</a></li>
+                        <li><a href="page-faq.html">Faq</a></li>
+                        <li><a href="page-login.html">LogIn</a></li>
+                        <li><a href="page-register.html">Register</a></li>
+                        <li><a href="page-pricing.html">Membership</a></li>
+                        <li><a href="page-error.html">404 Page</a></li>
+                        <li><a href="page-terms.html">Terms and Conditions</a></li>
+                        <li><a href="page-become-instructor.html">Become an Instructor</a></li>
+                        <li><a href="page-ui-element.html">UI Elements</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Blog</span>
+                    <ul>
+                        <li><a href="page-blog-v1.html">Blog List 1</a></li>
+                        <li><a href="page-blog-grid.html">Blog List 2</a></li>
+                        <li><a href="page-blog-list.html">Blog List 3</a></li>
+                        <li><a href="page-blog-single.html">Single Post</a></li>
+                    </ul>
+                </li>
+                <li><a href="page-contact.html">Contact</a></li>
+                <li><a href="page-login.html"><span class="flaticon-user"></span> Login</a></li>
+                <li><a href="page-register.html"><span class="flaticon-edit"></span> Register</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Our Dashbord -->
+    <section class="our-dashbord dashbord pb50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-xl-2 dn-smd pl0">
+                    <div class="user_board">
+                        <div class="user_profile">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="mt-0">Start</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbord_nav_list">
+                            <ul>
+                                <li class="active"><a href="/user/dashboard"><span class="flaticon-puzzle-1"></span> Dashboard</a></li>
+
+                                @if (User.IsInRole("SuperAdmin"))
+                                {
+                                    <li><a href="/user/video"><span class="flaticon-speech-bubble"></span> My Videos</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target="#liveStreamPopup" data-><span class="flaticon-rating"></span> Go Live</a></li>
+                                }
+
+                                @if (User.IsInRole("Tutor") || User.IsInRole("Instructor"))
+                                {
+                                    <li><a href="/user/order"><span class="flaticon-online-learning"></span> My Courses</a></li>
+                                    @*<li><a href="/user/video"><span class="flaticon-speech-bubble"></span> My Videos</a></li>*@
+                                    @*<li><a href="#" data-toggle="modal" data-target="#liveStreamPopup" data-><span class="flaticon-rating"></span> Go Live</a></li>*@
+                                }
+                                else if (User.IsInRole("User"))
+                                {
+                                    <li><a href="/user/order"><span class="flaticon-shopping-bag-1"></span> Enrolled Courses</a></li>
+                                    <li><a href="/live"><span class="flaticon-speech-bubble"></span> Live Classes</a></li>
+                                    <li><a href="/user/payment"><span class="flaticon-shopping-bag-2"></span> Payment History</a></li>
+                                }
+
+                            </ul>
+                            <h4>Account</h4>
+                            <ul>
+                                @*<li><a href="/user/setting"><span class="flaticon-settings"></span> Settings</a></li>*@
+                                <li><a href="/account/logout"><span class="flaticon-logout"></span> Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8 col-xl-10">
+
+                    @RenderBody()
+
+                    @*<div class="row mt50">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="copyright-widget text-center">
+                                    <p class="color-black2">Copyright HamroSkill © 2020. All Rights Reserved.</p>
+                                </div>
+                            </div>
+                        </div>*@
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="liveStreamPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <form asp-controller="Stream" asp-action="Create" asp-antiforgery="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">New Live Stream</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <ul class="nav  mb-3 dashboard-sub-menu" id="pills-tab" role="tablist">
+                            <li class="nav-item current">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Info</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Setting</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                <input type="hidden" value="@User.Identity.GetIdentityUserId()" id="hdnidentityuserid" />
+                                <div class="form-group">
+                                    <label for="exampleInputCourseTiming">Choose Live For What *</label><br>
+                                    <select class="selectpicker form-control" name="ChooseLiveForWhat">
+                                        <option value=0>Select an Option</option>
+                                        <option value=1>Course</option>
+                                        <option value=2>Event</option>
+                                    </select>
+
+                                </div>
+                                <div class="form-group" id="forcourse">
+                                    <label for="exampleInputCourseTiming">Choose Course *</label><br>
+                                    <select class="selectpicker form-control" name="CourseTimingId">
+                                        <option value=0>Select an Option</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="form-group" id="forevent">
+                                    <label for="exampleInputEvent">Choose Event *</label><br>
+                                    <select class="selectpicker form-control" name="EventId">
+                                        <option value=0>Select an Option</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Title</label>
+                                    <input type="text" name="Title" class="form-control" id="txtTitle" placeholder="title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Description</label>
+                                    <textarea name="Description" class="form-control" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                @*<div class="form-group row">
+                                        <label for="inputEmail3" class="col-sm-6 col-form-label">Schedule Stream</label>
+                                        <div class="col-sm-6">
+                                            <input class="form-check-input" name="IsScheduled" type="checkbox"  id="cbSchedule" >
+                                            <label class="form-check-label" for="cbSchedule">
+                                                No
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row" style="display: none;">
+                                        <label  class="col-sm-6 col-form-label"> Schedule At</label>
+                                        <div class="col-sm-6">
+                                            <input type="date" name="ScheduledAt" class="form-control datepicker" placeholder="Schedule Date">
+                                        </div>
+                                    </div>*@
+                                <div class="form-group row">
+                                    <label class="col-sm-6 col-form-label">Delay?</label>
+                                    <div class="col-sm-6">
+                                        <input type="number" name="DelayInSecond" class="form-control" id="txtDelay" value="0" placeholder="Delay in seconds">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-6 col-form-label">Allow Chat</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-check-input" name="AllowLiveChat" type="checkbox" id="cbAllowChat" value="false">
+                                        <label class="form-check-label" for="cbAllowChat">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="inputEmail3" class="col-sm-6 col-form-label">Allow Voice Questionaire</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-check-input" type="checkbox" name="AllowQuestionaire" id="cbQuestionaire" value="false">
+                                        <label class="form-check-label" for="cbQuestionaire">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Create Stream</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <a class="scrollToHome" href="#"><i class="flaticon-up-arrow-1"></i></a>
+    <!-- Wrapper End -->
+    <script type="text/javascript" src="/themes/shared/default/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery-migrate-3.0.0.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/popper.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery.mmenu.all.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/ace-responsive-menu.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/isotop.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/snackbar.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/simplebar.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/parallax.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/scrollto.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery-scrolltofixed-min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/wow.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/progressbar.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/slider.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/timepicker.js"></script>
+    <!-- Custom script for all pages -->
+    <script type="text/javascript" src="/themes/shared/default/js/script.js"></script>
+    @RenderSection("Scripts", required: false)
+
+    <script>
+
+        $(document).ready(function () {
+
+            $(document).off("click", ".dashboard-sub-menu li").on("click",
+                ".dashboard-sub-menu li",
+                function () {
+                    $(this).parents(".dashboard-sub-menu:eq(0)").find("li").removeClass("current");
+                    $(this).addClass("current");
+                });
+            $(document).off("click", "input:checkbox").on("click",
+                "input:checkbox",
+                function () {
+                    if ($(this).is(":checked")) {
+                        $(this).val('true');
+                        $(this).parents('div:eq(0)').find("label").html('Yes');
+                    } else {
+                        $(this).val('false');
+                        $(this).parents('div:eq(0)').find("label").html('No');
+                    }
+                });
+
+        })
+    </script>
+
+
+</body>
+</html>
+
+<script>
+    $("select[name=ChooseLiveForWhat]").change(function () {
+
+        var content = $("select[name=ChooseLiveForWhat]").val();
+        if (parseInt(content) == 1) // 1=course
+        {
+            
+            $("#forcourse").show();
+            $("#forevent").hide();
+        }
+        else if (parseInt(content) == 2) //2=event
+        {
+            $("#forcourse").hide();
+            $("#forevent").show();
+
+        }
+      
+        else {
+            $("#forcourse").hide();
+            $("#forevent").hide();
+        }
+    });
+
+    $(document).ready(function () {
+        $("#forcourse").hide();
+        $("#forevent").hide();
+
+        var identityuserId = parseInt($("#hdnidentityuserid").val());
+        $.ajax({
+            type: "GET",
+            contentType: "application/json; charset=utf-8",
+            url: "/api/v1/coursetiming/getCourseTimingListForStreamByTutorIdentityUserId/" + identityuserId,
+            dataType: "json",
+            data: {},
+            success: function (response) {
+                if (response.Code == 200) {
+                    $('select[name="CourseTimingId"]')
+                        .empty()
+                        .append("<option value = '0'> -- Select an Option -- </option>")
+                        ;
+                    var data = response.Data;
+                    $.each(data, function (i, e) {
+
+                        $('select[name="CourseTimingId"]').append('<option id=' + e.Id + ' value=' + e.Id + '>' + e.CourseName + '(' + e.Time + ')' + '</option>');
+
+                    });
+                    $('.selectpicker').selectpicker('refresh');
+                } else {
+
+                }
+            }
+        });
+
+        $.ajax({
+            type: "GET",
+            contentType: "application/json; charset=utf-8",
+            url: "/api/v1/event/getEventListforStreaming/" + identityuserId,
+            dataType: "json",
+            data: {},
+            success: function (response) {
+                if (response.Code == 200) {
+                    $('select[name="EventId"]')
+                        .empty()
+                        .append("<option value = '0'> -- Select an Option -- </option>")
+                        ;
+                    var data = response.Data;
+                    $.each(data, function (i, e) {
+
+                        $('select[name="EventId"]').append('<option id=' + e.Id + ' value=' + e.Id + '>' + e.Title + '</option>');
+
+                    });
+                    $('.selectpicker').selectpicker('refresh');
+                } else {
+
+                }
+            }
+        });
+    });
+</script>
+

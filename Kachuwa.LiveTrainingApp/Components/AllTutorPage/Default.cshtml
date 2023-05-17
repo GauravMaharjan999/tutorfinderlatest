@@ -1,0 +1,81 @@
+﻿@using Kachuwa.Training.Model
+@model IEnumerable<TrainingTutor>
+
+
+<section id="our-courses" class="our-courses">
+    <div class="container">
+        @*<div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center">
+                    <h3 class="mt0">Our Qualified Tutors</h3>
+                    <p>Learn From Our Expert Tutors</p>
+                </div>
+            </div>
+        </div>*@
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                if (item.ProfileImagePath != "/")
+                {
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="img_hvr_box" onclick="location.href='/tutor/@item.Id?TutorName=@item.Name'" style="background-image: url(@item.ProfileImagePath); height: 350px;">
+                            <div class="overlay" style="padding-top: 200px;">
+
+                                <div class="details">
+                                    <h5>@item.Name</h5>
+                                    @if (item.Expertise != null || item.Expertise != "")
+                                    {
+                                        <p>@item.Expertise</p>
+                                    }
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            }
+
+        </div>
+        @*<div class=" row">
+            @foreach (var item in Model)
+            {
+
+
+                <div class="col-sm-6 col-lg-6 col-xl-4" onclick="location.href='/tutor/@item.Id'">
+                    <div class="team_member style3 text-center mb30">
+                        <div class="instructor_col">
+                            @if (item.ProfileImagePath != "/")
+                            {
+                            <div class="thumb">
+                                <img class="img-fluid img-rounded-circle" src="@item.ProfileImagePath" alt="6.png">
+                            </div>
+                            }
+                            <div class="details">
+                                <h4>@item.Name</h4>
+                                <p>@item.Expertise</p>
+                                <ul>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#">(6)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tm_footer">
+                            <ul>
+                                <li class="list-inline-item"><a href="#">56,178 students</a></li>
+                                <li class="list-inline-item"><a href="#">22 courses</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+
+        </div>*@
+    </div>
+</section>

@@ -1,0 +1,100 @@
+﻿@using Kachuwa.Training.Model
+@model PaymentLogViewModel
+
+@{
+    ViewData["Title"] = "Payment Detail";
+}
+
+
+<div class="col-lg-12">
+    <div class="my_course_content_container">
+        <div class="my_setting_content">
+            <div class="my_setting_content_header">
+                <div class="my_sch_title">
+                    <h4 class="m0">Payment Detail</h4>
+                    @if (Model.IsVerified != true)
+                    {
+                        <span style=" color : red" class="pull-right"> &#10060;Payment Not Verified</span>
+                    }
+                    else
+                    {
+                        <span style=" color : green" class="pull-right">&#9989; Payment Verified</span>
+                    }
+                </div>
+            </div>
+
+
+            <div class="my_setting_content_details pb0">
+
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="title"> Voucher Details</h4>
+                            <table class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Voucher Number</th>
+                                        <th>Deposited By</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            @Model.VoucherNumber
+                                        </td>
+                                        <td>
+                                            @Model.DepositedBy
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                            <h4 class="title">Course Detail</h4>
+                            <table class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th width="70%">Course Name</th>
+                                        <th width="30%">Course Fee</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            @Model.CourseName
+                                        </td>
+                                        <td>
+                                            @Model.CourseFee
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="order_sidebar_widget mb30">
+                                <h4 class="title">Bank Voucher Preview</h4>
+                                @if (Model.VoucherAttachmentPath != "/")
+                                {
+                                    <img id="smimg" src="@Model.VoucherAttachmentPath" height="400" width="650" />
+                                }
+                                else
+                                {
+                                    <span><br /> No Voucher Attachment found</span>
+                                }
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

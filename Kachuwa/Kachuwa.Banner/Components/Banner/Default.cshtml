@@ -1,0 +1,129 @@
+﻿@using Kachuwa.Banner
+@model IEnumerable<Kachuwa.Banner.BannerInfo>
+@{ string uniqeId = Guid.NewGuid().ToString(); }
+<link href="/module/banner/resources/css/bannerloader.css" rel="stylesheet" />
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-xs-12">
+        @{ int j = 0;}
+        <div id="@uniqeId" class="carousel slide kachuwa-banner" data-ride="carousel">
+            <ol class="carousel-indicators">
+                @foreach (var item in Model)
+                {
+                    var activeClass = (j == 0) ? "class=active" : "";
+                    <li data-target="#@uniqeId" data-slide-to="@j" @activeClass></li>
+                    j++;
+                }
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+                @{ int i = 0;}
+                @foreach (var item in Model)
+                {
+                    var activeClass = (i == 0) ? "active" : "";
+
+                    <div class="carousel-item @activeClass" style="background-color: @item.BannerBackgroundColor">
+                        <div class="row">
+
+                            @*@if (item.BannerImagePosition == "text-right")
+                                {
+                                    <div class="@item.BannerImagePosition">
+                                        <img class="d-block" data-animation="animated @item.BannerAnimation" src="@item.Image@item.Suffix">
+                                    </div>
+                                    <div class="@item.BannerContentPositionClass">
+                                        <h4 style="color: @item.BannerHeadingColor" data-animation="animated @item.HeadingTextAnimation">@item.HeadingText</h4>
+                                        <div class="banner-content" style="color: @item.BannerContentColor" data-animation="animated @item.HeadingContentAnimation">@item.Content</div>
+                                    </div>
+                                    <div class="carousel-caption d-none d-md-block">
+
+                                    </div>
+                                }*@
+                            @if (!item.IsVideo)
+                            {
+                                <div class="@item.BannerImagePosition">
+                                    <img data-animation="animated @item.BannerAnimation" src="@item.Image@item.Suffix">
+                                </div>
+                                <div class="@item.BannerContentPositionClass">
+                                    <h3 style="color: @item.BannerHeadingColor" data-animation="animated @item.HeadingTextAnimation">@item.HeadingText</h3>
+                                    <div class="banner-content" style="color: @item.BannerContentColor" data-animation="animated @item.HeadingContentAnimation">
+
+                                        @Html.Raw(item.Content)
+                                    </div>
+                                </div>
+
+                            }
+                            else
+                            {<div class="@item.BannerContentPositionClass">
+                                    <img width="100%" height="100%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAARElEQVR42u3PQQ0AAAgEIO1f2e3M4NdBA3qS1AMtIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiInKx9H/G1S3C8igAAAAASUVORK5CYII=" />
+                                </div>
+                                <div class="video-content">
+                                    @*@Html.Raw(item.EmbeddedVideoLink)
+                                        <iframe  src="https://www.youtube.com/embed/1-WNj0gKdFM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>*@
+                                </div>
+
+                            }
+                        </div>
+                    </div>
+
+                    i++;
+                }
+            </div>
+@*            <a class="carousel-control-prev" href="#@uniqeId" role="button" data-slide="prev">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#@uniqeId" role="button" data-slide="next">
+                <i class="fa fa-chevron-right"></i>
+            </a>*@
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+
+        $.holdReady(true);
+        $(document).ready(function () {
+            function doAnimations(elems) {
+                //Cache the animationend event in a variable
+                var animEndEv = 'webkitAnimationEnd animationend';
+
+                elems.each(function() {
+                    var $this = $(this),
+                        $animationType = $this.data('animation');
+                    $this.addClass($animationType).one(animEndEv,
+                        function() {
+                            $this.removeClass($animationType);
+                        });
+                });
+            }
+
+            $('#@uniqeId').carousel({
+                interval: 5000,
+                pause: "hover"
+            });
+            //Variables on page load
+            var $myCarousel = $('#@uniqeId'),
+                $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
+
+            //Initialize carousel
+            $myCarousel.carousel();
+
+            //Animate captions in first slide on page load
+            doAnimations($firstAnimatingElems);
+
+            //Pause carousel
+          //  $myCarousel.carousel('auto');
+
+            console.log('@uniqeId');
+            //Other slides to be animated on carousel slide event
+            $myCarousel.on('slide.bs.carousel',
+                function(e) {
+                    console.log('sliding');
+                    var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
+                    doAnimations($animatingElems);
+                });
+        });
+        $.holdReady( false );
+
+</script>
+
+

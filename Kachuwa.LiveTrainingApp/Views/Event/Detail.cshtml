@@ -1,0 +1,169 @@
+﻿@{
+    ViewData["Title"] = "Event Detail";
+}
+
+@using Kachuwa.Training.Model
+@using Kachuwa.Identity.Extensions;
+@model Event
+<!-- Inner Page Breadcrumb -->
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    <h4 class="breadcrumb_title">Event Sıngle</h4>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Event Sıngle</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main Blog Post Content -->
+<section class="blog_post_container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-xl-9">
+                <div class="main_blog_post_content">
+                    <div class="mbp_thumb_post">
+                        <div class="details pt0">
+                            @if (Model.Title != null)
+                            {
+                                <h3 class="mb25">@Model.Title</h3>
+                            }
+
+                        </div>
+                        <div class="thumb">
+                            @if (Model.ProfileImagePath != "/" || Model.ProfileImagePath != null)
+                            {
+                                <img class="img-fluid" src="@Model.ProfileImagePath" alt="12.jpg">
+                                @*<div class="post_date"><h2>28</h2> <span>DECEMBER</span></div>*@
+                            }
+
+                        </div>
+                        <div class="event_counter_plugin_container">
+                            <div class="event_counter_plugin_content">
+                                <ul>
+                                    @if (Model.FromDate > DateTime.Now.Date)
+                                    {
+                                        <li>Remaining days <span id="days" style=" padding-left: 41px;"> @( (@Model.FromDate.Day) - (@DateTime.Now.Day) )</span></li>
+
+                                    }
+                                    else
+                                    {
+                                        <li><span>Registration Closed</span></li>
+                                    }
+                                    @*<li>Hours<span id="hours">@Model.FromDate.Hour</span></li>
+                    <li>Minutes<span id="minutes">@Model.FromDate.Minute</span></li>
+                    <li>Seconds<span id="seconds">@Model.FromDate.Second</span></li>*@
+                                </ul>
+
+                            </div>
+                        </div>
+                   
+
+                        <div class="details">
+                            @if (Model.Description != null)
+                            {
+                                <h4>Event Description</h4>
+                                @Html.Raw(Model.Description)
+                            }
+
+                            @if (Model.Content != null)
+                            {
+                                <h4 class="mb0">Event Content</h4>
+                                <ul class="bs_content_list">
+                                    @Html.Raw(Model.Content)
+                                </ul>
+                            }
+
+                        </div>
+                        <ul class="blog_post_share mb0">
+                            <li><p>Share</p></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3 pl10 pr10">
+                <div class="main_blog_post_widget_list">
+                    <div class="event_details_widget">
+                        <h4 class="title">Event Details</h4>
+                        <ul>
+
+                            <li><span class="flaticon-appointment"></span> Date: @Model.FromDate.ToString("yyyy-MM-dd") - @Model.ToDate.ToString("yyyy-MM-dd")</li>
+                            @if (Model.ContactNumber != null)
+                            {
+                                <li><span class="flaticon-phone-call"></span> Contact Number : @Model.ContactNumber</li>
+                            }
+                            @if (Model.Address != null)
+                            {
+                                <li><span class="flaticon-placeholder"></span> Address: @Model.Address</li>
+
+                            }
+                        </ul>
+                    </div>
+                    @*<div class="event_details_widget">
+                            <h4 class="title">Event Details</h4>
+                            <div class="h200 mb30 bdrs5" id="map-canvas"></div>
+                            <ul>
+                                <li><span class="flaticon-phone-call"></span> 1-896-567-23497</li>
+                                <li><span class="flaticon-email"></span> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4a2f3c2f243e0a2f2e3f273364292527">[email&#160;protected]</a></li>
+                                <li><span class="flaticon-www"></span> http://www.edumy.com</li>
+                            </ul>
+                        </div>*@
+                    <div class="blog_tag_widget">
+
+                        @if (Model.IsFree == true)
+
+                        {
+                            <h4 class="title">Free</h4>
+                        }
+                        else
+                        {
+                            <h4 class="title">Price</h4>
+                            <strong class="totals">Rs. @Model.Price</strong>
+                        }
+
+                    </div>
+                    @if (Model.FromDate > DateTime.Now.Date)
+                    {
+                        <a class="btn btn-success button play flaticon-account pull-right" id="registerNow"style="color:white;" > <span style="color:white;">Register Now</span> </a>
+
+                    }
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+
+
+    $('#registerNow').on('click', function () {
+        
+        var identityuserId =  @User.Identity.GetIdentityUserId();
+        if (identityuserId == 0)
+        {
+            $('#exampleModalCenter').modal('toggle');
+        }
+        else {
+            @*window.location.href = '/event/register/' + @Model.Id;*@
+            window.location.href = '/CheckEventRegister?UserId=' + identityuserId + '&EventId=' + @Model.Id;
+        }
+
+    });
+
+
+</script>

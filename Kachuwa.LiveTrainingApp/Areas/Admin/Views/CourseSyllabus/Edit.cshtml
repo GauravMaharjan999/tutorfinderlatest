@@ -1,0 +1,92 @@
+﻿@using Kachuwa.Web.Form
+@using Kachuwa.Web.Grid
+@using Kachuwa.Training.Model
+@model CourseSyllabus
+@{
+    var formDataSource = (FormDatasource)ViewData["FormDataSources"];
+}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="cardform-wrapper">
+
+                @(
+                                                                                                            Html.CreateKachuwaForm<CourseSyllabus>("TrainingCourseCategoryForm", Model)
+                                                                                                            .SetHeading("")
+                                                                                                                .ActionUrl("/admin/coursesyllabus/edit")
+                                                                                                                .CancelUrl("/admin/coursesyllabus")
+                                                                                                                .EncType("multipart/form-data")
+                                                                                                            .CreateSection(section =>
+                                                                                                            {
+                                                                                                                section.Add("section1", "cardform-section", rows =>
+                                                                                                                {
+                                                                                                                    rows.Add("1strow", "row", columns =>
+                                                                                                                {
+                                                                                                                    columns.Add("left", "col-md-3", @<div class="form-description">
+                                                                                                                        <h4> Course Syllabus</h4>
+                                                                                                                        <p>Edit Course Syllabus</p>
+                                                                                                                    </div>);
+
+
+
+
+                                                                                                                    columns.Add("right", "col-md-9", control =>
+                                                                                                                    {
+                                                                                                                        control.Add("form-control", model => model.Id, FormInputControl.Hidden);
+
+                                                                                                                        control.Add("form-control  ", model => model.CourseId, FormInputControl.Select, formDataSource.GetSource("CourseListSource"))
+                                                                                                                      .SetFirstParentClass("form-group")
+                                                                                                                      .SetSecondParentClass("col-md-12")
+                                                                                                                      .SetDisplayName("Choose Course");
+
+                                                                                                                        control.Add("form-control", model => model.Title, FormInputControl.TextBox)
+                                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                                            .SetSecondParentClass("col-md-12")
+                                                                                                                            .SetDisplayName("Title")
+                                                                                                                            .SetPlaceHolder("Enter Title");
+
+                                                                                                                        control.Add("form-control", model => model.Content, FormInputControl.Editor)
+                                                                                                                          .SetFirstParentClass("form-group")
+                                                                                                                          .SetSecondParentClass("col-md-12")
+                                                                                                                          .SetDisplayName("Content")
+                                                                                                                          .SetPlaceHolder("Enter Content");
+
+                                                                                                                        control.Add("form-control", model => model.Hours, FormInputControl.TextBox)
+                                                                                                                          .SetFirstParentClass("form-group")
+                                                                                                                          .SetSecondParentClass("col-md-12")
+                                                                                                                          .SetDisplayName("Hours")
+                                                                                                                          .SetPlaceHolder("Enter Hours");
+
+
+                                                                                                                        control.Add("form-control", model => model.VideoPath, FormInputControl.TextBox)
+                                                                                                                             .SetFirstParentClass("form-group")
+                                                                                                                             .SetSecondParentClass("col-md-12")
+                                                                                                                             .SetDisplayName("Video Path")
+                                                                                                                             .SetPlaceHolder("Enter Video Path");
+
+                                                                                                                        control.Add("form-control", model => model.IsFree, FormInputControl.Switch)
+                                                                                                                                   .SetFirstParentClass("form-group")
+                                                                                                                                   .SetSecondParentClass("col-md-6")
+                                                                                                                                    .SetDisplayName("Is Free?")
+                                                                                                                                   .SetPlaceHolder("Is Free");
+
+                                                                                                                        control.Add("form-control", model => model.IsActive, FormInputControl.Switch)
+                                                                                                                                    .SetFirstParentClass("form-group")
+                                                                                                                                    .SetSecondParentClass("col-md-6")
+                                                                                                                                     .SetDisplayName("Is Active?")
+                                                                                                                                    .SetPlaceHolder("Is Active");
+
+
+
+
+                                                                                                                    }).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                                                                });
+                                                                                                                })
+                                                                                                                                           .SetHeading("Edit Course Syllabus ");
+                                                                                                            }))
+            </div>
+        </div>
+    </div>
+</section>
+

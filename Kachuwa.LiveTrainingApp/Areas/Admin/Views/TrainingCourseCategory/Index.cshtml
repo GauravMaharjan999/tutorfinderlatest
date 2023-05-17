@@ -1,0 +1,147 @@
+﻿
+<div id="contestantform" class="kachuwa-form">
+    <section name="section1" class="cardform-section">
+        <div class="row">
+            <div id="grid_md" class="gc-pqgrid"></div>
+        </div>
+    </section>
+</div>
+
+
+@section scripts{
+    <script>
+        $(function () {
+            function onTabsActive(evt, ui) {
+                //grid requires refresh whenever corresponding tab is refreshed.
+                ui.newPanel.find(".pq-grid").pqGrid("refresh");
+            };
+
+
+            var $gridMain = $("div#grid_md").pqGrid({
+                width: 'auto', height: 550,
+                dataModel: {
+                    location: "remote",
+                    sorting: "local",
+                    dataType: "JSON",
+                    method: "GET",
+                    url: "/api/v1/trainingcoursecategory/gridList",
+                    getData: function (dataJSON) {
+                        var data = dataJSON.Data;
+                        if (data == "") {
+                            return true;
+                        }
+                        else {
+                            return { curPage: dataJSON.CurrentPage, totalRecords: data[0].RowTotal, data: data };
+                        }
+                    }
+                },
+                colModel: [
+                    { title: "Name", dataType: "string", dataIndx: "Name", width: '40%' },
+                    
+                    {
+                        title: "Addded On", dataType: "date", dataIndx: "AddedOn", width: '20%',
+                        render: function (ui) {
+                            if (ui.cellData != undefined && ui.cellData != "") {
+                                return $.datepicker.formatDate('yy-mm-dd', new Date(ui.cellData));
+                            }
+                            else {
+                                return "";
+                            }
+                        }
+                    },
+                    {
+                        title: "Is Active", datatype: "checkbox", dataIndx: "IsActive", width: '20%',
+                        render: function (ui) {
+
+                            var rowData = ui.rowData,
+                                dataIndx = ui.dataIndx;
+                            rowData.pq_cellcls = rowData.pq_cellcls || {};
+                            if (ui.cellData == true) {
+                                rowData.pq_cellcls[dataIndx] = 'green';
+                                return ui.cellData;
+                            }
+                            else if (ui.cellData == false) {
+                                rowData.pq_cellcls[dataIndx] = 'red';
+                                return '<span style="color:red">' + ui.cellData + '</span>';
+                            }
+                            else {
+                                return ui.cellData;
+                            }
+                        }
+                    },
+
+                    {
+                        title: "Action", editable: false, Width: '25%', sortable: false, render: function (ui) {
+
+                                return '<button type="button" class="edit_btn"><span class="ui-button-icon-primary ui-icon ui-icon-pencil"><span>Edit</button>\
+                                                            <button type="button" class="delete_btn"><span class="ui-button-icon-primary ui-icon ui-icon-trash">Delete<span></button>';
+
+
+                        }
+                    }
+                ],
+                //pageModel: { type: "local", rPP: 10, rPPOptions: [10, 15, 50], strDisplay: "{0} to {1} of {2}" },
+                pageModel: { type: "remote", rPP: 10, strRpp: "{0}" },
+                title: "<b>Training Course Category </b>",
+                resizable: true,
+                wrap: false,
+                hwrap: false,
+                virtualX: true, virtualY: true,
+                editable: false,
+                numberCell: { show: true, resizable: false, title: "S.N.", minWidth: 40 },
+                selectionModel: { type: 'cell' },
+                toolbar: {
+                    items: [
+                        { type: 'button', label: 'Add', cls: 'btn btn-success btn-add', style: "padding:5px 10px 5px 10px;", listeners: [{ click: addRow }], icon: 'ui-icon-plus' },
+                    ]
+                }
+            });
+            function addRow() {
+                window.location.href = "/admin/coursecategory/new";
+            }
+
+
+            $gridMain.on('pqgridrefresh pqgridrefreshrow', function () {
+                var $grid = $(this);
+                if (!$grid) {
+                    return;
+                }
+
+                //delete button
+                $grid.find("button.delete_btn").unbind("click").bind("click", function (evt) {
+                    var $tr = $(this).closest("tr");
+                    var rowIndx = $grid.pqGrid("getRowIndx", { $tr: $tr }).rowIndx;
+                    var row = $grid.pqGrid('getRowData', { rowIndx: rowIndx });
+                    if (confirm("Are you sure you want to delete this?")) {
+                        $.ajax({
+                            type: "POST",
+                            url: "coursecategory/delete",
+                            dataType: "json",
+                            contentType: "application/json; charset=utf-8",
+                            data: JSON.stringify(row.Id),
+                            success: function (res) {
+                                //ui.newPanel.find(".pq-grid").pqGrid("refresh");
+                                location.reload(true);
+                                return true;
+                            }
+                        });
+                    }
+                    else {
+                        return false;
+                    }
+                });
+
+                //edit button
+                $grid.find("button.edit_btn").unbind("click").bind
+                    ("click", function (evt) {
+                        var $tr = $(this).closest("tr");
+                        var rowIndx = $grid.pqGrid("getRowIndx", { $tr: $tr }).rowIndx;
+                        var row = $grid.pqGrid('getRowData', { rowIndx: rowIndx });
+                        window.location.href = "/admin/coursecategory/edit/" + row.Id;
+                        return true;
+                    });
+            });
+
+        });
+    </script>
+}

@@ -1,0 +1,173 @@
+﻿@using Kachuwa.Web.Form
+@using Kachuwa.Web.Grid
+@using Kachuwa.Training.Model
+@model Event
+@{
+    var formDataSource = (FormDatasource)ViewData["FormDataSources"];
+}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="cardform-wrapper">
+
+                @(
+                                                                                                            Html.CreateKachuwaForm<Event>("EventForm", Model)
+                                                                                                            .SetHeading("")
+                                                                                                                .ActionUrl("/admin/event/edit")
+                                                                                                                .CancelUrl("/admin/event")
+                                                                                                                .EncType("multipart/form-data")
+                                                                                                            .CreateSection(section =>
+                                                                                                            {
+                                                                                                                section.Add("section1", "cardform-section", rows =>
+                                                                                                                {
+                                                                                                                    rows.Add("1strow", "row", columns =>
+                                                                                                                {
+                                                                                                                    columns.Add("left", "col-md-2", @<div class="form-description">
+                                                                                                                        <h4>Event</h4>
+                                                                                                                        <p>Edit Event</p>
+                                                                                                                    </div>);
+
+
+
+
+
+
+                                                                                                                    columns.Add("right", "col-md-10", control =>
+                                                                                                                    {
+                                                                                                                        control.Add("form-control", model => model.Id, FormInputControl.Hidden);
+                                                                                                                        control.Add("form-control", model => model.ProfileImagePath, FormInputControl.Hidden);
+
+
+                                                                                                                        control.Add("form-control", model => model.Title, FormInputControl.TextBox)
+                                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                                            .SetSecondParentClass("col-md-12")
+                                                                                                                            .SetDisplayName("Title")
+                                                                                                                            .SetPlaceHolder("Enter Title");
+
+
+
+                                                                                                                        control.Add("form-control", model => model.ShortDescription, FormInputControl.TextArea)
+                                                                                                                               .SetFirstParentClass("form-group")
+                                                                                                                               .SetSecondParentClass("col-md-12")
+                                                                                                                               .SetDisplayName("Short Description")
+                                                                                                                                .SetPlaceHolder("Enter Short Description");
+
+
+
+                                                                                                                        control.Add("form-control", model => model.Description, FormInputControl.Editor)
+                                                                                                                           .SetFirstParentClass("form-group")
+                                                                                                                           .SetSecondParentClass("col-md-12")
+                                                                                                                           .SetDisplayName("Description")
+                                                                                                                            .SetPlaceHolder("Enter Description");
+
+
+                                                                                                                        control.Add("form-control", model => model.Content, FormInputControl.Editor)
+                                                                                                                     .SetFirstParentClass("form-group")
+                                                                                                                     .SetSecondParentClass("col-md-12")
+                                                                                                                     .SetDisplayName("Content ")
+                                                                                                                      .SetPlaceHolder("Enter Content ");
+
+                                                                                                                        control.Add("form-control", model => model.Address, FormInputControl.TextBox)
+                                                                                                                .SetFirstParentClass("form-group")
+                                                                                                                .SetSecondParentClass("col-md-6")
+                                                                                                                .SetDisplayName("Event Happening Address ")
+                                                                                                                 .SetPlaceHolder("Enter Event Happening Address ");
+
+                                                                                                                        control.Add("form-control", model => model.ContactNumber, FormInputControl.TextBox)
+                                                                                                              .SetFirstParentClass("form-group")
+                                                                                                              .SetSecondParentClass("col-md-6")
+                                                                                                              .SetDisplayName("Contact Number ")
+                                                                                                               .SetPlaceHolder("Enter Contact Number ");
+
+                                                                                                                        control.Add("form-control", model => model.FromDate, FormInputControl.TextBox)
+                                                                                             .SetFirstParentClass("form-group")
+                                                                                             .SetSecondParentClass("col-md-6")
+                                                                                             .SetDisplayName("From Date ?");
+
+                                                                                                                        control.Add("form-control", model => model.ToDate, FormInputControl.TextBox)
+                                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                                            .SetSecondParentClass("col-md-6")
+                                                                                                                            .SetDisplayName("To Date ?");
+
+
+                                                                                                                        control.Add("form-control", model => model.EditProfileImageAttachment, FormInputControl.Image)
+                                                                                                                    .SetFirstParentClass("form-group")
+                                                                                                                    .SetSecondParentClass("col-md-6")
+                                                                                                                    .SetDisplayName("Event Photo")
+                                                                                                                     .SetPlaceHolder("Enter Event Photo");
+
+                                                                                                                        control.Add("form-control", model => model.IsFree, FormInputControl.Switch)
+                                                                                                                         .SetFirstParentClass("form-group")
+                                                                                                                         .SetSecondParentClass("col-md-6")
+                                                                                                                          .SetDisplayName("Is Free?")
+                                                                                                                         .SetPlaceHolder("Is Free");
+
+                                                                                                                        control.Add("form-control", model => model.Price, FormInputControl.TextBox)
+                                                                                                         .SetFirstParentClass("form-group")
+                                                                                                         .SetSecondParentClass("col-md-6 pricehide")
+                                                                                                         .SetDisplayName("Price ")
+                                                                                                          .SetPlaceHolder("Enter Event Price ");
+
+
+
+                                                                                                                        control.Add("form-control", model => model.IsLoginRequired, FormInputControl.Switch)
+                                                                                                                           .SetFirstParentClass("form-group")
+                                                                                                                           .SetSecondParentClass("col-md-6")
+                                                                                                                            .SetDisplayName("Is Login Required?");
+
+
+                                                                                                                        control.Add("form-control", model => model.IsActive, FormInputControl.Switch)
+                                                                                                                                   .SetFirstParentClass("form-group")
+                                                                                                                                   .SetSecondParentClass("col-md-6")
+                                                                                                                                    .SetDisplayName("Is Active?")
+                                                                                                                                   .SetPlaceHolder("Is Active");
+
+
+
+                                                                                                                    }).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                                                                });
+                                                                                                                })
+                                                                                                                                                   .SetHeading("Edit Event ");
+                                                                                                            }))
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+
+
+        $('#EventForm_EditProfileImageAttachment').on('change', function () {
+            var fileExtension = ['jpg', 'png','jpeg'];
+            var filename = $('#EventForm_EditProfileImageAttachment').val();
+            if (filename.length == 0) {
+                alert("Please select a file.");
+                return false;
+            }
+            else {
+                var extension = filename.replace(/^.*\./, '').toLowerCase();;
+                if ($.inArray(extension, fileExtension) == -1) {
+                    alert("Please select only jpg or png or jpeg image only .");
+                    $('#EventForm_EditProfileImageAttachment').val("");
+                    return false;
+                }
+            }
+        });
+
+        $("#EventForm_FromDate").datepicker().attr('autocomplete', 'off');
+        $("#EventForm_ToDate").datepicker().attr('autocomplete', 'off');
+
+        $("input[name='IsFree']").on("change", function () {
+
+            var switchStatus = $(this).is(':checked');
+            if (switchStatus == true) {
+                $(".pricehide").hide();
+            }
+            else {
+                $(".pricehide").show();
+            }
+        });
+    });
+</script>

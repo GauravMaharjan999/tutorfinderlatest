@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="resources\css\**" />
+    <Compile Remove="resources\js\**" />
+    <EmbeddedResource Remove="resources\css\**" />
+    <EmbeddedResource Remove="resources\js\**" />
+    <None Remove="resources\css\**" />
+    <None Remove="resources\js\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Components\FileUploader\Default.cshtml" />
+    <None Remove="resources\filepond\filepond.css" />
+    <None Remove="resources\filepond\filepond.esm.js" />
+    <None Remove="resources\filepond\filepond.esm.min.js" />
+    <None Remove="resources\filepond\filepond.js" />
+    <None Remove="resources\filepond\filepond.min.css" />
+    <None Remove="resources\filepond\filepond.min.js" />
+    <None Remove="resources\filepond\jquery\filepond.jquery.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-file-validate-type.esm.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-file-validate-type.esm.min.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-file-validate-type.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-file-validate-type.min.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-image-preview.css" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-image-preview.esm.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-image-preview.esm.min.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-image-preview.js" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-image-preview.min.css" />
+    <None Remove="resources\filepond\plugins\filepond-plugin-image-preview.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Components\FileUploader\Default.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\filepond\filepond.css" />
+    <EmbeddedResource Include="resources\filepond\filepond.esm.js" />
+    <EmbeddedResource Include="resources\filepond\filepond.esm.min.js" />
+    <EmbeddedResource Include="resources\filepond\filepond.js" />
+    <EmbeddedResource Include="resources\filepond\filepond.min.css" />
+    <EmbeddedResource Include="resources\filepond\filepond.min.js" />
+    <EmbeddedResource Include="resources\filepond\jquery\filepond.jquery.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-file-validate-type.esm.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-file-validate-type.esm.min.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-file-validate-type.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-file-validate-type.min.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-image-preview.css" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-image-preview.esm.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-image-preview.esm.min.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-image-preview.js" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-image-preview.min.css" />
+    <EmbeddedResource Include="resources\filepond\plugins\filepond-plugin-image-preview.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kachuwa.Core\Kachuwa.Core.csproj" />
+    <ProjectReference Include="..\Kachuwa.Identity\Kachuwa.Identity.csproj" />
+    <ProjectReference Include="..\Kachuwa.Web\Kachuwa.Web.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Tutor Detail";
+}
+@using Kachuwa.Training.Model
+@model TrainingTutor
+<!-- Inner Page Breadcrumb -->
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    @if (Model.Name != null)
+                    {
+                        <h4 class="breadcrumb_title">@Model.Name</h4>
+                    }
+                    @if (Model.Expertise != null)
+                    {
+                        <p class="color-white">@Model.Expertise</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Team Members -->
+<section class="our-team">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="instructor_personal_infor">
+                    <div class="instructor_thumb text-center">
+                        @if (Model.ProfileImagePath != "/")
+                        {
+                            <img class="img-fluid" src="@Model.ProfileImagePath" alt="tutor.png" style="width:300px;">
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="instructor_personal_infor">
+                            @if (Model.Bio != null)
+                            {
+                                <h4>Hello! This is my story.</h4>
+                                @Html.Raw(Model.Bio)
+                                <br/>
+                            }
+
+                            @*<p>Hello! I am a Seattle/Tacoma, Washington area graphic designer with over 6 years of graphic design experience. I specialize in designing infographics, icons, brochures, and flyers.</p>
+        <ul class="instructor_estimate">
+            <li>Included in my estimate:</li>
+            <li>Custom illustrations</li>
+            <li>Stock images</li>
+            <li>Any final files you need</li>
+        </ul>
+        <p>If you have a specific budget or deadline, let me know and I will work with you!</p>*@
+                            @if (Model.Experience != null)
+                            {
+                                <h4>Experience</h4>
+                                <p>
+                                    @Html.Raw(Model.Experience)
+                                </p>
+                            }
+                            @*<h4>My Education</h4>
+                            <div class="my_resume_eduarea">
+                                <div class="content">
+                                    <div class="circle"></div>
+                                    <h4 class="edu_stats">Harvard University <small>2015 - 2019</small></h4>
+                                    <p class="edu_center">MBA from Harvard Business School</p>
+                                </div>
+                                <div class="content style2">
+                                    <div class="circle"></div>
+                                    <h4 class="edu_stats">Tomms College  <small>2011 - 2015</small></h4>
+                                    <p class="edu_center">Bachlors in Fine Arts</p>
+                                </div>
+                            </div>
+                            <h4>My Experience</h4>
+                            <div class="my_resume_eduarea">
+                                <div class="content">
+                                    <div class="circle"></div>
+                                    <h4 class="edu_stats">Google <small>2015 - 2019</small></h4>
+                                    <p class="edu_center">Web Designer</p>
+                                </div>
+                                <div class="content style2">
+                                    <div class="circle"></div>
+                                    <h4 class="edu_stats">Facebook  <small>2011 - 2015</small></h4>
+                                    <p class="edu_center">CEO Founder</p>
+                                </div>
+                                <div class="content style3">
+                                    <div class="circle"></div>
+                                    <h4 class="edu_stats">Tomms College  <small>2011 - 2015</small></h4>
+                                    <p class="edu_center">CEO Founder</p>
+                                </div>
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3">
+                <div class="selected_filter_widget style2 mb30">
+                    <div class="siderbar_contact_widget">
+                        <h4>Contact</h4>
+                        @if (Model.MobileNo != null)
+                        {
+                            @*<p>Mobile Number</p>
+                            <i>@Model.MobileNo</i>*@
+                        }
+                        @if (Model.Email != null)
+                        {
+                            <p>Email</p>
+                            <i>@Model.Email</i>
+                            @*<i><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="adc4c3cbc2edccc1c4d9d8cbccc383cec2c0">[email&#160;protected]</a></i>*@
+                        }
+                        @if (Model.Address != null)
+                        {
+                            <p>Address</p>
+                            <i>@Model.Address</i>
+                        }
+
+                        <p>Social Media</p>
+                        <ul class="scw_social_icon mb0">
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                @*<div class="selected_filter_widget style2">
+                    <div class="siderbar_contact_widget">
+                        <p>Total students</p>
+                        <i>102,924</i>
+                        <p>Courses</p>
+                        <i>22</i>
+                        <p>Reviews</p>
+                        <i>20,400</i>
+                    </div>
+                </div>*@
+            </div>
+        </div>
+    </div>
+</section>

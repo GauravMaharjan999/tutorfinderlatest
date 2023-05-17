@@ -1,0 +1,42 @@
+﻿@using Kachuwa.Training.Model
+@model IEnumerable<TrainingTutor>
+
+
+<section id="our-courses" class="our-courses">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center">
+                    <h3 class="mt0">Our Qualified Tutors</h3>
+                    <p>Learn From Our Expert Tutors</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                if (item.ProfileImagePath != "/")
+                {
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="img_hvr_box"  onclick="location.href='/tutor/@item.Id?TutorName=@item.Name'" style="background-image: url(@item.ProfileImagePath); height: 350px;">
+                            <div class="overlay" style="padding-top: 200px;">
+
+                                <div class="details">
+                                    <h5>@item.Name</h5>
+                                    <p>@item.Expertise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            }
+
+            <div class="col-lg-6 offset-lg-3">
+                <div class="courses_all_btn text-center">
+                    <a class="btn btn-transparent" href="/tutors">View All Tutors</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

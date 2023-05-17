@@ -1,0 +1,57 @@
+﻿@using Kachuwa.Web.Optimizer
+@inject IKachuwaBundler bundler
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>@ViewData["Title"] </title>
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="~/lib/fontawesome5/css/all.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="/themes/shared/admin/css/theme.min.css" rel="stylesheet" />
+
+    <link href="~/lib/pqGrid/pqgrid.min.css" rel="stylesheet" />
+    <link href="~/lib/pqGrid/themes/Office/pqgrid.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <link href="//paramquery.com/pqselect/gpl/pqselect.min.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome5/css/all.css" rel="stylesheet" />
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/additional-methods.min.js"></script>
+    @RenderSection("Stylesheet", required: false)
+</head>
+<body>
+    <div class="wrapper admin-wrapper">
+        <!-- Menu -->
+        <component name="AdminMenu"></component>
+
+        <div class="side-body">
+            <!-- Top Navigation Menu -->
+            <component name="TopBar"></component>
+            <div class="content-wrapper">
+                @RenderBody()
+                <component name="NotificationBar"></component>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="~/themes/shared/admin/js/main.js"></script>
+    <!--always include following scripts-->
+    <script src="~/lib/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/lib/pqGrid/pqgrid.min.js"></script>
+    <script src="~/lib/lodash/dist/lodash.min.js"></script>
+    <script src="~/lib/gridstack/dist/gridstack.all.js"></script>
+    <script src="/lib/chart.js/dist/Chart.bundle.js"></script>
+    <script src="~/custom/js/Report/reportEngine.js"></script>
+    <script src="//paramquery.com/pqselect/gpl/pqselect.min.js"></script>
+    @RenderSection("Scripts", required: false)
+
+    <script type="text/javascript" src="~/lib/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+</body>
+</html>

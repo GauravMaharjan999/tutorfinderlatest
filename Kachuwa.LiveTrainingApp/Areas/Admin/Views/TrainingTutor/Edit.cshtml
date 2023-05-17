@@ -1,0 +1,160 @@
+﻿@using Kachuwa.Web.Form
+@using Kachuwa.Web.Grid
+@using Kachuwa.Training.Model
+@model TrainingTutor
+@{
+    var formDataSource = (FormDatasource)ViewData["FormDataSources"];
+}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="cardform-wrapper">
+
+                @(
+                                                                                            Html.CreateKachuwaForm<TrainingTutor>("TrainingTutorForm", Model)
+                                                                                            .SetHeading("")
+                                                                                                .ActionUrl("/admin/trainingtutor/edit")
+                                                                                                .CancelUrl("/admin/trainingtutor")
+                                                                                                .EncType("multipart/form-data")
+                                                                                            .CreateSection(section =>
+                                                                                            {
+                                                                                                section.Add("section1", "cardform-section", rows =>
+                                                                                                {
+                                                                                                    rows.Add("1strow", "row", columns =>
+                                                                                                {
+                                                                                                    columns.Add("left", "col-md-2", @<div class="form-description">
+                                                                                                        <h4>Training Tutor</h4>
+                                                                                                        <p>Edit Training Tutor </p>
+                                                                                                    </div>);
+
+
+
+
+
+                                                                                                    columns.Add("right", "col-md-10", control =>
+                                                                                                    {
+                                                                                                        control.Add("form-control", model => model.Id, FormInputControl.Hidden);
+                                                                                                        control.Add("form-control", model => model.ProfileImagePath, FormInputControl.Hidden);
+
+                                                                                                        control.Add("form-control", model => model.Name, FormInputControl.TextBox)
+                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                            .SetSecondParentClass("col-md-6")
+                                                                                                            .SetDisplayName("Name")
+                                                                                                            .SetPlaceHolder("Enter Name");
+                                                                                                        control.Add("form-control", model => model.Address, FormInputControl.TextBox)
+                                                                                                          .SetFirstParentClass("form-group")
+                                                                                                          .SetSecondParentClass("col-md-6")
+                                                                                                          .SetDisplayName("Address")
+                                                                                                           .SetPlaceHolder("Enter Address");
+
+                                                                                                        control.Add("form-control", model => model.MobileNo, FormInputControl.TextBox)
+                                                                                                         .SetFirstParentClass("form-group")
+                                                                                                         .SetSecondParentClass("col-md-6")
+                                                                                                         .SetDisplayName("Mobile Number")
+                                                                                                          .SetPlaceHolder("Enter Mobile Number");
+
+                                                                                                        control.Add("form-control", model => model.Email, FormInputControl.TextBox)
+                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                            .SetSecondParentClass("col-md-6")
+                                                                                                            .SetDisplayName("Email")
+                                                                                                            .SetPlaceHolder("Enter Email");
+
+                                                                                                        control.Add("form-control", model => model.Expertise, FormInputControl.TextBox)
+                                                                                                         .SetFirstParentClass("form-group")
+                                                                                                         .SetSecondParentClass("col-md-6")
+                                                                                                         .SetDisplayName("Expertise")
+                                                                                                          .SetPlaceHolder("Enter Expertise");
+
+                                                                                                        control.Add("form-control", model => model.ShortBio, FormInputControl.TextBox)
+                                                                                                       .SetFirstParentClass("form-group")
+                                                                                                       .SetSecondParentClass("col-md-6")
+                                                                                                       .SetDisplayName("ShortBio")
+                                                                                                        .SetPlaceHolder("Enter ShortBio");
+
+                                                                                                        control.Add("form-control", model => model.Bio, FormInputControl.Editor)
+                                                                                                       .SetFirstParentClass("form-group")
+                                                                                                       .SetSecondParentClass("col-md-12")
+                                                                                                       .SetDisplayName("Bio")
+                                                                                                        .SetPlaceHolder("Enter Bio");
+
+                                                                                                        control.Add("form-control", model => model.Experience, FormInputControl.Editor)
+                                                                                                         .SetFirstParentClass("form-group")
+                                                                                                         .SetSecondParentClass("col-md-12")
+                                                                                                         .SetDisplayName("Experience")
+                                                                                                          .SetPlaceHolder("Enter Experience");
+
+
+                                                                                                        control.Add("form-control", model => model.LinkedInLink, FormInputControl.TextBox)
+                                                                                                        .SetFirstParentClass("form-group")
+                                                                                                        .SetSecondParentClass("col-md-6")
+                                                                                                        .SetDisplayName("LinkedInLink")
+                                                                                                         .SetPlaceHolder("Enter LinkedInLink");
+
+
+
+                                                                                                        control.Add("form-control  ", model => model.IdentityUserId, FormInputControl.Select, formDataSource.GetSource("IdentityTutorListSource"))
+                                                                                                        .SetFirstParentClass("form-group")
+                                                                                                        .SetSecondParentClass("col-md-6")
+                                                                                                        .SetDisplayName("Choose User");
+
+
+
+
+
+
+                                                                                                        control.Add("form-control", model => model.EditProfileImageAttachment, FormInputControl.Image)
+                                                                                                    .SetFirstParentClass("form-group")
+                                                                                                    .SetSecondParentClass("col-md-6")
+                                                                                                    .SetDisplayName("Profile Photo")
+                                                                                                     .SetPlaceHolder("Enter Photo");
+
+
+
+                                                                                                        control.Add("form-control", model => model.IsActive, FormInputControl.Switch)
+                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                            .SetSecondParentClass("col-md-6")
+                                                                                                             .SetDisplayName("Is Active?")
+                                                                                                            .SetPlaceHolder("Is Active");
+
+
+                                                                                                        control.Add("form-control", model => model.IsShowOnHomePage, FormInputControl.Switch)
+                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                            .SetSecondParentClass("col-md-6")
+                                                                                                            .SetDisplayName("Is Show On HomePage?")
+                                                                                                            .SetPlaceHolder("IsShowOnHomePage");
+
+
+                                                                                                    }).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                                                });
+                                                                                                })
+                                                                                                                                                                                                                     .SetHeading("Edit Training Tutor ");
+                                                                                            }))
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+
+
+        $('#TrainingTutorForm_EditProfileImageAttachment').on('change', function () {
+            var fileExtension = ['jpg', 'png', 'jpeg'];
+            var filename = $('#TrainingTutorForm_EditProfileImageAttachment').val();
+            if (filename.length == 0) {
+                alert("Please select a file.");
+                return false;
+            }
+            else {
+                var extension = filename.replace(/^.*\./, '');
+                if ($.inArray(extension, fileExtension) == -1) {
+                    alert("Please select only jpg or png or jpeg image only .");
+                    $('#TrainingTutorForm_EditProfileImageAttachment').val("");
+                    return false;
+                }
+            }
+
+        });
+    });
+</script>

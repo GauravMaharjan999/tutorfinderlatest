@@ -1,0 +1,131 @@
+﻿
+
+
+
+@{
+    ViewData["Title"] = "Event Register";
+}
+@using Kachuwa.Identity.Extensions;
+@using Kachuwa.Training.Model
+@model EventRegister
+
+@{
+    Event eventDetail = ViewBag.EventDetail;
+}
+<!-- Inner Page Breadcrumb -->
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    <h4 class="breadcrumb_title">Event Register</h4>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Event/Register</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Shop Checkouts Content -->
+<section class="shop-checkouts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8 col-xl-8">
+                <div class="checkout_form">
+
+                    <div class="checkout_coupon ui_kit_button">
+
+                        <h4 class="mb15"> Event Registration</h4>
+                        <form class="form9" id="coupon_form" name="eventregister_form" asp-controller="Event" asp-action="EventRegister" method="post">
+                            <div class="row">
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputName3">Full Name *</label>
+                                        <input id="form_name8" name="EventId" value="@eventDetail.Id" hidden>
+                                        <input id="form_name9" name="UserId" value="@Model.UserId" hidden>
+                                        <input id="form_name3" name="FullName" class="form-control" value="@Model.FullName" placeholder="Enter FullName" required="required" type="text">
+                                        <span asp-validation-for="FullName" class=" text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputName3">Email Address *</label>
+                                        <input id="form_name4" name="EmailAddress" class="form-control mb10" value="@Model.EmailAddress" placeholder="Enter EmailAddress" required="required" type="email" readonly>
+                                        <span asp-validation-for="EmailAddress" class=" text-danger"></span>
+                                         
+
+
+                                    </div>
+                                </div>
+
+                               
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputName3">Mobile Number *</label>
+                                        <input id="form_name6" name="PhoneNumber" class="form-control mb10" value="@Model.PhoneNumber" placeholder="Enter Mobile Number" required="required" type="text">
+                                        <span asp-validation-for="PhoneNumber" class=" text-danger"></span>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="ui_kit_button payment_widget_btn">
+                                <button type="submit" class="btn dbxshad btn-lg btn-thm3 circle  saveplaceorder">Submit</button>
+                                <button type="button" id="btn_cancelevent" class="btn dbxshad btn-lg btn-thm3 circle">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+           
+            <div class="col-lg-4 col-xl-4">
+                <div class="order_sidebar_widget mb30">
+                    <h4 class="title">Event Detail</h4>
+                    <ul>
+                        <li class="subtitle"><p>Event Name :</p></li>
+                        <li class="subtitle"><strong class="totals">@eventDetail.Title</strong></li>
+
+                        @if (eventDetail.IsFree == true)
+                        {
+                            <li class="subtitle"> <p>Price&nbsp; <strong class="totals">Free</strong></p></li>
+
+                        }
+                        else
+                        {
+                            <li class="subtitle"><p>Price &nbsp; <strong class="totals">@eventDetail.Price</strong></p></li>
+                        }
+                        @if (eventDetail.Address != null || eventDetail.Address != "")
+                        {
+                            <li class="subtitle"><p>Address<br /> <strong class="totals">@eventDetail.Address</strong></p></li>
+
+                        }
+                        <li class="subtitle"><p>Date <br /><strong class="totals">@eventDetail.FromDate.ToString("yyyy-MMM-dd") to @eventDetail.ToDate.ToString("yyyy-MMM-dd")</strong></p></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+
+    $('#btn_cancelevent').on('click', function () {
+        window.location.href = "/events";
+    });
+
+
+</script>
+

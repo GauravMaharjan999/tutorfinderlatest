@@ -1,0 +1,2005 @@
+﻿@{
+    ViewData["Title"] = "Watch";
+}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script src="~/dashjs/dash.all.min.js"></script>
+@*<link href="~/dashjs/controlbar.css" rel="stylesheet" />*@
+<script src="~/dashjs/ControlBar.js"></script>
+<script src="~/hls/hls.min.js"></script>
+<style>
+    .page-inner .section-player {
+        padding-bottom: 0;
+    }
+
+    #bitrateListBtn::before {
+        content: attr(data-quality);
+        position: absolute;
+        background: #00b3ff;
+        font-size: 9px;
+        right: 5px;
+        top: 9px;
+        padding: 1px;
+    }
+
+    .player-container {
+        display: flex;
+    }
+
+        /*@@media (max-width: 1024px) {
+            .player-container {
+                flex-wrap: wrap;
+            }
+        }*/
+
+        .player-container.full-width .player-main {
+            width: 100%;
+        }
+
+        .player-container.full-width .player-course-info {
+            width: 0;
+        }
+
+    .player-main {
+        width: 100%;
+        max-height: 100vh;
+    }
+
+        /*@@media (max-width: 1024px) {
+            .player-main {
+                width: 100%;
+                max-height: 50vh;
+                position: sticky;
+                position: -webkit-sticky;
+                top: 0px;
+            }
+        }*/
+
+        .player-main .player-video {
+            background: #0b0b0b;
+        }
+
+            .player-main .player-video video {
+                width: 100%;
+                max-height: 100vh;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+
+        /*@@media (max-width: 1024px) {
+            .player-main .player-video video {
+                width: 100%;
+                height: 100%;
+                max-height: 50vh;
+            }
+        }*/
+
+        .player-main .player-about .player-description {
+            margin: 20px 0 30px;
+        }
+
+        .player-main .footer-player {
+            padding: 20px 0;
+        }
+
+    .player-course-info {
+        width: 100%;
+        position: relative;
+        right: 0;
+        background: #181818;
+        height: calc(100vh - 84px);
+        overflow-y: scroll;
+    }
+
+        /*@@media (max-width: 1024px) {
+            .player-course-info {
+                width: 100%;
+            }
+        }*/
+
+        .player-course-info h4 {
+            background: #464646;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .player-course-info .player-course-info-items {
+            padding: 10px 0;
+            background: #0b0b0b;
+        }
+
+        .player-course-info .player-course-list {
+            border-bottom: 2px solid #181818;
+        }
+
+            .player-course-info .player-course-list .course-title {
+                border-bottom: 1px solid #181818;
+                background: #464646;
+            }
+
+                .player-course-info .player-course-list .course-title a {
+                    padding: 10px 6px;
+                    width: 100%;
+                    position: relative;
+                }
+
+                    .player-course-info .player-course-list .course-title a > p {
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+
+                    .player-course-info .player-course-list .course-title a > i {
+                        color: #b8b8b8;
+                        position: absolute;
+                        top: 50%;
+                        right: 14px;
+                        transform: translateY(-50%);
+                    }
+
+                    .player-course-info .player-course-list .course-title a .course-meta {
+                        margin-top: 5px;
+                        font-size: 12px;
+                        color: #b8b8b8;
+                    }
+
+                        .player-course-info .player-course-list .course-title a .course-meta p {
+                            display: inline-block;
+                            margin-right: 10px;
+                        }
+
+                        .player-course-info .player-course-list .course-title a .course-meta i {
+                            margin-right: 2px;
+                        }
+
+            .player-course-info .player-course-list .course-list-detail ul {
+                padding: 14px 15px 14px 20px;
+                background: #181818;
+                margin-bottom: 0;
+            }
+
+            .player-course-info .player-course-list .course-list-detail li {
+                margin: 0 0px 10px 9px;
+                position: relative;
+            }
+
+                .player-course-info .player-course-list .course-list-detail li:last-child {
+                    margin-bottom: 0;
+                }
+
+                .player-course-info .player-course-list .course-list-detail li .progress {
+                    position: absolute;
+                    left: 0px;
+                    border: 0px;
+                    width: 0%;
+                    height: 1px;
+                    background: #00b3ff;
+                }
+
+                .player-course-info .player-course-list .course-list-detail li.locked::before {
+                    font-family: "Material Icons";
+                    content: "lock";
+                    position: absolute;
+                    top: 3px;
+                    left: -16px;
+                    width: 15px;
+                    height: 15px;
+                    background-color: Transparent;
+                    background-repeat: no-repeat;
+                    border: none;
+                    cursor: pointer;
+                    color: #ac1261;
+                    padding: 0px;
+                    cursor: pointer;
+                    outline: none;
+                    font-size: 12px;
+                }
+
+                .player-course-info .player-course-list .course-list-detail li.unlocked::before {
+                    font-family: "Material Icons";
+                    content: "lock_open";
+                    position: absolute;
+                    top: 3px;
+                    left: -16px;
+                    width: 15px;
+                    height: 15px;
+                    background-color: Transparent;
+                    background-repeat: no-repeat;
+                    border: none;
+                    cursor: pointer;
+                    color: #16794d;
+                    padding: 0px;
+                    cursor: pointer;
+                    outline: none;
+                    font-size: 12px;
+                }
+
+                .player-course-info .player-course-list .course-list-detail li:hover {
+                    color: #fff;
+                    background: #4d4d4d;
+                }
+
+                .player-course-info .player-course-list .course-list-detail li.active {
+                    color: #fff;
+                    background: #4d4d4d;
+                    padding: 2px;
+                }
+
+                    .player-course-info .player-course-list .course-list-detail li.active::before {
+                        font-family: "Material Icons";
+                        content: "play_arrow";
+                        position: absolute;
+                        top: 3px;
+                        left: -18px;
+                        width: 15px;
+                        height: 15px;
+                        background-color: Transparent;
+                        background-repeat: no-repeat;
+                        border: none;
+                        cursor: pointer;
+                        color: #d9d9d9;
+                        padding: 0px;
+                        cursor: pointer;
+                        outline: none;
+                        font-size: 15px;
+                    }
+
+            .player-course-info .player-course-list .course-list-detail a {
+                font-size: 13px;
+                display: flex;
+                justify-content: space-between;
+                color: #b8b8b8;
+                padding-top: 4px;
+            }
+
+                .player-course-info .player-course-list .course-list-detail a:hover {
+                    color: #fff;
+                    background: #4d4d4d;
+                }
+
+                .player-course-info .player-course-list .course-list-detail a .info-time {
+                    padding-left: 14px;
+                    font-size: 12px;
+                    min-width: 50px;
+                }
+
+                .player-course-info .player-course-list .course-list-detail a.active {
+                    color: #fff;
+                    background: #4d4d4d;
+                    padding: 2px;
+                }
+
+    .player-list-detail ul {
+        margin: 5px 16px;
+    }
+
+        .player-list-detail ul li {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            padding-bottom: 4px;
+            margin-bottom: 4px;
+        }
+
+            .player-list-detail ul li:last-child {
+                border: none;
+            }
+
+        .player-list-detail ul a {
+            color: #b8b8b8;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    .hide {
+        display: none;
+    }
+
+    .disable {
+        pointer-events: none;
+    }
+
+    .unselectable {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    :-webkit-full-screen {
+        width: 100%;
+        top: 0;
+        z-index: -100;
+        background: none;
+    }
+
+    :-ms-fullscreen {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .time-display, .duration-display {
+        padding: 11px;
+        color: white;
+        font-weight: normal;
+        font-size: 0.9em;
+        font-family: "Open Sans", "Avenir", sans-serif;
+    }
+
+    .time-display {
+        float: left;
+    }
+
+    .duration-display {
+        float: right;
+    }
+
+    .live-icon {
+        cursor: pointer;
+    }
+
+        .live-icon.live {
+            color: #eb5757 !important;
+            pointer-events: none;
+            cursor: default;
+        }
+
+    .btn-play-pause {
+        float: left;
+        padding: 9px 10px;
+        cursor: pointer;
+    }
+
+    .control-icon-layout {
+        float: right;
+        padding: 9px 10px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .btn-fullscreen {
+        margin-right: 10px;
+    }
+
+    .volumebar {
+        float: right;
+        width: 70px;
+    }
+
+    .full-width .fullscreen {
+        height: 100% !important;
+    }
+
+        .full-width .fullscreen video {
+            width: 100%;
+            height: 100% !important;
+            margin: 0;
+            position: relative;
+            top: 0;
+            -ms-transform: translateY(0%);
+            transform: translateY(0%);
+        }
+
+    .videoContainer {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+        /*@@media (max-width: 1024px) {
+            .videoContainer {
+                width: 100%;
+                height: 50vh;
+            }
+        }*/
+
+        .videoContainer.fullscreen {
+            height: 100% !important;
+        }
+
+            .videoContainer.fullscreen video {
+                width: 100%;
+                height: 100vh;
+                margin: 0;
+                position: relative;
+                top: 0;
+                -ms-transform: translateY(0%);
+                transform: translateY(0%);
+            }
+
+        .videoContainer button[data-state="play"], .videoContainer button[data-state="pause"] {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 50px;
+            height: 50px;
+            margin: -25px -25px;
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border: none;
+            cursor: pointer;
+            overflow: hidden;
+            transform: scale(2.1);
+            background: #5BA536;
+            color: white;
+            font-size: 40px;
+            border-radius: 50%;
+            padding: 0px;
+            -webkit-font-smoothing: antialiased;
+            font-family: "Material Icons";
+            -webkit-font-feature-settings: "liga" 1;
+            -moz-font-feature-settings: "liga" 1;
+            font-feature-settings: "liga" 1;
+            z-index: 2147483646;
+            cursor: pointer;
+            outline: none;
+            transition-property: all;
+            transition-delay: 4s;
+            transition-duration: 2s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+            opacity: 0;
+        }
+
+            .videoContainer button[data-state="play"]:before {
+                content: "play_arrow";
+            }
+
+            .videoContainer button[data-state="pause"]:before {
+                content: "pause";
+            }
+
+        .videoContainer .course-header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background: #000ab;
+            min-height: 100px;
+            opacity: 0;
+            z-index: 2147483646;
+            width: 100%;
+            -webkit-box-shadow: 0px 0px 70px 0px transparent;
+            -moz-box-shadow: 0px 0px 70px 0px transparent;
+            box-shadow: 0px 0px 70px 0px transparent;
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+            /* -webkit-transition: 1.3s ease-in-out;
+         */
+            /* transition: 1.3s ease-in-out;
+         */
+            transform: translateY(-40px);
+            transition-property: all;
+            transition-delay: 4s;
+            transition-duration: 2s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        }
+
+            .videoContainer .course-header .course-header-content {
+                float: left;
+            }
+
+                .videoContainer .course-header .course-header-content .course-header-title {
+                    font-size: 24px;
+                    padding: 14px 10px;
+                }
+
+                .videoContainer .course-header .course-header-content .course-header-overview {
+                    font-size: 16px;
+                    padding: 0px 10px;
+                }
+
+        .videoContainer .toggle-sidebar {
+            float: right;
+        }
+
+            .videoContainer .toggle-sidebar button[data-state="next"], .videoContainer .toggle-sidebar button[data-state="prev"] {
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                font-size: 40px;
+                padding: 0;
+                margin: 0;
+                -webkit-font-smoothing: antialiased;
+                font-family: "Material Icons";
+                -webkit-font-feature-settings: "liga" 1;
+                -moz-font-feature-settings: "liga" 1;
+                font-feature-settings: "liga" 1;
+                background: #00b3ff;
+            }
+
+                .videoContainer .toggle-sidebar button[data-state="next"]:before {
+                    content: "navigate_next";
+                }
+
+                .videoContainer .toggle-sidebar button[data-state="prev"]:before {
+                    content: "navigate_before";
+                }
+
+        .videoContainer:hover .video-controller {
+            opacity: 1;
+            transform: translateY(1px);
+            transition-property: all;
+            transition-delay: 0s;
+            transition-duration: 2s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        }
+
+        .videoContainer:hover .course-header {
+            opacity: 1;
+            transform: translateY(1px);
+            transition-property: all;
+            transition-delay: 0s;
+            transition-duration: 2s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        }
+
+        .videoContainer:hover button {
+            opacity: 1;
+            transition-property: all;
+            transition-delay: 0s;
+            transition-duration: 2s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        }
+
+        .videoContainer button[data-state="play"] {
+            opacity: 1;
+            transition-property: all;
+            transition-delay: 0s;
+            transition-duration: 2s;
+            transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+        }
+
+            .videoContainer button[data-state="play"] .videoContainer {
+                opacity: 1;
+            }
+
+                .videoContainer button[data-state="play"].videoContainer button {
+                    opacity: 1;
+                }
+
+    .video-controller {
+        opacity: 0;
+        min-height: 35px;
+        z-index: 2147483646;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        -webkit-box-shadow: 0px 0px 70px 0px transparent;
+        -moz-box-shadow: 0px 0px 70px 0px transparent;
+        box-shadow: 0px 0px 70px 0px transparent;
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+        /* -webkit-transition: 1.3s ease-in-out;
+         */
+        /* transition: 1.3s ease-in-out;
+         */
+        transform: translateY(50px);
+        transition-property: all;
+        transition-delay: 4s;
+        transition-duration: 2s;
+        transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    }
+
+    .videoContainer button:hover {
+        background: #fff;
+        -webkit-box-shadow: 0 0 51px 8px #5BA536;
+        box-shadow: 0 0 51px 8px #5BA536;
+        color: #5BA536;
+    }
+
+    .video-controller-fullscreen {
+        position: fixed;
+        z-index: 2147483647;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .hd:before {
+        content: "hd";
+        font-family: "Material Icons";
+        position: absolute;
+        margin-left: -7px;
+        background: #757575;
+        color: white;
+        font-size: 14px;
+        margin-top: -2px;
+        position: absolute;
+    }
+
+    .icon-play, .icon-pause, .icon-caption, .icon-mute-off, .icon-mute-on, .icon-fullscreen-enter, .icon-fullscreen-exit, .icon-tracks, .icon-bitrate {
+        font-size: 20px;
+        color: #fff;
+        text-shadow: none;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Material Icons";
+        -webkit-font-feature-settings: "liga" 1;
+        -moz-font-feature-settings: "liga" 1;
+        font-feature-settings: "liga" 1;
+    }
+
+        .icon-fullscreen-enter:before {
+            content: "fullscreen";
+        }
+
+        .icon-fullscreen-exit:before {
+            content: "fullscreen_exit";
+        }
+
+        .icon-play:before {
+            content: "play_arrow";
+        }
+
+        .icon-pause:before {
+            content: "pause";
+        }
+
+        .icon-mute-on:before {
+            content: "volume_off";
+        }
+
+        .icon-mute-off:before {
+            content: "volume_up";
+        }
+
+        .icon-caption:before {
+            content: "closed_caption";
+        }
+
+        .icon-bitrate:before {
+            content: "settings";
+        }
+
+        .icon-tracks:before {
+            content: "audiotrack";
+        }
+
+    .seekContainer {
+        display: flex;
+        overflow: auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    input {
+        /* -webkit-appearance: none;
+         */
+        /* -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+         */
+        /* height: 14px;
+         */
+        /* border: none;
+         */
+        /* margin:12px 5px;
+         */
+        /* padding: 1px 2px;
+         */
+        /* border-radius: 5px;
+         */
+        /* background: #232528;
+         */
+        /* box-shadow: inset 0 1px 0 0 #0d0e0f, inset 0 -1px 0 0 #3a3d42;
+         */
+        /* -webkit-box-shadow: inset 0 1px 0 0 #0d0e0f, inset 0 -1px 0 0 #3a3d42;
+         */
+    }
+
+        input[type="range"] {
+            outline: none;
+            /* no focus outline */
+            background: #fff;
+            border: 0;
+            border-radius: 100%;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(35, 41, 47, 0.2);
+            height: 13px;
+            position: relative;
+            transition: all 0.2s ease;
+            width: 13px;
+        }
+
+            input[type="range"]::-moz-focus-outer {
+                border: 0;
+            }
+
+            input[type="range"]::-moz-range-track {
+                border: inherit;
+                background: transparent;
+            }
+
+            input[type="range"]::-ms-track {
+                border: inherit;
+                color: transparent;
+                /* don't drawn vertical reference line */
+                background: transparent;
+            }
+
+            input[type="range"]::-ms-fill-lower, input[type="range"]::-ms-fill-upper {
+                background: transparent;
+            }
+
+            input[type="range"]::-ms-tooltip {
+                display: none;
+            }
+
+            input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                width: 15px;
+                height: 8px;
+                border: none;
+                border-radius: 2px;
+                background-color: #00b3ff;
+            }
+
+            input[type="range"]::-moz-range-thumb, input[type="range"]::-ms-thumb {
+                width: 15px;
+                height: 8px;
+                border: none;
+                border-radius: 2px;
+                background-color: #00b3ff;
+            }
+    /* thumb */
+    .thumbnail-container {
+        position: absolute;
+        text-align: center;
+    }
+
+    .thumbnail-elem {
+        position: relative;
+        box-shadow: 0px 0px 0.9em #000;
+        transform-origin: center bottom;
+    }
+
+    .thumbnail-time-label {
+        position: relative;
+        bottom: 1.8em;
+        display: table;
+        margin: 0 auto;
+        padding: 2px 5px 2px 5px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 12px;
+        font-weight: bold;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .seekbar-complete {
+        width: 100%;
+        height: 4px;
+        margin-top: 10px;
+        background: #f0efef 8f;
+        background: rgba(240, 239, 239, 0.84);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .seekbar-buffer {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 0%;
+        height: 7px;
+        background: #fff;
+    }
+
+    .seekbar-play {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 0%;
+        height: 7px;
+        background: #00b3ff;
+    }
+
+    input[type="range"] {
+        -webkit-appearance: none;
+        background: 0 0;
+        border: 0;
+        border-radius: 26px;
+        color: #00b3ff;
+        display: block;
+        height: 19px;
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+        transition: box-shadow 0.3s ease;
+        width: 8%;
+    }
+
+        input[type="range"]::-webkit-slider-runnable-track {
+            background: 0 0;
+            border: 0;
+            border-radius: 2.5px;
+            height: 5px;
+            transition: box-shadow 0.3s ease;
+            -webkit-user-select: none;
+            user-select: none;
+            background-image: linear-gradient(to right, currentColor var(--value, 0), transparent var(--value, 0));
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            background: #fff;
+            border: 0;
+            border-radius: 100%;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(35, 41, 47, 0.2);
+            height: 13px;
+            position: relative;
+            transition: all 0.2s ease;
+            width: 13px;
+            -webkit-appearance: none;
+            margin-top: -4px;
+        }
+
+        input[type="range"]::-moz-range-track {
+            background: 0 0;
+            border: 0;
+            border-radius: 2.5px;
+            height: 5px;
+            transition: box-shadow 0.3s ease;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            background: #fff;
+            border: 0;
+            border-radius: 100%;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(35, 41, 47, 0.2);
+            height: 13px;
+            position: relative;
+            transition: all 0.2s ease;
+            width: 13px;
+        }
+
+        input[type="range"]::-moz-range-progress {
+            background: currentColor;
+            border-radius: 2.5px;
+            height: 5px;
+        }
+
+        input[type="range"]::-ms-track {
+            background: 0 0;
+            border: 0;
+            border-radius: 2.5px;
+            height: 5px;
+            transition: box-shadow 0.3s ease;
+            -ms-user-select: none;
+            user-select: none;
+            color: transparent;
+        }
+
+        input[type="range"]::-ms-fill-upper {
+            background: 0 0;
+            border: 0;
+            border-radius: 2.5px;
+            height: 5px;
+            transition: box-shadow 0.3s ease;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        input[type="range"]::-ms-fill-lower {
+            background: 0 0;
+            border: 0;
+            border-radius: 2.5px;
+            height: 5px;
+            transition: box-shadow 0.3s ease;
+            -ms-user-select: none;
+            user-select: none;
+            background: currentColor;
+        }
+
+        input[type="range"]::-ms-thumb {
+            background: #fff;
+            border: 0;
+            border-radius: 100%;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(35, 41, 47, 0.2);
+            height: 13px;
+            position: relative;
+            transition: all 0.2s ease;
+            width: 13px;
+            margin-top: 0;
+        }
+
+        input[type="range"]::-ms-tooltip {
+            display: none;
+        }
+
+        input[type="range"]:focus {
+            outline: 0;
+        }
+
+        input[type="range"]::-moz-focus-outer {
+            border: 0;
+        }
+
+    .menu-container {
+        animation: plyr-popup 0.2s ease;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 4px;
+        bottom: 100%;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+        color: #4a5764;
+        font-size: 13px;
+        margin-bottom: 10px;
+        position: absolute;
+        right: -3px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 3;
+    }
+
+        .menu-container::after {
+            border: 10px solid transparent;
+            border-top-color: rgba(255, 255, 255, 0.9);
+            content: "";
+            height: 0;
+            position: absolute;
+            right: 12px;
+            top: 100%;
+            width: 0;
+        }
+
+        .menu-container h4 {
+            margin: 10px;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            border-bottom: solid 3px #ccc;
+        }
+
+    .player-menu {
+        list-style: none;
+    }
+
+        .player-menu li {
+            display: flex;
+            color: #828384;
+            margin: 5px;
+        }
+
+    .poster, .noaccess {
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+        .poster div, .noaccess div {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+        }
+
+        .poster .title, .noaccess .title {
+            font-size: 22px;
+            top: 42%;
+        }
+
+    .player-menu li:hover {
+        -webkit-box-shadow: 0 0 0 5px rgba(0, 179, 255, 0.5);
+        background: #00b3ff;
+        color: #fff !important;
+        box-shadow: 0 0 0 5px rgba(0, 179, 255, 0.5);
+    }
+
+        .player-menu li:hover label {
+            color: #fff !important;
+        }
+
+    .player-menu li.active {
+        -webkit-box-shadow: 0 0 0 2px rgba(0, 179, 255, 0.5);
+        background: #00b3ff;
+        color: #fff !important;
+        box-shadow: 0 0 0 2px rgba(0, 179, 255, 0.5);
+    }
+
+        .player-menu li.active label {
+            color: #fff !important;
+        }
+
+    .player-menu label {
+        font-size: 14px;
+        margin: 0 auto;
+        padding-right: 8px;
+        color: #6c6c6c !important;
+    }
+
+    .player-menu li .player-badge {
+        background: #fff;
+        margin: 1px;
+        font-size: 12px;
+        width: 26px;
+        text-align: center;
+        padding-top: 2px;
+    }
+
+    .player-menu li input[type="radio"]:checked, .player-menu li input[type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+
+        .player-menu li input[type="radio"]:checked + label, .player-menu li input[type="radio"]:not(:checked) + label {
+            position: relative;
+            padding-left: 28px;
+            cursor: pointer;
+            line-height: 20px;
+            display: inline-block;
+            color: #666;
+        }
+
+            .player-menu li input[type="radio"]:checked + label:before, .player-menu li input[type="radio"]:not(:checked) + label:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 18px;
+                height: 18px;
+                border: 1px solid #ddd;
+                border-radius: 100%;
+                background: #fff;
+            }
+
+            .player-menu li input[type="radio"]:checked + label:after {
+                content: "";
+                width: 12px;
+                height: 12px;
+                background: #00b3ff;
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                border-radius: 100%;
+                -webkit-transition: all 0.2s ease;
+                transition: all 0.2s ease;
+            }
+
+            .player-menu li input[type="radio"]:not(:checked) + label:after {
+                content: "";
+                width: 12px;
+                height: 12px;
+                background: #00b3ff;
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                border-radius: 100%;
+                -webkit-transition: all 0.2s ease;
+                transition: all 0.2s ease;
+                opacity: 0;
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            .player-menu li input[type="radio"]:checked + label:after {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+    .playerloader {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+
+        .playerloader span {
+            display: inline-block;
+            width: 10px;
+            height: 30px;
+            background-color: #00b3ff;
+            margin: 0 1px;
+        }
+
+            .playerloader span:nth-child(1) {
+                animation: grow 1s ease-in-out infinite;
+            }
+
+            .playerloader span:nth-child(2) {
+                animation: grow 1s ease-in-out 0.15s infinite;
+            }
+
+            .playerloader span:nth-child(3) {
+                animation: grow 1s ease-in-out 0.3s infinite;
+            }
+
+            .playerloader span:nth-child(4) {
+                animation: grow 1s ease-in-out 0.45s infinite;
+            }
+
+    @@keyframes grow {
+        0%, 100% {
+            -webkit-transform: scaleY(1);
+            -ms-transform: scaleY(1);
+            -o-transform: scaleY(1);
+            transform: scaleY(1);
+        }
+
+        50% {
+            -webkit-transform: scaleY(1.8);
+            -ms-transform: scaleY(1.8);
+            -o-transform: scaleY(1.8);
+            transform: scaleY(1.8);
+        }
+    }
+</style>
+<style>
+
+    .people-list {
+        width: 260px;
+        float: left;
+    }
+
+        .people-list .search {
+            padding: 20px;
+        }
+
+        .people-list input {
+            border-radius: 3px;
+            border: none;
+            padding: 14px;
+            color: white;
+            background: #6a6c75;
+            width: 90%;
+            font-size: 14px;
+        }
+
+        .people-list .fa-search {
+            position: relative;
+            left: -25px;
+        }
+
+        .people-list ul {
+            padding: 20px;
+            height: 770px;
+        }
+
+            .people-list ul li {
+                padding-bottom: 20px;
+            }
+
+        .people-list img {
+            float: left;
+        }
+
+        .people-list .about {
+            float: left;
+            margin-top: 8px;
+        }
+
+        .people-list .about {
+            padding-left: 8px;
+        }
+
+        .people-list .status {
+            color: #92959e;
+        }
+
+    .chat {
+        width: 100%;
+        float: left;
+        background: #f2f5f8;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: #434651;
+    }
+
+        .chat .chat-header {
+            padding: 20px;
+            border-bottom: 2px solid white;
+        }
+
+            .chat .chat-header img {
+                float: left;
+            }
+
+            .chat .chat-header .chat-about {
+                float: left;
+                padding-left: 10px;
+                margin-top: 6px;
+            }
+
+            .chat .chat-header .chat-with {
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            .chat .chat-header .chat-num-messages {
+                color: #92959e;
+            }
+
+            .chat .chat-header .fa-star {
+                float: right;
+                color: #d8dadf;
+                font-size: 20px;
+                margin-top: 12px;
+            }
+
+        .chat .chat-history {
+            padding: 30px 30px 20px;
+            border-bottom: 2px solid white;
+            overflow-y: scroll;
+            height: 575px;
+        }
+
+            .chat .chat-history .message-data {
+                margin-bottom: 15px;
+            }
+
+            .chat .chat-history .message-data-time {
+                color: #a8aab1;
+                padding-left: 6px;
+            }
+
+            .chat .chat-history .message {
+                color: white;
+                padding: 18px 20px;
+                line-height: 26px;
+                font-size: 16px;
+                border-radius: 7px;
+                margin-bottom: 30px;
+                width: 90%;
+                position: relative;
+            }
+
+                .chat .chat-history .message:after {
+                    bottom: 100%;
+                    left: 7%;
+                    border: solid transparent;
+                    content: " ";
+                    height: 0;
+                    width: 0;
+                    position: absolute;
+                    pointer-events: none;
+                    border-bottom-color: #86bb71;
+                    border-width: 10px;
+                    margin-left: -10px;
+                }
+
+            .chat .chat-history .my-message {
+                background: #86bb71;
+            }
+
+            .chat .chat-history .other-message {
+                background: #94c2ed;
+            }
+
+                .chat .chat-history .other-message:after {
+                    border-bottom-color: #94c2ed;
+                    left: 93%;
+                }
+
+        .chat .chat-message {
+            padding: 30px;
+        }
+
+            .chat .chat-message textarea {
+                width: 100%;
+                border: none;
+                padding: 10px 20px;
+                font: 14px/22px "Lato", Arial, sans-serif;
+                margin-bottom: 10px;
+                border-radius: 5px;
+                resize: none;
+            }
+
+            .chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {
+                font-size: 16px;
+                color: gray;
+                cursor: pointer;
+            }
+
+            .chat .chat-message button {
+                float: right;
+                color: #94c2ed;
+                font-size: 16px;
+                text-transform: uppercase;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                background: #f2f5f8;
+            }
+
+                .chat .chat-message button:hover {
+                    color: #75b1e8;
+                }
+
+    .online, .offline, .me {
+        margin-right: 3px;
+        font-size: 10px;
+    }
+
+    .online {
+        color: #86bb71;
+    }
+
+    .offline {
+        color: #e38968;
+    }
+
+    .me {
+        color: #94c2ed;
+    }
+
+    .align-left {
+        text-align: left;
+    }
+
+    .align-right {
+        text-align: right;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+</style>
+
+<div class="row">
+    <div id="playercontainer" class="player-container col-md-12" style="padding:85px 0 0 0;">
+        <div class="player-main">
+            <button type="button" class="openbtn pull-right" id="btnopensidebar" style="padding-right:18px;">Ask Now </button>
+            <button type="button" class="openbtn pull-right" id="btnclosesidebar">☰ Close </button>
+            <div class="player-video">
+                <div class="videoContainer" id="videoContainer">
+                    @*<div id="course-header" class="course-header">
+                            <div class="course-header-content">
+                                <div class="course-header-title">
+                                    <a href="#"
+                                       target="_blank">
+                                    </a>
+                                </div>
+                                <div class="course-header-overview">
+                                    title here
+                                </div>
+                            </div>
+
+                        </div>*@
+
+                    <video id="hlsvideo" preload="auto" autoplay="true"> </video>
+                    <div>
+                        <button id="playpause" class="hide" type="button" data-state="play"></button>
+
+                        <div id="posterId" class="poster">
+                            <img src="#" />
+                        </div>
+                        <div class="playerloader hide">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+
+                        <div id="videoController" class="video-controller unselectable">
+                            <div class="seekContainer">
+                                <div id="seekbar" class="seekbar seekbar-complete">
+                                    <div id="seekbar-buffer" class="seekbar seekbar-buffer"></div>
+                                    <div id="seekbar-play" class="seekbar seekbar-play"></div>
+                                </div>
+                            </div>
+                            <div id="playPauseBtn" class="btn-play-pause" title="Play/Pause">
+                                <span id="iconPlayPause" class="icon-play"></span>
+                            </div>
+                            <span id="videoTime" class="time-display">00:00:00</span>
+                            <div id="fullscreenBtn" class="btn-fullscreen control-icon-layout" title="Fullscreen">
+                                <span class="icon-fullscreen-enter"></span>
+                            </div>
+                            <div id="bitrateListBtn" class="control-icon-layout" title="Bitrate List">
+                                <span class="icon-bitrate"></span>
+                            </div>
+                            <input type="range" id="volumebar" class="volumebar" value="1" min="0" max="1" step=".01" />
+                            <div id="muteBtn" class="btn-mute control-icon-layout" title="Mute">
+                                <span id="iconMute" class="icon-mute-off"></span>
+                            </div>
+                            <div id="trackSwitchBtn" class="control-icon-layout" title="A/V Tracks">
+                                <span class="icon-tracks"></span>
+                            </div>
+                            <div id="captionBtn" class="btn-caption control-icon-layout" title="Closed Caption">
+                                <span class="icon-caption"></span>
+                            </div>
+                            <span id="videoDuration" class="duration-display">00:00:00</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chat-box col-3" style="padding:85px 0 0 0;" id="dvchat">
+        <div class="clearfix">
+
+            <div class="chat">
+                <div class="chat-header clearfix">
+                    @*<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01_green.jpg" alt="avatar" />*@
+
+                    <div class="chat-about">
+                        <div class="chat-with">Ask Questions To Tutor</div>
+                        @*<div class="chat-num-messages">already 1 902 messages</div>*@
+                    </div>
+                    <i class="fa fa-star"></i>
+                </div> <!-- end chat-header -->
+
+                <div class="chat-history" id="chathistory">
+                </div> <!-- end chat-history -->
+                @*<ul>
+            <li class="clearfix">
+                <div class="message-data align-right">
+                    <span class="message-data-time">10:10 AM, Today</span> &nbsp; &nbsp;
+                    <span class="message-data-name">@User.Identity.Name</span> <i class="fa fa-circle me"></i>
+
+                </div>
+                <div class="message other-message float-right">
+                    Hi Vincent, how are you? How is the project coming along?
+                </div>
+            </li>
+        </ul>*@
+
+                @*<li>
+            <div class="message-data">
+                <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
+                <span class="message-data-time">10:12 AM, Today</span>
+            </div>
+            <div class="message my-message">
+                Are we meeting today? Project has been already finished and I have results to show you.
+            </div>
+        </li>
+
+        <li class="clearfix">
+            <div class="message-data align-right">
+                <span class="message-data-time">10:14 AM, Today</span> &nbsp; &nbsp;
+                <span class="message-data-name">Olia</span> <i class="fa fa-circle me"></i>
+
+            </div>
+            <div class="message other-message float-right">
+                Well I am not sure. The rest of the team is not here yet. Maybe in an hour or so? Have you faced any problems at the last phase of the project?
+            </div>
+        </li>
+
+        <li>
+            <div class="message-data">
+                <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
+                <span class="message-data-time">10:20 AM, Today</span>
+            </div>
+            <div class="message my-message">
+                Actually everything was fine. I'm very excited to show this to our team.
+            </div>
+        </li>
+
+        <li>
+            <div class="message-data">
+                <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
+                <span class="message-data-time">10:31 AM, Today</span>
+            </div>
+            <i class="fa fa-circle online"></i>
+            <i class="fa fa-circle online" style="color: #AED2A6"></i>
+            <i class="fa fa-circle online" style="color:#DAE9DA"></i>
+        </li>*@
+
+
+
+
+
+                <div class="chat-message clearfix">
+                    <textarea name="message-to-send" id="message-to-send" placeholder="Type your message" rows="3"></textarea>
+                    <span style="color: red;" id="sendingmessageerror"></span>
+
+                    @*<i class="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
+        <i class="fa fa-file-image-o"></i>*@
+
+                    <button class="btn btn-primary" id="btnSendMessage">Send</button>
+
+                </div> <!-- end chat-message -->
+
+            </div> <!-- end chat -->
+
+        </div> <!-- end container -->
+
+
+
+    </div>
+</div>
+<!-- Our Popular Courses -->
+@*<section class="popular-courses bgc-thm2">
+        <div class="container-fluid style2">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="main-title text-center">
+                        <h3 class="mt0 color-white">Previous Classes</h3>
+                        <p class="color-white">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="popular_course_slider">
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t1.jpg" alt="t1.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Best Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>Introduction Web Design with HTML</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t2.jpg" alt="t2.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Top Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>Designing a Responsive Mobile Website with Muse</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t3.jpg" alt="t3.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Top Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>Adobe XD: Prototyping Tips and Tricks</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t4.jpg" alt="t4.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Best Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>Sketch: Creating Responsive SVG</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t5.jpg" alt="t5.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Best Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>Design Instruments for Communication</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t6.jpg" alt="t6.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Top Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>How to be a DJ? Make Electronic Music</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t7.jpg" alt="t7.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Top Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>How to Make Beautiful Landscape Photos?</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="top_courses home2 mb0">
+                                <div class="thumb">
+                                    <img class="img-whp" src="images/courses/t8.jpg" alt="t8.jpg">
+                                    <div class="overlay">
+                                        <div class="tag">Best Seller</div>
+                                        <div class="icon"><span class="flaticon-like"></span></div>
+                                        <a class="tc_preview_course" href="#">Preview Course</a>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div class="tc_content">
+                                        <p>Ali TUFAN</p>
+                                        <h5>Fashion Photography From Professional</h5>
+                                        <ul class="tc_review">
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">(6)</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc_footer">
+                                        <ul class="tc_meta float-left">
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">1548</a></li>
+                                            <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                            <li class="list-inline-item"><a href="#">25</a></li>
+                                        </ul>
+                                        <div class="tc_price float-right">$69.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+
+<script src="~/hls/hlsplayer.js"></script>
+
+
+<script type="text/javascript">
+    var x; var player;
+    function startVideo() {
+        // //const url = 'D://mediaserver//Harmonic-master//Harmonic-master//livecontent//index.mpd';
+        //// var url = "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd";
+        // var durl = "/live/Stream_Name/index.mpd";
+        // var hurl = "/live/test/index.m3u8";
+        // //var url="output/stream.mpd";
+        // //var url="tero/master.m3u8";
+        // var videoElement = document.getElementById('dashvideo');
+
+        // var player = dashjs.MediaPlayer().create();
+        // x = player;
+        // player.initialize(videoElement, durl, true);
+        // var controlbar = new ControlBar(player);
+        // controlbar.initialize();
+
+        // player.on(dashjs.MediaPlayer.events.BUFFER_LEVEL_STATE_CHANGED, function (x) { console.log('hidw', x) });
+        // player.on(dashjs.MediaPlayer.events.BUFFER_EMPTY, function (x) { console.log('show', x) });
+
+        var hurl ="@ViewBag.VideoUrl"; //"http://88.119.220.2/live/eds/LTV1_LV_SD/HLS_encr/LTV1_LV_SD.m3u8";
+        var video = document.getElementById('hlsvideo');
+        var _playerRef = new HlsPlayer({
+            videoElement: video,
+            autoplay: false
+        });
+        _playerRef.init(hurl);
+
+        //if (Hls.isSupported()) {
+        //    var hls = new Hls();
+        //    hls.loadSource(hurl);
+        //    hls.attachMedia(video);
+        //    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+        //        video.play();
+        //    });
+        //    player = hls;
+        //}
+        //// hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+        //// When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element through the `src` property.
+        //// This is using the built-in support of the plain video element, without using hls.js.
+        //// Note: it would be more normal to wait on the 'canplay' event below however on Safari (where you are most likely to find built-in HLS support) the video.src URL must be on the user-driven
+        //// white-list before a 'canplay' event will be emitted; the last video event that can be reliably listened-for when the URL is not on the white-list is 'loadedmetadata'.
+        //else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        //    video.src = hurl;
+        //    video.addEventListener('loadedmetadata', function () {
+        //        video.play();
+        //    });
+        //}
+
+    }
+
+    startVideo();
+
+</script>
+<script>
+    $(document).ready(function () {
+        $("#dvchat").hide();
+        $("#btnclosesidebar").hide();
+        var ChatContent = "";
+    //load messages or question of playing stream of user
+    $.ajax({
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                 url: "/watch/getMessagesofUserbyStreamId/" + @ViewBag.StreamId,
+                dataType: "json",
+                data: {},
+                success: function (response) {
+
+                    if (response.Code == 200) {
+                      
+                        $.each(response.Data,
+                            function (i, data) {
+                                
+                             ChatContent = ChatContent +'<ul>' +
+                             '<li class="clearfix">'+
+                                     '<div class="message-data align-right">' +
+                                    ' <span class="message-data-time">' + $.datepicker.formatDate("dd-M-yy", new Date(data.AddedOn))+'</span> &nbsp; &nbsp;' +
+                              '<span class="message-data-name">@User.Identity.Name</span> <i class="fa fa-circle me"></i>'+
+
+                                     ' </div>' +
+                                     ' <div class="message other-message float-right">' + data.Message+
+                            '</div>'+
+                      '  </li>'+
+                      '</ul>'
+                            });
+                        $("#chathistory").append(ChatContent);
+                    }
+                    else {
+                       
+                    }
+                }
+            });
+    });
+    //opens ask  question to tutor sidebar
+    $('#btnopensidebar').on('click', function () {
+
+        $("#playercontainer").removeClass("player-container col-md-12").addClass('player-container col-md-9');
+        $("#dvchat").show();
+        $("#btnclosesidebar").show();
+        $("#btnopensidebar").hide();
+    });
+    //closes ask question to tutor sidebar
+    $('#btnclosesidebar').on('click', function () {
+
+        $("#playercontainer").removeClass("player-container col-md-9").addClass('player-container col-md-12');
+        $("#dvchat").hide();
+        $("#btnopensidebar").show();
+        $("#btnclosesidebar").hide();
+
+    });
+
+
+
+    $('#btnSendMessage').on('click', function () {
+
+        var Message = $("#message-to-send").val();
+
+        if (Message == "") {
+            return false;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "watch/UpdateQuestionsForTutor?streamId=" +@ViewBag.StreamId+"&Message=" + Message,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            //data: JSON.stringify(model),
+
+            success: function (res) {
+
+                if (res.Code == 200) {
+                    var  ChatContent =  '<ul>' +
+                             '<li class="clearfix">'+
+                                     '<div class="message-data align-right">' +
+                                    ' <span class="message-data-time">' + $.datepicker.formatDate("dd-M-yy", new Date())+'</span> &nbsp; &nbsp;' +
+                              '<span class="message-data-name">@User.Identity.Name</span> <i class="fa fa-circle me"></i>'+
+                                     ' </div>' +
+                        ' <div class="message other-message float-right">' + Message+
+                            '</div>'+
+                      '  </li>'+
+                        '</ul>'
+                    $("#chathistory").append(ChatContent);
+                    $("#message-to-send").val("");
+                    $("#sendingmessageerror").text("");
+
+                }
+
+                else {
+                    $("#sendingmessageerror").text("Sending Failed");
+                }
+
+            },
+            error: function (res) {
+                if (res.status == 401) {
+                    alert("Error!!! Please Try Again Later!!! !!!");
+                    return false;
+                }
+            }
+        });
+    });
+
+</script>
+@*<script id="message-template" type="text/x-handlebars-template">
+        <li class="clearfix">
+            <div class="message-data align-right">
+                <span class="message-data-time">{{time}}, Today</span> &nbsp; &nbsp;
+                <span class="message-data-name">Olia</span> <i class="fa fa-circle me"></i>
+            </div>
+            <div class="message other-message float-right">
+                {{messageOutput}}
+            </div>
+        </li>
+    </script>
+
+    <script id="message-response-template" type="text/x-handlebars-template">
+        <li>
+            <div class="message-data">
+                <span class="message-data-name"><i class="fa fa-circle online"></i> Vincent</span>
+                <span class="message-data-time">{{time}}, Today</span>
+            </div>
+            <div class="message my-message">
+                {{response}}
+            </div>
+        </li>
+    </script>*@

@@ -1,0 +1,172 @@
+﻿@using Kachuwa.Training.Model
+@model IEnumerable<Event>
+
+
+<section class="our-blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center">
+                    <h3 class="mt0">Upcoming  Events</h3>
+                    <p>Join on Our Upcoming Events</p>
+                </div>
+            </div>
+        </div>
+        @if (Model.Count() == 0)
+        {
+            <p style="text-align: center;">No Upcoming Events</p>
+   
+        }
+        else if (Model.Count() == 1)
+        {
+            <div class="row">
+                <div class="col-lg-6 col-xl-6 offset-lg-3">
+
+                    <div class="blog_slider_home1">
+                        @foreach (var item in Model)
+                        {
+                            <div class="item" onclick="location.href='/event/@item.Id?EventName=@item.Title'">
+                                <div class="blog_post one">
+                                    <div class="thumb">
+                                        <div class="post_title">Events</div>
+                                        @if (item.ProfileImagePath != "/" || item.ProfileImagePath != null)
+                                        {
+                                            <img class="img-fluid w100" src="@item.ProfileImagePath" alt="1.jpg">
+
+                                        }
+                                        <a class="post_date"><span>@item.FromDate.Day <br> @item.FromDate.ToString("MMM")</span></a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="post_meta">
+                                            <ul>
+                                                @if (item.IsFree == true)
+                                                {
+                                                    <li class="list-inline-item"><a>Free</a></li>
+                                                }
+                                                else
+                                                {
+                                                    <li class="list-inline-item"><a>Price: Rs. @item.Price</a></li>
+                                                }
+
+                                                <li class="list-inline-item"><a><i class="flaticon-placeholder"></i> @item.Address</a></li>
+                                            </ul>
+                                        </div>
+                                        @if (item.Title != null)
+                                        {
+                                            <h4>@item.Title <span class="fa-pull-right">Click Here to View Detail</span></h4>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="item" onclick="location.href='/event/@item.Id?EventName=@item.Title'">
+                                <div class="blog_post one">
+                                    <div class="thumb">
+                                        <div class="post_title">Events</div>
+                                        @if (item.ProfileImagePath != "/" || item.ProfileImagePath != null)
+                                        {
+                                            <img class="img-fluid w100" src="@item.ProfileImagePath" alt="1.jpg">
+
+                                        }
+                                        <a class="post_date"><span>@item.FromDate.Day <br> @item.FromDate.ToString("MMM")</span></a>
+                                    </div>
+                                    <div class="details">
+                                        <div class="post_meta">
+                                            <ul>
+                                                @if (item.IsFree == true)
+                                                {
+                                                    <li class="list-inline-item"><a>Free</a></li>
+                                                }
+                                                else
+                                                {
+                                                    <li class="list-inline-item"><a>Price: Rs. @item.Price</a></li>
+                                                }
+
+                                                <li class="list-inline-item"><a><i class="flaticon-placeholder"></i> @item.Address</a></li>
+                                            </ul>
+                                        </div>
+                                        @if (item.Title != null)
+                                        {
+                                            <h4>@item.Title <span class="fa-pull-right">Click Here to View Detail</span></h4>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-lg-6 col-xl-6 offset-lg-3">
+
+                    <div class="blog_slider_home1">
+                        @foreach (var item in Model)
+                        {
+                        <div class="item" onclick="location.href='/event/@item.Id?EventName=@item.Title'">
+                            <div class="blog_post one">
+                                <div class="thumb">
+                                    <div class="post_title">Events</div>
+                                    @if (item.ProfileImagePath != "/" || item.ProfileImagePath != null)
+                                    {
+                                        <img class="img-fluid w100" src="@item.ProfileImagePath" alt="1.jpg">
+
+                                    }
+                                    <a class="post_date"><span>@item.FromDate.Day <br> @item.FromDate.ToString("MMM")</span></a>
+                                </div>
+                                <div class="details">
+                                    <div class="post_meta">
+                                        <ul>
+                                            @if (item.IsFree == true)
+                                            {
+                                                <li class="list-inline-item"><a>Free</a></li>
+                                            }
+                                            else
+                                            {
+                                                <li class="list-inline-item"><a>Price: Rs. @item.Price</a></li>
+                                            }
+
+                                            <li class="list-inline-item"><a><i class="flaticon-placeholder"></i> @item.Address</a></li>
+                                        </ul>
+                                    </div>
+                                    @if (item.Title != null)
+                                    {
+                                        <h4>@item.Title <span class="fa-pull-right">Click Here to View Detail</span></h4>
+                                    }
+
+                                </div>
+                            </div>
+                        </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+
+        <div class="row mt30">
+            <div class="col-lg-12">
+                <div class="read_more_home text-center">
+                    <h4>@*Like what you see?*@ <a href="/events">See All Events<span class="flaticon-right-arrow pl10"></span></a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+

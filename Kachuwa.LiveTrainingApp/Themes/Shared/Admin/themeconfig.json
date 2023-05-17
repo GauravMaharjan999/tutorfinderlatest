@@ -1,0 +1,14 @@
+﻿{
+
+  "ThemeName": "Admin 2 Theme",
+  "IsAdminTheme": true,
+  "Author": "Subarna man Maharjan",
+  "Version": "1.0.0",
+  "Framework": "Kachuwa",
+  "FrameworkVersion": "beta,v1.0.0",
+  "BundleJs": null,
+  "BundleCss": null,
+  "ScssVariableFile": "",
+  "Fonts": [],
+  "Signature": ""
+}

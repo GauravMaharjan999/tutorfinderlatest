@@ -1,0 +1,69 @@
+﻿@using Kachuwa.Web.Form
+@using Kachuwa.Web.Grid
+@using Kachuwa.Training.Model
+@model TrainingCourseCategory
+@{
+    var formDataSource = (FormDatasource)ViewData["FormDataSources"];
+}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="cardform-wrapper">
+
+                @(
+                                                                                                    Html.CreateKachuwaForm<TrainingCourseCategory>("TrainingCourseCategoryForm", Model)
+                                                                                                    .SetHeading("")
+                                                                                                        .ActionUrl("/admin/coursecategory/edit")
+                                                                                                        .CancelUrl("/admin/coursecategory")
+                                                                                                        .EncType("multipart/form-data")
+                                                                                                    .CreateSection(section =>
+                                                                                                    {
+                                                                                                        section.Add("section1", "cardform-section", rows =>
+                                                                                                        {
+                                                                                                            rows.Add("1strow", "row", columns =>
+                                                                                                        {
+                                                                                                            columns.Add("left", "col-md-4", @<div class="form-description">
+                                                                                                                <h4>Training Course Category</h4>
+                                                                                                                <p>Edit Training Course Category</p>
+                                                                                                            </div>);
+
+
+
+                                                                                                            columns.Add("right", "col-md-8", control =>
+                                                                                                            {
+                                                                                                                control.Add("form-control", model => model.Id, FormInputControl.Hidden);
+
+                                                                                                                control.Add("form-control  ", model => model.ParentId, FormInputControl.Select, formDataSource.GetSource("CategoryListSource"), new { @id = "catId" })
+                                                                                                                  .SetFirstParentClass("form-group")
+                                                                                                                  .SetSecondParentClass("col-md-12")
+                                                                                                                  .SetDisplayName("Choose Parent Category");
+
+                                                                                                                control.Add("form-control", model => model.Name, FormInputControl.TextBox)
+                                                                                                                    .SetFirstParentClass("form-group")
+                                                                                                                    .SetSecondParentClass("col-md-12")
+                                                                                                                    .SetDisplayName("Name")
+                                                                                                                    .SetPlaceHolder("Enter Name");
+
+
+
+
+                                                                                                                control.Add("form-control", model => model.IsActive, FormInputControl.Switch)
+                                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                                            .SetSecondParentClass("col-md-12")
+                                                                                                                             .SetDisplayName("Is Active?")
+                                                                                                                            .SetPlaceHolder("Is Active");
+
+
+
+
+                                                                                                            }).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                                                        });
+                                                                                                        })
+                                                                                                                    .SetHeading("Edit Training Course Category ");
+                                                                                                    }))
+            </div>
+        </div>
+    </div>
+</section>
+

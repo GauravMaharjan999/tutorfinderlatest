@@ -1,0 +1,119 @@
+﻿
+
+@{
+    ViewData["Title"] = "Enroll Payment Selection";
+}
+@using Kachuwa.Training.Model
+@model Enroll
+
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    <h4 class="breadcrumb_title"></h4>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Enroll/Payment</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="shop-checkouts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8 col-xl-8">
+                <div class="checkout_form">
+                    @*<div class="heading text-center">
+                        <p>Have a coupon? <span class="text-thm6">Click here to enter your code</span></p>
+                    </div>*@
+                    <div class="checkout_coupon ui_kit_button">
+                        @*<form class="form-inline form1">
+                            <input class="form-control mr-sm-4" type="search" placeholder="Coupon Code" aria-label="Search">
+                            <button type="button" class="btn">Apply Coupon</button>
+                        </form>*@
+                      
+                        <form class="form2" id="coupon_form" name="payment_form" asp-controller="Enroll" asp-action="EnrollPaymentPost" method="post">
+
+                            <div class="payment_widget">
+                                <div class="ui_kit_checkbox style2">
+                                    <input type="hidden" value="@Model.Id" name="Id" />
+                                    @*<input type="hidden" value="@Model.UserId" name="UserId" />
+                    <input type="hidden" value="@Model.CourseId" name="CourseId" />
+                    <input type="hidden" value="@Model.CourseFee" name="CourseFee" />
+                    <input type="hidden" value="@Model.CourseTimingId" name="CourseTimingId" />
+                    <input type="hidden" value="@Model.CourseTime" name="CourseTime" />
+                    <input type="hidden" value="@Model.CourseStartDate" name="CourseStartDate" />
+                    <input type="hidden" value="@Model.CourseEndDate" name="CourseEndDate" />*@
+
+                                    <h4 class="title">Payment By</h4>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input payby" id="customCheck80" value="BankTransfer" name="PaymentMethod">
+                                        <label class="custom-control-label" for="customCheck80">Direct bank transfer</label>
+                                    </div>
+                                    <div class="bt_details">
+                                        <p>Make your payment directly into our bank account</p>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input payby" id="customCheck82" value="Esewa" name="PaymentMethod">
+                                        <label class="custom-control-label" for="customCheck82">Esewa</label>
+                                    </div>
+                                    @*<div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input payby" id="customCheck83" value="IMEPay" name="PaymentMethod">
+                                        <label class="custom-control-label" for="customCheck83">IME Pay</label>
+                                    </div>*@
+                                </div>
+                                <span id="enrollalerttext" style=" color:red"></span>
+
+                                <div class="ui_kit_button payment_widget_btn">
+                                    <button type="submit" class="btn dbxshad btn-lg btn-thm3 circle  savepay">Pay</button>
+                                    <button type="button" class="btn dbxshad btn-lg btn-thm3 circle " id="btn_redirecttoenroll">Pay Later</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+  
+
+
+
+    <script>
+     $(document).ready(function () {
+
+
+         $('.savepay').on('click', function () {
+            
+             if (($('input[type="checkbox"]').is(":checked")) == false) {
+                 //alert("Please Choose Payment Method");
+                 $("#enrollalerttext").html("* Please Select Payment Method");
+                 return false;
+
+             } 
+             
+         });
+     
+         $('#btn_redirecttoenroll').on('click', function () {
+             window.location.href = "/user/order";
+         });
+
+    $('input:checkbox').click(function () {
+        $('input:checkbox').not(this).prop('checked', false);
+    });
+
+   });
+
+   </script>

@@ -1,0 +1,267 @@
+﻿@{
+    ViewData["Title"] = "Enroll Course Detail";
+}
+@using Kachuwa.Identity.Extensions;
+@using Kachuwa.Training.Model
+@model EnrollViewModel
+<!-- Inner Page Breadcrumb -->
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    <h4 class="breadcrumb_title">Enroll</h4>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Course/Enroll</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Shop Checkouts Content -->
+<section class="shop-checkouts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8 col-xl-8">
+                <div class="checkout_form">
+                    @*<div class="heading text-center">
+                            <p>Have a coupon? <span class="text-thm6">Click here to enter your code</span></p>
+                        </div>*@
+                    <div class="checkout_coupon ui_kit_button">
+                        @*<form class="form-inline form1">
+                                <input class="form-control mr-sm-4" type="search" placeholder="Coupon Code" aria-label="Search">
+                                <button type="button" class="btn">Apply Coupon</button>
+                            </form>*@
+                        <h4 class="mb15"> Details</h4>
+                        <form class="form2" id="coupon_form" name="contact_form" action="#" method="post" novalidate="novalidate">
+                            <div class="row">
+
+                                <div class="col-lg-12">
+                                    <div class="my_profile_select_box form-group">
+                                        <label for="exampleFormControlInput9">Choose Course Timing *</label><br>
+                                        @if (Model.courseTimimg.Count() == 0)
+                                        {
+                                            <p>Currently UnAvailable</p>
+                                        }
+                                        else
+                                        {
+                                            <select class="selectpicker" name="CourseTiming">
+                                                <option value=0>Select an Option</option>
+                                                @foreach (var item in Model.courseTimimg)
+                                                {
+
+                                                    <option value="@item.Id">@item.Time (@item.FromDate.ToString("dd-MMM-yyyy") to @item.ToDate.ToString("dd-MMM-yyyy"))</option>
+
+                                                }
+                                            </select>
+                                        }
+
+
+                                        <span id="choosecoursetiming" style=" color:red"></span>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12" id="dvadditionalinformation">
+                                    <div class="form-group mb0">
+                                        <label class="ai_title" for="exampleInputTextArea">Additional Information</label><br />
+                                        <table class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <td> <strong>Course Start From</strong></td>
+                                                    <td> <strong>Course Ends At</strong></td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>  <span id="CourseStartDate"></span></td>
+                                                    <td> <span id="CourseEndDate"></span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <label>Note : </label>
+                                        <div id="dvinformation"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-4">
+                <div class="order_sidebar_widget mb30">
+                    <h4 class="title">Course Detail</h4>
+                    <input type="hidden" value="@Model.courseDetailViewModel.Course.Id" id="hdncourseId" />
+                    <input type="hidden" value="@Model.courseDetailViewModel.Course.CourseFee" id="hdncourseFee" />
+                    <ul>
+                        <li class="subtitle"><p>Course Name :</p></li>
+                        <li><strong>@Model.courseDetailViewModel.Course.Name</strong></li>
+
+                        <li class="subtitle"><p>Price <strong class="totals">@Model.courseDetailViewModel.Course.CourseFee</strong></p></li>
+                    </ul>
+                </div>
+                @*<div class="payment_widget">
+                        <div class="ui_kit_checkbox style2">
+                            <h4 class="title">Payment By</h4>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input payby" id="customCheck80" value="BankTransfer" name="PaymentMethod">
+                                <label class="custom-control-label" for="customCheck80">Direct bank transfer</label>
+                            </div>
+                            <div class="bt_details">
+                                <p>Make your payment directly into our bank account</p>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input payby" id="customCheck82" value="Esewa" name="PaymentMethod">
+                                <label class="custom-control-label" for="customCheck82">Esewa</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input payby" id="customCheck83" value="IMEPay" name="PaymentMethod">
+                                <label class="custom-control-label" for="customCheck83">IME Pay</label>
+                            </div>
+                        </div>
+                        <span id="enrollalerttext" style=" color:red"></span>
+                    </div>*@
+                <div class="ui_kit_button payment_widget_btn">
+                    @if (Model.courseTimimg.Count() == 0)
+                    {
+                        <button type="button" class="btn dbxshad btn-lg btn-thm3 circle btn-block ">Currently UnAvailable to Enroll</button>
+                    }
+                    else
+                    {
+
+                        <button type="button" class="btn dbxshad btn-lg btn-thm3 circle btn-block saveplaceorder">Place Enroll</button>
+                        <input type="hidden" value="@User.Identity.GetIdentityUserId()" id="hdnidentityuserid" />
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+        var model =
+        {
+            UserId: 0,
+            CourseId: 0,
+            CourseFee: 0,
+            CourseTimingId: 0,
+            CourseTime: "",
+            CourseStartDate: Date.parse(""),
+            CourseEndDate: Date.parse(""),
+            PaymentMethod: "",
+        }
+
+        $("#dvadditionalinformation").hide();
+
+        $("select[name=CourseTiming]").change(function () {
+
+
+            var courseTimingId = $("select[name=CourseTiming]").val()
+
+            if (courseTimingId == "" || courseTimingId == 0) {
+                $("#dvadditionalinformation").hide();
+                return false;
+            }
+
+            $.ajax({
+                type: "GET",
+                contentType: "application/json; charset=utf-8",
+                url: "/api/v1/coursetiming/getCourseTimingbycourseTimingId/" + courseTimingId,
+                dataType: "json",
+                data: {},
+                success: function (response) {
+
+                    if (response.Code == 200) {
+
+                        $("#dvadditionalinformation").show();
+                        model.CourseTimingId = parseInt(courseTimingId);
+                        model.CourseStartDate = response.Data.FromDate;
+                        model.CourseEndDate = response.Data.ToDate;
+                        model.CourseTime = response.Data.Time;
+
+                        var coursestartdate = $.datepicker.formatDate("DD dd-MM-yy", new Date(response.Data.FromDate))
+                        var courseenddate = $.datepicker.formatDate("DD dd-MM-yy", new Date(response.Data.ToDate))
+
+
+                        $("#CourseStartDate").html(coursestartdate);
+                        $("#CourseEndDate").html(courseenddate);
+                        $("#dvinformation").html(response.Data.Description);
+                    }
+
+                    else {
+                        $("#dvadditionalinformation").hide();
+                    }
+                }
+            });
+
+        });
+
+        //getting value of checkbox
+        $(":checkbox[id^=customCheck]").on("click", function () {
+
+            model.PaymentMethod = this.value;
+        });
+
+
+        $('.saveplaceorder').on('click', function () {
+
+
+            model.CourseId = parseInt($("#hdncourseId").val());
+            model.CourseFee = parseFloat($("#hdncourseFee").val());
+            model.UserId = parseInt($("#hdnidentityuserid").val());
+
+            var courseTimingId = $("select[name=CourseTiming]").val()
+            if (courseTimingId == 0 || courseTimingId == "") {
+                alert("Please Select Course Timing");
+                $("#choosecoursetiming").text("* Please Select Course Timing");
+                return false;
+            }
+            else {
+                $("#choosecoursetiming").hide();
+            }
+
+
+            $.ajax({
+                type: "POST",
+                url: "/enroll/placeenroll",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(model),
+                success: function (res) {
+
+                    if (res.Code == 200) {
+                        window.location.href = '/enroll/payment/' + res.Data; //res.Data Means EnrollId received from Controller After Successfull Insertion Of Place Enroll then redirecting to payment method choosing
+                    }
+                    else if (res.Code == 500) {
+                        var mess1 = res.Message.replace(",", "</br>");
+                        //alert(mess1);
+                        $("#enrollalerttext").text(mess1);
+                        window.location.href = "#";
+                    }
+                },
+                error: function (res) {
+                    if (res.status == 401) {
+                        alert("Error!!! Please Try Again Later!!! !!!");
+                        return false;
+                    }
+                }
+            });
+        });
+
+
+    });
+
+    //to allow to select only one payment method
+    $('input:checkbox').click(function () {
+        $('input:checkbox').not(this).prop('checked', false);
+    });
+
+
+</script>

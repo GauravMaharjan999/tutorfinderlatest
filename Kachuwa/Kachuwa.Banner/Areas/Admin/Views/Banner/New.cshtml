@@ -1,0 +1,543 @@
+﻿@using Kachuwa.Banner
+@using Kachuwa.Web.Form
+@using Kachuwa.Web
+@using Kachuwa.Web.Grid
+@model Kachuwa.Banner.BannerInfo
+
+<link href="/resources/jquery-file-upload/css/jquery.fileupload.css" rel="stylesheet" />
+<link href="/lib/animate.css/animate.min.css" rel="stylesheet" />
+
+<link href="/module/banner/resources/css/banner.css" rel="stylesheet" />
+@{
+
+    var headingTextAnimation = Model != null ? Model.HeadingTextAnimation : "";
+    var headingContentAnimation = Model != null ? Model.HeadingContentAnimation : "";
+    var headingLinkAnimation = Model != null ? Model.LinkAnimation : "";
+    var bannerAnimation = Model != null ? Model.BannerAnimation : "";
+    var imagePostionClass = Model != null ? Model.BannerImagePosition : "image-center";
+    var bannerContentPositionClass = Model != null ? Model.BannerContentPositionClass : "content-center";
+}
+
+@{
+    ViewBag.Title = "New Banner";
+}
+
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="cardform-wrapper">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Add Banner Key</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form id="frmBannerKey">
+                                    <div class="form-group">
+                                        <label>Banner Key</label>
+                                        <input type="text" name="BannerKeyName" id="BannerKeyName" class="form-control" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Banner Key Description</label>
+                                        <textarea name="Description" id="taDescription" class="form-control"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger btn-sm btnCancelKeySave">Cancel</button>
+                                <button type="button" class="btn btn-primary btn-sm pull-right btnProceed">Procceed</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @(
+                                                            Html.CreateKachuwaForm<BannerInfo>("genreform", Model)
+                                                            .SetHeading("")
+                                                                .ActionUrl("/admin/banner/new")
+                                                                .CancelUrl("/admin/banner")
+                                                                .HideCancelButton()
+                                                            .CreateSection(section =>
+                                                            {
+                                                                section.Add("section1", "cardform-section", rows =>
+                                                                {
+                                                                    rows.Add("1strow", "row", columns =>
+                                                                    {
+                                                                        columns.Add("left", "col-md-4", @<div class="form-description">
+                                                                                                            <h4>Banner Content</h4>
+                                                                                                            <p>Image /Video </p>
+                                                                                                        </div>);
+                                                                        columns.Add("right", "col-md-8", @<div>
+                                                                                                             <div class="row placeholders">
+                                                                                                                 <div class="col-lg-12 col-sm-12">
+                                                                                                                     <div class="bannerSelectorDiv">
+                                                                                                                         <div class="form-group">
+                                                                                                                             <label>Banner Key</label>
+                                                                                                                             <select id="BannerKeyId" name="BannerKeyId">
+                                                                                                                                 <option value="">--Select Key--</option>
+                                                                                                                             </select>
+
+                                                                                                                             @if (Model == null)
+                                                                                                                             {
+                                                                                                                                 <span><button type="button" class="btn btn-success btn-sm btnAddBanner"><i class="fa fa-plus"></i> Add Banner Name</button></span>
+
+                                                                                                                             }
+                                                                                                                             else
+                                                                                                                             {
+
+                                                                                                                             }
+                                                                                                                         </div>
+                                                                                                                         <div class="row">
+
+                                                                                                                             <div class="form-group col-md-6">
+                                                                                                                                 <label>Width</label>
+                                                                                                                                 <input type="text" name="ImageWidth" value="" class="form-control" placeholder="1920"/>
+                                                                                                                             </div>
+                                                                                                                             <div class="form-group col-md-6">
+                                                                                                                                 <label>Height</label>
+                                                                                                                                 <input type="text" name="ImageHeight" value="" class="form-control" placeholder="649 "/>
+                                                                                                                             </div>
+
+                                                                                                                         </div>
+
+                                                                                                                     </div>
+                                                                                                                     <div class="row">
+                                                                                                                         <div class="form-group">
+                                                                                                                             <label>Is Video</label>
+                                                                                                                             <label class="switch">
+                                                                                                                                 <input name="IsVideo" value="false" data-val="true" type="checkbox">
+                                                                                                                                 <div class="switchslider round"></div>
+                                                                                                                             </label>
+                                                                                                                         </div>
+                                                                                                                     </div>
+
+                                                                                                                 </div>
+                                                                                                             </div>
+                                                                                                         </div>).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                    });
+                                                                    rows.Add("2strow", "row", columns =>
+                                                                    {
+                                                                        columns.Add("left", "col-md-4", @<div class="form-description">
+                                                                                                            <h4>Content Info</h4>
+                                                                                                            <p>Banner text contents </p>
+                                                                                                        </div>);
+                                                                        columns.Add("right", "col-md-8", @<div>
+
+                                                                                                         <ul id="dvSubWrapper" class="nav nav-tabs" role="tablist">
+                                                                                                             <li class="nav-item">
+                                                                                                                 <a class="nav-link active" data-toggle="tab" href="#imgBanner" role="tab">Image</a>
+                                                                                                             </li>
+                                                                                                             <li class="nav-item">
+                                                                                                                 <a class="nav-link" data-toggle="tab" href="#videoBanner" role="tab">Video</a>
+                                                                                                             </li>
+                                                                                                         </ul>
+ <div class="tab-content">
+    <div class="tab-pane active" id="imgBanner" role="tabpanel">
+        <div id="divBannerActions" class="divBannerActions">
+            <div class="main-div">
+                <div class="image-div">
+                    @if (Model != null)
+                    {
+                        <input type="text" name="BannerId" id="BannerId" value="@Model.BannerId" hidden="hidden" />
+                    }
+                    else
+                    {
+                        <input type="text" name="BannerId" id="BannerId" value="0" hidden="hidden" />
+                    }
+                    @if (Model != null)
+                    {
+                        <input type="text" name="UploadImagePath" id="hf-uploaded-image-path" value="@Model.Image" hidden="hidden" />
+                    }
+                    else
+                    {
+                        <input type="text" name="UploadImagePath" id="hf-uploaded-image-path" hidden="hidden" />
+                    }
+
+
+
+                    @{
+                        var backgroundColor = Model != null ? Model.BannerBackgroundColor : "#fff";
+                    }
+                    <div class="bannerPlaceholder" id="bannerPlaceholder" style="background-color: @backgroundColor">
+                        <div class="imgBanner">
+                            <div class="@imagePostionClass">
+                                @if (Model != null)
+                                {
+                                    <img src="@Model.Image" border="0" id="crop-image-area" width="100%" data-animation="animated" class="animated " alt="Upload your banner" />
+                                }
+                                else
+                                {
+                                    <img src="#" border="0" id="crop-image-area" width="100%" data-animation="animated zoomInLeft" class="" alt="Upload your banner" />
+                                }
+                            </div>
+
+                            <div id="fileupload-buttonbar" class="fileupload-buttonbar">
+                                <span class="btn btn-success btn-sm fileinput-button">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                    <span>Upload Banner</span>
+                                    <input id="file-upload-id" type="file" name="MyFile">
+                                </span>
+                            </div>
+
+                            @if (Model != null)
+                            {
+                                <div id="content-div" class="@bannerContentPositionClass">
+                                    <h3 class="bannerHeading editable" style="color: @Model.BannerHeadingColor" data-animation="animated bounceInDown">@Model.HeadingText</h3>
+                                    <p class="editable bannerContent" style="color: @Model.BannerContentColor" data-animation="animated bounceInUp">
+                                        @Model.Content
+                                    </p>
+                                    @*<p class="bannerLink editable" style="color: @Model.BannerLinkColor" data-animation="animated bounceInDown">
+                                            <a href="#">Link here</a>
+                                        </p>*@
+                                </div>
+                            }
+                            else
+                            {
+                                <div id="content-div" class="@bannerContentPositionClass" style="display: none">
+                                    <h3 class="bannerHeading editable" data-animation="animated bounceInDown">Banner Heading Here</h3>
+                                    <p class="editable bannerContent" data-animation="animated bounceInUp">
+                                        Banner Text Here
+                                    </p>
+                                    @*<p class="bannerLink editable" data-animation="animated bounceInDown">
+                                            <a href="#">Link here</a>
+                                        </p>*@
+                                </div>
+
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Heading</label>
+                    <input type="text" name="HeadingText" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Content</label>
+                    <textarea rows="6" name="Content" class="form-control editor"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <div class="row bx-custom" id="banner-setting-div">
+                <div class="col-md-12">
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Choose Heading Color</label><br />
+                            @if (Model != null)
+                            {
+                                <input type='color' id="custom-heading-color" value="@Model.BannerHeadingColor" />
+                            }
+                            else
+                            {
+                                <input type='color' id="custom-heading-color" />
+                            }
+
+                        </div>
+                        <div class="form-group">
+                            <label>Choose Content Color</label><br />
+                            @if (Model != null)
+                            {
+                                <input type='color' id="custom-content-color" value="@Model.BannerContentColor" />
+
+                            }
+                            else
+                            {
+                                <input type='color' id="custom-content-color" />
+
+                            }
+
+                        </div>
+
+                        <div class="form-group">
+                            <label>Choose Background Color</label><br />
+                            @if (Model != null)
+                            {
+                                <input type='color' id="custom-bg-color" value="@Model.BannerBackgroundColor" />
+                            }
+                            else
+                            {
+                                <input type='color' id="custom-bg-color" />
+                            }
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Choose Heading Animation</label>
+                            <select name="BannerHeadingAnimation" id="BannerHeadingTextAnimation" class="form-control">
+                                <option value="none">None</option>
+                                <option value="zoomInLeft">Zoom In Lef</option>
+                                <option value="zoomInDown">Zoom In Down</option>
+                                <option value="zoomInRight">Zoom In Right</option>
+                                <option value="zoomInUp">Zoom In Up</option>
+                                <option value="bounce">Bounce</option>
+                                <option value="flip">Flip</option>
+                                <option value="rotateIn">Rotate In</option>
+                                <option value="pulse">Pulse</option>
+                                <option value="shake">Shake</option>
+                                <option value="tada">Tada</option>
+                                <option value="wobble">Wobble</option>
+                                <option value="bounceIn">Bounce In</option>
+                                <option value="bounceInUp">Bounce In Up</option>
+                                <option value="bounceInLeft">Bounce In Left</option>
+                                <option value="bounceInRight">Bounce In Right</option>
+                                <option value="fadeIn">Fade In</option>
+                                <option value="fadeInDown">Fade In Down</option>
+                                <option value="fadeInLeft">Fade In Left</option>
+                                <option value="fadeInRight">Fade In Right</option>
+                                <option value="fadeInUp">Fade In Up</option>
+                                <option value="slideInDown">Slide In Down</option>
+                                <option value="slideInLeft">Slide In Left</option>
+                                <option value="slideInRight">Slide In Right</option>
+                                <option value="slideInUp">Slide In Up</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Choose Content Animation</label>
+                            <select name="BannerContentAnimation" id="BannerContentAnimation" class="form-control">
+                                <option value="none">None</option>
+                                <option value="zoomInLeft">Zoom In Lef</option>
+                                <option value="zoomInDown">Zoom In Down</option>
+                                <option value="zoomInRight">Zoom In Right</option>
+                                <option value="zoomInUp">Zoom In Up</option>
+                                <option value="bounce">Bounce</option>
+                                <option value="flip">Flip</option>
+                                <option value="rotateIn">Rotate In</option>
+                                <option value="pulse">Pulse</option>
+                                <option value="shake">Shake</option>
+                                <option value="tada">Tada</option>
+                                <option value="wobble">Wobble</option>
+                                <option value="bounceIn">Bounce In</option>
+                                <option value="bounceInUp">Bounce In Up</option>
+                                <option value="bounceInLeft">Bounce In Left</option>
+                                <option value="bounceInRight">Bounce In Right</option>
+                                <option value="fadeIn">Fade In</option>
+                                <option value="fadeInDown">Fade In Down</option>
+                                <option value="fadeInLeft">Fade In Left</option>
+                                <option value="fadeInRight">Fade In Right</option>
+                                <option value="fadeInUp">Fade In Up</option>
+                                <option value="slideInDown">Slide In Down</option>
+                                <option value="slideInLeft">Slide In Left</option>
+                                <option value="slideInRight">Slide In Right</option>
+                                <option value="slideInUp">Slide In Up</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Banner Content Layout</label><br />
+                            <select name="BannerAnimation" id="BannerContentLayout" class="form-control">
+                                <option value="content-center">Center</option>
+                                <option value="content-left">Left</option>
+                                <option value="content-right">Right</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label> Banner Animation</label>
+                            <select name="BannerAnimation" id="BannerAnimation" class="form-control">
+                                <option value="none">None</option>
+                                <option value="zoomInLeft">Zoom In Lef</option>
+                                <option value="zoomInDown">Zoom In Down</option>
+                                <option value="zoomInRight">Zoom In Right</option>
+                                <option value="zoomInUp">Zoom In Up</option>
+                                <option value="bounce">Bounce</option>
+                                <option value="flip">Flip</option>
+                                <option value="rotateIn">Rotate In</option>
+                                <option value="pulse">Pulse</option>
+                                <option value="shake">Shake</option>
+                                <option value="tada">Tada</option>
+                                <option value="wobble">Wobble</option>
+                                <option value="bounceIn">Bounce In</option>
+                                <option value="bounceInUp">Bounce In Up</option>
+                                <option value="bounceInLeft">Bounce In Left</option>
+                                <option value="bounceInRight">Bounce In Right</option>
+                                <option value="fadeIn">Fade In</option>
+                                <option value="fadeInDown">Fade In Down</option>
+                                <option value="fadeInLeft">Fade In Left</option>
+                                <option value="fadeInRight">Fade In Right</option>
+                                <option value="fadeInUp">Fade In Up</option>
+                                <option value="slideInDown">Slide In Down</option>
+                                <option value="slideInLeft">Slide In Left</option>
+                                <option value="slideInRight">Slide In Right</option>
+                                <option value="slideInUp">Slide In Up</option>
+                            </select>
+                        </div>
+                        @*<div class="form-group">
+                                <button type="button" class="btn btn-primary btn-sm btn-save-settings">Save Banner</button>
+                            </div>*@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="tab-pane" id="videoBanner" role="tabpanel">
+        <div class="form-group col-md-12" id="dvVideoPreview" >
+            <label>Embeded Video Link</label>
+            <input class="form-control" type="text" name="EmbeddedVideoLink"  />
+        </div>
+    </div>
+</div>
+
+</div>).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                    });
+                                                                })
+                                                                    .SetHeading("Add New Banner");
+                                                            }))
+              
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts{
+
+    <script src="/resources/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
+    <script src="/resources/jquery-file-upload/js/jquery.iframe-transport.js"></script>
+    <script src="/resources/jquery-file-upload/js/jquery.fileupload.js"></script>
+    <script src="/module/banner/resources/js/banner.js"></script>
+    <script>
+
+
+        $(function () {
+            $('form').submit(false);
+            Banner({
+                imageCropWidth: 1200,
+                imageCropHeight: 402,
+                selectHeight: 402,
+                selectWidth: 1200
+            });
+
+            var headingTextAnimation = '@headingTextAnimation';
+            var headingContentAnimation = '@headingContentAnimation';
+            var headingLinkAnimation = '@headingLinkAnimation';
+            var bannerAnimation = '@bannerAnimation';
+            var contentPositionClass = '@bannerContentPositionClass';
+            var imagePostionClass = '@imagePostionClass';
+
+            if (imagePostionClass.length > 0) {
+                $("#BannerImagePosition option").each(function () {
+                    if ($(this).val() === imagePostionClass) {
+                        $(this).prop("selected", true);
+                    }
+                });
+            }
+
+            if (contentPositionClass.length > 0) {
+                $("#BannerContentLayout option").each(function () {
+                    if ($(this).val() === contentPositionClass) {
+                        $(this).prop("selected", true);
+                    }
+                });
+            }
+
+            if (headingTextAnimation.length > 0) {
+                $("#BannerHeadingTextAnimation option").each(function () {
+                    if ($(this).val() === headingTextAnimation) {
+                        $(this).prop("selected", true);
+                    }
+                });
+            }
+
+            if (headingContentAnimation.length > 0) {
+                $("#BannerContentAnimation option").each(function () {
+                    if ($(this).val() === headingContentAnimation) {
+                        $(this).prop("selected", true);
+                    }
+                });
+            }
+
+            if (headingLinkAnimation.length > 0) {
+                $("#BannerLinkAnimation option").each(function () {
+                    if ($(this).val() === headingLinkAnimation) {
+                        $(this).prop("selected", true);
+                    }
+                });
+            }
+
+            if (bannerAnimation.length > 0) {
+                $("#BannerAnimation option").each(function () {
+                    if ($(this).val() === bannerAnimation) {
+                        $(this).prop("selected", true);
+                    }
+                });
+            }
+
+
+
+
+
+
+
+            //Function to animate slider captions
+            function doAnimations(elems) {
+                //Cache the animationend event in a variable
+                var animEndEv = 'webkitAnimationEnd animationend';
+
+                elems.each(function () {
+                    var $this = $(this),
+                        $animationType = $this.data('animation');
+                    $this.addClass($animationType).one(animEndEv, function () {
+                        $this.removeClass($animationType);
+                    });
+                });
+            }
+
+
+
+            //Variables on page load
+            //var $myCarousel = $('#carousel-example-generic'),
+            //    $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
+
+            var $preview = $('.imgBanner');
+            var $firstAnim = $preview.find('img').find("[data-animation ^= 'animated']");
+
+            // doAnimations($firstAnim);
+
+
+            //Initialize carousel
+            // $myCarousel.carousel();
+
+            //Animate captions in first slide on page load
+            //doAnimations($firstAnimatingElems);
+
+            //Pause carousel
+            //$myCarousel.carousel('pause');
+
+
+            //Other slides to be animated on carousel slide event
+            //$myCarousel.on('slide.bs.carousel', function (e) {
+            //    var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
+            //    doAnimations($animatingElems);
+            //});
+            //$('#carousel-example-generic').carousel({
+            //    interval: 3000,
+            //    pause: "false"
+            //});
+
+        });
+
+
+
+    </script>
+}

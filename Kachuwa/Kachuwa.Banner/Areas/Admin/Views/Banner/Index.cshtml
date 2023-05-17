@@ -1,0 +1,47 @@
+﻿@using Kachuwa.Web
+@using Kachuwa.Web.Grid
+@model IEnumerable<Kachuwa.Banner.BannerKeyViewModel>
+
+@{
+    ViewData["Title"] = "Banners";
+}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="panel_wrapper">
+                <div class="panel module" aria-multiselectable="true">
+                    <div class="panel-inner">
+                        <div class="panel-heading dflex space-between">
+                            <h2 class="panel-title">Banners</h2>
+                            <a href="/admin/banner/new" class="btn btn-primary btn-sm has-mdicon"><i class="material-icons md-18">add</i>Add Banner</a>
+                        </div>
+                        <div class="panel-body">
+                            @(Html
+                            .CreateKachuwaGrid(Model)
+                            .Build(columns =>
+                            {
+                                columns.Add(model => model.Name).SetTitle("Name");
+                                columns.Add(model => model.TotalBanners).SetTitle("Total Banners");
+                                columns.Add(model => model.AddedOn).SetTitle("Added On");
+                                columns.Add(model => model.IsActive).SetTitle("Is Active");
+                            }).AddCommands(commands =>
+                                        {
+                                            commands.Add("Configure", "Manage", "fa fa-cog", "", "/admin/banner/manage", model => model.BannerKeyId);
+                                            commands.Add("Edit", "Edit", "fa fa-pencil", "", "/admin/banner/edit", model => model.BannerKeyId);
+                                            commands.Add("Delete", "Delete", "fa fa-trash", "kachuwagrid.delete", Model => Model.BannerKeyId,
+                                                "/admin/banner/delete");
+                                        }).Css("table-hover")
+                            .Empty("No Banner's Added Yet")
+                            .Pagination(pager =>
+                            {
+                                pager.CurrentPage = (int)ViewData["Page"];//later will come form view bag where page logic implemented
+                                            pager.Api = "/admin/banner";
+                            })
+                            )
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

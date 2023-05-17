@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Admin\Kachuwa.Admin.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Core\Kachuwa.Core.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Identity\Kachuwa.Identity.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Web\Kachuwa.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Service\NewFolder\" />
+  </ItemGroup>
+
+</Project>

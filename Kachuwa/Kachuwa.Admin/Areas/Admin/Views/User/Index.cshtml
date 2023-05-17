@@ -1,0 +1,60 @@
+﻿@using Kachuwa.Identity.Models
+@using Kachuwa.Web.Grid
+@using Kachuwa.Localization
+@model IEnumerable<Kachuwa.Identity.Models.AppUser>
+@inject ILocaleResourceProvider LocaleResource
+@{
+
+    LocaleResource.LookUpGroupAt("User");
+    ViewData["Title"] = LocaleResource.Get("User.PageTitle");
+}
+
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="panel_wrapper">
+                <div class="panel module" aria-multiselectable="true">
+                    <div class="panel-inner">
+                        <div class="panel-heading dflex space-between">
+                            <h2 class="panel-title"> @LocaleResource.Get("User.PageTitle")</h2>
+                            <a href="/admin/user/new" class="btn btn-primary btn-sm has-mdicon">
+                                <i class="material-icons md-18">add</i>
+                                @LocaleResource.Get("User.AddNewButtonText")
+                            </a>
+                        </div>
+                        <div class="panel-body">
+                            @(Html
+                                                                      .CreateKachuwaGrid(Model)
+                                                                      .Build(columns =>
+                                                                      {
+                                                                          columns.Add(model => model.FirstName).SetTitle(LocaleResource.Get("User.Grid.FirstName"));
+                                                                          columns.Add(model => model.LastName).SetTitle(LocaleResource.Get("User.Grid.LastName"));
+                                                                          columns.Add(model => model.Email).SetTitle(LocaleResource.Get("User.Grid.Email"));
+                                                                          columns.Add(model => model.IsActive ? LocaleResource.Get("User.Grid.Yes") : LocaleResource.Get("User.Grid.No")).SetTitle(LocaleResource.Get("User.Grid.IsActive"));
+
+                                                                      }).AddCommands(commands =>
+                                                                      {
+                                                                          commands.Add(LocaleResource.Get("Grid.Command.Edit"), "Edit", "fa fa-edit", "", "/admin/user/edit", model => model.AppUserId);
+                                                                          commands.Add(LocaleResource.Get("Grid.Command.Delete"), "Delete", "fa fa-trash", "kachuwagrid.delete", Model => Model.AppUserId,
+                                                                              "/admin/user/delete");
+
+                                                                      }).Css("table-hover")
+                                                                      .Empty(LocaleResource.Get("User.Grid.EmptyText"))
+                                                                      .Pagination(pager =>
+                                                                      {
+                                                                          pager.CurrentPage = (int)ViewData["Page"];//later will come form view bag where page logic implemented
+                                                                                                                  pager.Api = "/admin/user";
+                                                                      })
+
+                            )
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+

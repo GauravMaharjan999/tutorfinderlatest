@@ -1,0 +1,92 @@
+﻿@using Kachuwa.Web.Form
+@using Kachuwa.Web.Grid
+@using Kachuwa.Training.Model
+@model CourseTiming
+@{
+    var formDataSource = (FormDatasource)ViewData["FormDataSources"];
+}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="cardform-wrapper">
+
+                @(
+                                                                                                            Html.CreateKachuwaForm<CourseTiming>("CourseTiming", Model)
+                                                                                                            .SetHeading("")
+                                                                                                                .ActionUrl("/admin/coursetiming/new")
+                                                                                                                .CancelUrl("/admin/coursetiming")
+                                                                                                                .EncType("multipart/form-data")
+                                                                                                            .CreateSection(section =>
+                                                                                                            {
+                                                                                                                section.Add("section1", "cardform-section", rows =>
+                                                                                                                {
+                                                                                                                    rows.Add("1strow", "row", columns =>
+                                                                                                                {
+                                                                                                                    columns.Add("left", "col-md-4", @<div class="form-description">
+                                                                                                                        <h4>Course Timing</h4>
+                                                                                                                        <p>Add Course Timing</p>
+                                                                                                                    </div>);
+
+
+
+
+                                                                                                                    columns.Add("right", "col-md-8", control =>
+                                                                                                                    {
+                                                                                                                        control.Add("form-control", model => model.Id, FormInputControl.Hidden);
+
+                                                                                                                        control.Add("form-control  ", model => model.CourseId, FormInputControl.Select, formDataSource.GetSource("CourseListSource"))
+                                                                                                                        .SetFirstParentClass("form-group")
+                                                                                                                        .SetSecondParentClass("col-md-12")
+                                                                                                                        .SetDisplayName("Choose Course");
+
+                                                                                                                        control.Add("form-control", model => model.FromDate, FormInputControl.Date)
+                                                                                                                         .SetFirstParentClass("form-group")
+                                                                                                                         .SetSecondParentClass("col-md-6")
+                                                                                                                         .SetDisplayName("From Date ?");
+
+                                                                                                                        control.Add("form-control", model => model.ToDate, FormInputControl.Date)
+                                                                                                                            .SetFirstParentClass("form-group")
+                                                                                                                            .SetSecondParentClass("col-md-6")
+                                                                                                                            .SetDisplayName("To Date ?");
+
+                                                                                                                        control.Add("form-control", model => model.Time, FormInputControl.TextBox)
+                                                                                                                        .SetFirstParentClass("form-group")
+                                                                                                                        .SetSecondParentClass("col-md-12")
+                                                                                                                        .SetDisplayName("Time")
+                                                                                                                         .SetPlaceHolder("Enter Time : format example(6 PM to 8 PM)");
+
+
+                                                                                                                        control.Add("form-control", model => model.Description, FormInputControl.Editor)
+                                                                                                                         .SetFirstParentClass("form-group")
+                                                                                                                         .SetSecondParentClass("col-md-12")
+                                                                                                                         .SetDisplayName("Description")
+                                                                                                                          .SetPlaceHolder("Enter Description");
+
+                                                                                                                        control.Add("form-control", model => model.IsActive, FormInputControl.Switch)
+                                                                                                                           .SetFirstParentClass("form-group")
+                                                                                                                           .SetSecondParentClass("col-md-12")
+                                                                                                                            .SetDisplayName("Is Active?")
+                                                                                                                           .SetPlaceHolder("Is Active");
+
+
+                                                                                                                    }).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                                                                });
+                                                                                                                })
+                                                                                                                                                      .SetHeading("Add Course Timing ");
+                                                                                                            }))
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(document).ready(function () {
+
+
+      
+        $("#CourseTiming_FromDate").datepicker().attr('autocomplete', 'off');
+        $("#CourseTiming_ToDate").datepicker().attr('autocomplete', 'off');
+    });
+</script>
+

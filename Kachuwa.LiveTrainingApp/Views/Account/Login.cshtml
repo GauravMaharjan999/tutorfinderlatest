@@ -1,0 +1,86 @@
+@using Kachuwa.Localization
+@using Microsoft.AspNetCore.Identity
+@model Kachuwa.Identity.ViewModels.LoginViewModel
+@inject SignInManager<Kachuwa.Identity.Models.IdentityUser> SignInManager
+@inject ILocaleResourceProvider LocaleResource;
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    <h4 
+                        >@ViewData["Title"]</h4>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Account</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Login</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="login-register-page" style="background-image: url(@*/themes/shared/default/images/background/5.jpg*@)">
+    <div class="container">
+        <!-- =============== START OF LOGIN & REGISTER POPUP =============== -->
+        <div class="row">
+            <!-- ===== Start of Signin wrapper ===== -->
+            <div class="col-sm-12 col-lg-6 offset-lg-3">
+                @*<div class="small-dialog-headline">
+                    <h4 class="text-center">Sign in</h4>
+                </div>*@
+                <div class="login_form inner_page">
+                    <div class="small-dialog-content">
+                        <!-- Start of Login form -->
+                        <div class="heading">
+                            <h3 class="text-center">Login to your account</h3>
+                        </div>
+
+                        <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="text" class="form-control" id="email" name="Email" placeholder="Your Email *">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password *</label>
+                                <input type="password" class="form-control" id="password" name="Password" placeholder="Your Password *">
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <div class="checkbox pad-bottom-10">
+                                    <input id="check1" type="checkbox" name="remember" value="yes">
+                                    <label for="check1">Keep me signed in</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Sign in" class="btn btn-block btn-thm2 btn-main btn-effect nomargin">
+                            </div>
+
+                        </form>
+
+                        <div class="bottom-links">
+                            <span>Not a member?  <a class="signUpClick" href="/account/register">Sign up</a></span>
+                            <a class="forgetPasswordClick pull-right" href="/account/forgotpassword">Forgot Password</a>
+                        </div>
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                    </div>
+                </div>
+            </div><!-- ===== End of Signin wrapper ===== --><!-- ===== Start of Signup wrapper ===== -->
+
+        </div><!-- =============== END OF LOGIN & REGISTER POPUP =============== -->
+        <a href="/" class="text-white">Back</a>
+    </div>
+</main>
+
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

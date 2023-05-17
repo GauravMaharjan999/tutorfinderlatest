@@ -1,0 +1,91 @@
+﻿
+
+.kachuwa-banner .banner-content {
+}
+
+.kachuwa-banner .video-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+    .kachuwa-banner .video-content iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+.kachuwa-banner .content-center {
+    position: absolute;
+    top: 130px;
+    left: 460px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -mos-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+
+.kachuwa-banner .content-left {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.kachuwa-banner .content-right {
+    position: absolute;
+    top: 130px;
+    right: 50px;
+}
+
+.kachuwa-banner .image-center {
+    text-align: center;
+    /*top: 100px;
+    left: 150px;*/
+    /*position: absolute;*/
+}
+
+.kachuwa-banner .image-left {
+    /*position: absolute;*/
+    /* top: 100px;
+    left: 0;*/
+    text-align: left;
+}
+
+.kachuwa-banner.image-right {
+    /*position: absolute;*/
+    /*top: 100px;
+    left: 450px;*/
+    text-align: right;
+}
+
+.kachuwa-banner h3 {
+    animation-delay: 1s;
+}
+
+.kachuwa-banner h4 {
+    animation-delay: 2s;
+}
+
+.kachuwa-banner h2 {
+    animation-delay: 3s;
+}
+
+
+
+.kachuwa-banner h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kachuwa-banner .p {
+    padding-top: 125px;
+    text-align: center;
+}
+
+    .kachuwa-banner .p a {
+        text-decoration: underline;
+    }

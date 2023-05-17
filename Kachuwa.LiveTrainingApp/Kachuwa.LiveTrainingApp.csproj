@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Areas\Admin\Views\CourseSyllabus\Edit.cshtml" />
+    <Content Remove="Areas\Admin\Views\CourseSyllabus\Index.cshtml" />
+    <Content Remove="Areas\Admin\Views\CourseTiming\New.cshtml" />
+    <Content Remove="Areas\Admin\Views\CourseTutorMapping\Index.cshtml" />
+    <Content Remove="Areas\Admin\Views\CourseTutorMapping\New.cshtml" />
+    <Content Remove="Areas\Admin\Views\Course\Edit.cshtml" />
+    <Content Remove="Areas\Admin\Views\Course\Index.cshtml" />
+    <Content Remove="Areas\Admin\Views\Course\New.cshtml" />
+    <Content Remove="Areas\Admin\Views\Event\Edit.cshtml" />
+    <Content Remove="Areas\Admin\Views\Event\Index.cshtml" />
+    <Content Remove="Areas\Admin\Views\Event\New.cshtml" />
+    <Content Remove="Areas\Admin\Views\TrainingCourseCategory\Edit.cshtml" />
+    <Content Remove="Areas\Admin\Views\TrainingCourseCategory\Index.cshtml" />
+    <Content Remove="Areas\Admin\Views\TrainingCourseCategory\New.cshtml" />
+    <Content Remove="Areas\Admin\Views\TrainingTutor\Detail.cshtml" />
+    <Content Remove="Areas\Admin\Views\TrainingTutor\Edit.cshtml" />
+    <Content Remove="Areas\Admin\Views\TrainingTutor\Index.cshtml" />
+    <Content Remove="Areas\Admin\Views\TrainingTutor\New.cshtml" />
+    <Content Remove="Components\AllCoursePage\Default.cshtml" />
+    <Content Remove="Components\Recommendation\Default.cshtml" />
+    <Content Remove="Components\TrainingTutor\Default.cshtml" />
+    <Content Remove="Views\Enroll\Detail.cshtml" />
+    <Content Remove="Views\Tutor\Detail.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Areas\Admin\Views\CourseSyllabus\Edit.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\CourseSyllabus\Index.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\CourseTiming\New.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\CourseTutorMapping\Index.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\CourseTutorMapping\New.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Course\Edit.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Course\Index.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Course\New.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Event\Edit.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Event\Index.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Event\New.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\TrainingCourseCategory\Edit.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\TrainingCourseCategory\Index.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\TrainingCourseCategory\New.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\TrainingTutor\Detail.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\TrainingTutor\Edit.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\TrainingTutor\Index.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\TrainingTutor\New.cshtml" />
+    <EmbeddedResource Include="Components\AllCoursePage\Default.cshtml" />
+    <EmbeddedResource Include="Components\Recommendation\Default.cshtml" />
+    <EmbeddedResource Include="Components\TrainingTutor\Default.cshtml" />
+    <EmbeddedResource Include="Views\Enroll\Detail.cshtml" />
+    <EmbeddedResource Include="Views\Tutor\Detail.cshtml" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="db\NewFolder\" />
+    <Folder Include="Locale\" />
+    <Folder Include="Locale\" />
+    <Folder Include="NewFolder\" />
+    <Folder Include="Services\" />
+    <Folder Include="wwwroot\test\" />
+    <Folder Include="wwwroot\test\" />
+    <Folder Include="wwwroot\NewFolder\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseRecommend\CourseRecommend.csproj" />
+    <ProjectReference Include="..\Kachuwa.Dash\Kachuwa.Dash.csproj" />
+    <ProjectReference Include="..\Kachuwa.Training\Kachuwa.Training.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Admin\Kachuwa.Admin.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Banner\Kachuwa.Banner.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Core\Kachuwa.Core.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Identity\Kachuwa.Identity.csproj" />
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Web\Kachuwa.Web.csproj" />
+  </ItemGroup>
+
+</Project>

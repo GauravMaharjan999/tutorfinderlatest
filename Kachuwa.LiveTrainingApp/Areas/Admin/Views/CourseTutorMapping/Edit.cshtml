@@ -1,0 +1,59 @@
+﻿@using Kachuwa.Web.Form
+@using Kachuwa.Web.Grid
+@using Kachuwa.Training.Model
+@model CourseTutorMapping
+@{
+    var formDataSource = (FormDatasource)ViewData["FormDataSources"];
+}
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="cardform-wrapper">
+
+                @(
+                                                                                                            Html.CreateKachuwaForm<CourseTutorMapping>("CourseTutorMappingForm", Model)
+                                                                                                            .SetHeading("")
+                                                                                                                .ActionUrl("/admin/coursetutormapping/edit")
+                                                                                                                .CancelUrl("/admin/coursetutormapping")
+                                                                                                                .EncType("multipart/form-data")
+                                                                                                            .CreateSection(section =>
+                                                                                                            {
+                                                                                                                section.Add("section1", "cardform-section", rows =>
+                                                                                                                {
+                                                                                                                    rows.Add("1strow", "row", columns =>
+                                                                                                                {
+                                                                                                                    columns.Add("left", "col-md-4", @<div class="form-description">
+                                                                                                                        <h4>Course Tutor Mapping</h4>
+                                                                                                                        <p>Edit Course Tutor Mapping</p>
+                                                                                                                    </div>);
+
+
+
+
+                                                                                                                    columns.Add("right", "col-md-8", control =>
+                                                                                                                    {
+                                                                                                                        control.Add("form-control", model => model.Id, FormInputControl.Hidden);
+
+                                                                                                                        control.Add("form-control  ", model => model.CourseId, FormInputControl.Select, formDataSource.GetSource("CourseListSource"))
+                                                                                                                        .SetFirstParentClass("form-group")
+                                                                                                                        .SetSecondParentClass("col-md-12")
+                                                                                                                        .SetDisplayName("Choose Course");
+
+                                                                                                                        control.Add("form-control  ", model => model.TutorId, FormInputControl.Select, formDataSource.GetSource("TutorListSource"))
+                                                                                                                      .SetFirstParentClass("form-group")
+                                                                                                                      .SetSecondParentClass("col-md-12")
+                                                                                                                      .SetDisplayName("Choose Tutor");
+
+
+
+                                                                                                                    }).SetFirstChildClass("forminput-section").SetSecondChildClass("row");
+                                                                                                                });
+                                                                                                                })
+                                                                                                                     .SetHeading("Edit Course Tutor Mapping ");
+                                                                                                            }))
+            </div>
+        </div>
+    </div>
+</section>
+

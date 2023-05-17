@@ -1,0 +1,439 @@
+﻿@{
+    ViewData["Title"] = "Course Detail";
+}
+@using Kachuwa.Identity.Extensions;
+@using Kachuwa.Training.Model
+@model CourseDetailViewModel
+<section class="inner_page_breadcrumb csv2" style=" background-image :url(@Model.Course.CoverImagePath)">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9">
+                <div class="breadcrumb_content">
+                    <div class="cs_row_one csv2">
+                        <div class="cs_ins_container">
+                            <div class="cs_instructor">
+                                <ul class="cs_instrct_list float-left mb0">
+                                    @if (Model.TrainingTutor != null)
+                                    {
+                                        @if (Model.TrainingTutor.ProfileImagePath != "/" || Model.TrainingTutor.ProfileImagePath != null)
+                                        {
+                                            <li class="list-inline-item"><img class="thumb" src="@Model.TrainingTutor.ProfileImagePath" alt="4.png"></li>
+                                        }
+                                        @if (Model.TrainingTutor.Name != null)
+                                        {
+                                            <li class="list-inline-item"><a class="color-white" href="#">@Model.TrainingTutor.Name</a></li>
+
+                                        }
+                                    }
+
+
+                                </ul>
+                            </div>
+                            @if (Model.Course.Name != null)
+                            {
+                                <h2 class="cs_title color-white">@Model.Course.Name</h2>
+                            }
+                            @if (Model.Course.ShortDescription != null)
+                            {
+                                <h5 class="cs_title1 color-white">@Model.Course.ShortDescription</h5>
+                            }
+
+                            <input type="hidden" value="@User.Identity.GetIdentityUserId()" id="hdnidentityuserid" />
+                            <input type="hidden" value="@Model.Course.Id)" id="hdncourseId" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Team Members -->
+<section class="course-single2 pb40">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="courses_single_container">
+                            <div class="cs_row_one">
+                                <div class="cs_ins_container">
+                                    <div class="courses_big_thumb">
+                                        <div class="thumb">
+                                            @if (Model.Course.IntroVideoPath != null)
+                                            {
+                                                <iframe class="iframe_video" src="//@Model.Course.IntroVideoPath" frameborder="0" allowfullscreen=""></iframe>
+
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cs_rwo_tabs csv2">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="Overview-tab" data-toggle="tab" href="#Overview" role="tab" aria-controls="Overview" aria-selected="true">Overview</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="course-tab" data-toggle="tab" href="#course" role="tab" aria-controls="course" aria-selected="false">Course Content</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="instructor-tab" data-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false">Tutor</a>
+                                    </li>
+                                    
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="Overview" role="tabpanel" aria-labelledby="Overview-tab">
+                                        <div class="cs_row_two csv2">
+                                            <div class="cs_overview">
+                                                <h4 class="title">Overview</h4>
+
+                                                @if (Model.Course.ShortDescription != null)
+                                                {
+                                                    <h4 class="subtitle">Course Description</h4>
+                                                    <p>@Model.Course.ShortDescription</p>
+                                                }
+
+                                                <h4 class="subtitle">What you'll learn</h4>
+                                                <ul class="cs_course_syslebus">
+
+                                                    @Html.Raw(Model.Course.Description)
+                                                </ul>
+
+                                                @if (Model.Course.PreRequisites != null)
+                                                {
+                                                    <h4 class="subtitle">Requirements</h4>
+                                                    @Html.Raw(Model.Course.PreRequisites)
+                                                }
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="course" role="tabpanel" aria-labelledby="review-tab">
+                                        <div class="cs_row_three csv2">
+                                            <div class="course_content">
+                                                <div class="cc_headers">
+                                                    <h4 class="title">Course Content</h4>
+                                                    
+                                                </div>
+                                                <br>
+                                                @if (Model.CourseSyllabus != null)
+                                                {
+                                                    @foreach (var item in Model.CourseSyllabus)
+                                                    {
+                                                        var divclose = "";
+                                                        divclose = "panelbody" + item.Id + "";
+
+                                                        <div class="details">
+                                                            <div id="accordion" class="panel-group cc_tab">
+                                                                <div class="panel">
+                                                                    <div class="panel-heading">
+                                                                        <h4 class="panel-title">
+                                                                            <a href="#@divclose" class="accordion-toggle link" data-toggle="collapse" data-parent="#accordion">@item.Title</a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div id="@divclose" class="panel-collapse collapse hide">
+                                                                        <div class="panel-body">
+                                                                            @Html.Raw(item.Content)
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                }
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="review-tab">
+                                        <div class="cs_row_four csv2">
+                                            <div class="about_ins_container">
+                                                <h4 class="aii_title">About the Tutor</h4>
+                                                <div class="about_ins_info">
+                                                    @if (Model.TrainingTutor != null)
+                                                    {
+                                                        <div class="thumb"><img src="@Model.TrainingTutor.ProfileImagePath" alt="tutor.png" style="width:120px;"></div>
+                                                    }
+
+                                                </div>
+                                                <div class="details">
+                                                    
+                                                    @if (Model.TrainingTutor != null)
+                                                    {
+                                                        <h4>@Model.TrainingTutor.Name</h4>
+                                                        <p class="subtitle">@Model.TrainingTutor.Expertise</p>
+                                                        <p>@Html.Raw(Model.TrainingTutor.Bio)</p>
+                                                    }
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col" id="review" role="tabpanel" aria-labelledby="review-tab">
+                    <div class="cs_row_five csv2">
+                        <div class="student_feedback_container">
+                            <h2 class="sub_title mt-0">Student Feedback</h2>
+                            <div class="s_feeback_content">
+                                <ul id="list5" class="skills">
+                                </ul>
+                                <ul id="list4" class="skills">
+                                </ul>
+                                <ul id="list3" class="skills">
+                                </ul>
+                                <ul id="list2" class="skills">
+                                </ul>
+                                <ul id="list1" class="skills">
+                                </ul>
+                            </div>
+                            
+                            <div class="aii_average_review text-center">
+                                <div id="average_div" class="av_content">
+                                    <h2 id="average"></h2>
+                                    <ul class="aii_rive_list mb0">
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <p>Course Rating</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="cs_row_six csv2">
+                        <div class="sfeedbacks">
+                            <div class="mbp_pagination_comments">
+                                <h2 class="sub_title mt-0">
+                                    Latest Reviews
+
+                                </h2>
+                                @*//First Review*@
+                                <div class="mbp_first media csv1">
+                                    
+                                    <div class="media-body">
+                                        <h4 class="sub_title mt-0">
+                                            <br>
+                                            Review 1
+                                        </h4>
+                                        
+                                        <p id="review1" class="fz15 mt20"></p>
+                                        
+                                        
+                                    </div>
+                                </div>
+
+
+
+
+                                @*//Second Review*@
+                                <div class="mbp_first media csv1">
+
+                                    <div class="media-body">
+                                        <h4 class="sub_title mt-0">
+                                            <br>
+                                            Review 2
+                                        </h4>
+
+                                        <p id="review2" class="fz15 mt20"></p>
+
+
+                                    </div>
+                                </div>
+
+                                
+
+                                @*//Third Review*@
+                                <div class="mbp_first media csv1">
+
+                                    <div class="media-body">
+                                        <h4 class="sub_title mt-0">
+                                            <br>
+                                            Review 3
+                                        </h4>
+
+                                        <p id="review3" class="fz15 mt20"></p>
+
+
+                                    </div>
+                                </div>
+
+
+
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    @if(User.Identity.IsAuthenticated){
+
+                    <div class="cs_row_seven csv2">
+                        <div class="sfeedbacks">
+                            <div class="mbp_comment_form style2 pb0">
+                                <form asp-controller="CourseUserReview" asp-action="Insert" class="comments_form">
+                                    <h4>Add Reviews & Rate</h4>
+                                    <ul>
+                                        <li class="list-inline-item pr15"><p>Review out of 5 stars</p></li>
+                                        <li class="list-inline-item">
+                                            <span class="sspd_review">
+                                                <select id="dropdown" asp-for="CourseUserReview.Rating">
+                                                    <option value=0 selected disabled hidden>Please select</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <input value="@Model.Course.Id" asp-for="CourseUserReview.CourseId" hidden />
+                                    <input value="@User.Identity.GetIdentityUserId()" asp-for="CourseUserReview.UserId" hidden />
+                                    <div class="form-group">
+                                        <label>Review Content</label>
+                                        <textarea asp-for="CourseUserReview.ReviewContent"
+                                                  class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                                    </div>
+                                    <input id="alert" type="submit" value="Submit" class="btn btn-primary" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    } 
+                </div>
+                
+            </div>
+            <div>
+                <input id="courseId" type="hidden" value="@Model.Course.Id" />
+            </div>
+
+            <div class="col-lg-4 col-xl-3">
+                <div class="instructor_pricing_widget">
+                    <div class="price"><span>Price</span> Rs @Model.Course.CourseFee @*<small>$69.00</small>*@</div>
+                    <a href="/enroll/@Model.Course.Id" class="cart_btnss" id="enrollnow">Enroll Now</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(function(){
+        debugger;
+        var courseId = $("#courseId").val();
+        var rating1 = 0, rating2 = 0, rating3 = 0, rating4 = 0, rating5 = 0,count=0,average=0;
+        var review1 = 0, review2 = 0, review3 = 0;
+        $.ajax({  
+            type: 'GET',  
+            url: '/CourseUserReview/GetRating',  
+            dataType: 'json',  
+            data: { courseId: courseId },  
+            success: function (review) {
+                debugger;
+                $.each(review, function (i, item) {
+                    debugger;
+                    if(i==0){
+                    review1=item.ReviewContent;
+                    }
+                    if (i==1) {
+                    review2=item.ReviewContent;
+                    }
+                    if (i==2) {
+                    review3=item.ReviewContent;
+                    }
+
+
+                    if (item.Rating == 1) {
+                        rating1++;
+                    }
+                    else if (item.Rating == 2) {
+                        rating2++;
+                    }
+                    else if (item.Rating == 3) {
+                        rating3++;
+                    }
+                    else if (item.Rating == 4) {
+                        rating4++;
+                    }
+                    else {
+                        rating5++;
+                    }
+                   count++;
+                   if(item.Rating==0){
+                   count--;
+                   }
+                });
+                debugger;
+                var rating5x=(rating5/count*100).toFixed(2);
+                var rating4x=(rating4/count*100).toFixed(2);
+                var rating3x=(rating3/count*100).toFixed(2);
+                var rating2x=(rating2/count*100).toFixed(2);
+                var rating1x=(rating1/count*100).toFixed(2);
+                var average=((rating1+2*rating2+3*rating3+4*rating4+5*rating5)/count).toFixed(2);
+
+                $("#average").text(average);
+                $("#list5").append('<li class="list-inline-item">Stars 5</li><div class= "sonny_progressbar" data-width="' + rating5x + '"><p class="title" >% '+ rating5x +'</p><div class= "bar-container" style = "background-color:#E0E0E0;height:30px;"><span class="backgroundBar"> </span><span class= "targetBar" style= "width:100%; background-color:#CCC;"></span><span class="bar" style="background-color: rgb(36, 65, 231); opacity: 1; width: '+rating5x+'%;"></span></div></div>');
+                $("#list4").append('<li class="list-inline-item">Stars 4</li><div class= "sonny_progressbar" data-width="' + rating4x + '"><p class="title" >% '+ rating4x +'</p><div class= "bar-container" style = "background-color:#E0E0E0;height:30px;"><span class="backgroundBar"> </span><span class= "targetBar" style= "width:100%; background-color:#CCC;"></span><span class="bar" style="background-color: rgb(36, 65, 231); opacity: 1; width: '+rating4x+'%;"></span></div></div>');
+                $("#list3").append('<li class="list-inline-item">Stars 3</li><div class= "sonny_progressbar" data-width="' + rating3x + '"><p class="title" >% '+ rating3x +'</p><div class= "bar-container" style = "background-color:#E0E0E0;height:30px;"><span class="backgroundBar"> </span><span class= "targetBar" style= "width:100%; background-color:#CCC;"></span><span class="bar" style="background-color: rgb(36, 65, 231); opacity: 1; width: '+rating3x+'%;"></span></div></div>');
+                $("#list2").append('<li class="list-inline-item">Stars 2</li><div class= "sonny_progressbar" data-width="' + rating2x + '"><p class="title" >% '+ rating2x +'</p><div class= "bar-container" style = "background-color:#E0E0E0;height:30px;"><span class="backgroundBar"> </span><span class= "targetBar" style= "width:100%; background-color:#CCC;"></span><span class="bar" style="background-color: rgb(36, 65, 231); opacity: 1; width: '+rating2x+'%;"></span></div></div>');
+                $("#list1").append('<li class="list-inline-item">Stars 1</li><div class= "sonny_progressbar" data-width="' + rating1x + '"><p class="title" >% '+ rating1x +'</p><div class= "bar-container" style = "background-color:#E0E0E0;height:30px;"><span class="backgroundBar"> </span><span class= "targetBar" style= "width:100%; background-color:#CCC;"></span><span class="bar" style="background-color: rgb(36, 65, 231); opacity: 1; width: '+rating1x+'%;"></span></div></div>');
+
+                
+                $("#review1").text(review1);
+                $("#review2").text(review2);
+                $("#review3").text(review3);
+
+
+            },  
+            error: function (ex) {  
+                //var r = jQuery.parseJSON(response.responseText);  
+                //alert("Message: " + r.Message);  
+                //alert("StackTrace: " + r.StackTrace);  
+                //alert("ExceptionType: " + r.ExceptionType);  
+            }  
+        });  
+
+
+       
+
+    $('#enrollnow').on('click', function () {
+
+        var identityuserId = parseInt($("#hdnidentityuserid").val());
+        if (identityuserId == 0) {
+            $('#exampleModalCenter').modal('toggle');
+        }
+        else {
+            var courseid = parseInt($("#hdncourseId").val());
+            window.location.href = '/checkenroll?UserId=' + identityuserId + '&CourseId=' + courseid;
+            //window.location.href = '/enroll/' +courseid;
+
+        }
+
+    });
+
+
+    $('#alert').on('click', function () {
+        function myFunction() {
+            timeout = setTimeout(alertFunc, 3000);
+        }
+
+        function alertFunc() {
+            alert("Hello!");
+        }
+    });
+
+  });
+
+</script>

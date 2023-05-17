@@ -1,0 +1,186 @@
+$revenue-icon: #10c469;
+$ticket-sold-icon: #f05050;
+$online-user-icon: #188ae2;
+$user-status-icon: #ff894a;
+
+.grid-stack-item-content {
+    color: #2c3e50;
+    background-color: white;
+    overflow-y: hidden !important;
+}
+
+.dflex {
+    display: flex;
+}
+.d-row {
+    margin: 0 -15px;
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding:0 15px;
+}
+
+.widget {
+    background: white;
+
+    .widget-header {
+        padding: 1.5rem;
+
+        .widget-title {
+            float: left;
+            font-size: 15px;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
+        }
+    }
+
+    .widget-body {
+        padding: 0 1.5rem 1.5rem 1.5rem;
+
+        .number {
+            font-size: 40px;
+            margin: 0;
+
+            &.sm-number {
+                font-size: 32px;
+            }
+
+            &.md-number {
+                font-size: 40px;
+            }
+
+            &.lg-number {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .widget-footer {
+    }
+
+    .widget-icon {
+        color: white;
+        width: 72px;
+        height: 72px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 72px;
+        font-size: 40px;
+
+        &.revenue-icon {
+            background: $revenue-icon;
+        }
+
+        &.ticket-sold-icon {
+            background: $ticket-sold-icon;
+        }
+
+        &.online-user-icon {
+            background: $online-user-icon;
+        }
+
+        &.user-status-icon {
+            background: $user-status-icon;
+        }
+    }
+}
+
+.h-equal-space {
+    justify-content: space-between;
+}
+
+.absolute-center {
+    justify-content: center;
+    align-items: center;
+}
+.just-end{
+    justify-content:flex-end;
+}
+
+.just-center{
+    justify-content: center;
+}
+.card {
+    width: 250px;
+    min-height: 250px;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    border-radius: 10px;
+    transition: 0.5s;
+    float: left;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 30px 70px rgba(0,0,0,.2);
+}
+
+.card .box {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.card .box .img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card .box .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card .box h2 {
+    font-size: 20px;
+    color: #262626;
+    margin: 20px auto;
+}
+
+.card .box h2 span {
+    font-size: 14px;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+
+.card .box p {
+    color: #262626;
+}
+
+.card .box span {
+    display: inline-flex;
+}
+
+.card .box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.card .box ul li {
+    list-style: none;
+    float: left;
+}
+
+.card .box ul li a {
+    display: block;
+    color: #aaa;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.card .box ul li:hover a {
+    color: #10c469;
+    transform: rotateY(360deg);
+}
+

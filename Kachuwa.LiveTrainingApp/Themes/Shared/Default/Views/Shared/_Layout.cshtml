@@ -1,0 +1,629 @@
+﻿@using Kachuwa.Web.Optimizer
+@using Microsoft.AspNetCore.Routing
+@inject IKachuwaBundler bundler
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/additional-methods.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.1//themes/shared/default/css/all.css" />
+
+    <link rel="stylesheet" href="/themes/shared/default/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/themes/shared/default/css/menu.css">
+    <link rel="stylesheet" href="/themes/shared/default/css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="/themes/shared/default/css/responsive.css">
+    <link href="~/lib/sweetalert/sweet-alert.css" rel="stylesheet" />
+    <script src="~/lib/sweetalert/sweet-alert.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="preloader"></div>
+
+        <!-- Main Header Nav -->
+        <header class="header-nav menu_style_home_one navbar-scrolltofixed stricky main-menu">
+            <div class="container-fluid">
+                <!-- Ace Responsive Menu -->
+                <nav>
+                    <!-- Menu Toggle btn-->
+                    <div class="menu-toggle">
+                        <img class="nav_logo_img img-fluid" src="images/header-logo.png" alt="header-logo.png">
+                        <button type="button" id="menu-btn">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <a href="/" class="navbar_brand float-left dn-smd">
+                        @*<img class="logo1 img-fluid" src="images/logo.png" alt="header-logo.png">*@
+                        <span class="dn-lg">Tutor-Finder</span>
+                    </a>
+                    <!-- Responsive Menu Structure-->
+                    <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+                    <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                        <li>
+                            <a href="/"><span class="dn-lg">Home</span></a>
+                        </li>
+                        <li>
+                            <a href="/courses"><span class="dn-lg">Courses</span></a>
+                        </li>
+                        <li>
+                            <a href="/tutors"><span class="dn-lg">Tutors</span></a>
+                        </li>
+                        <li class="last">
+                            <a href="/contactus"><span class="dn-lg">Contact</span></a>
+                        </li>
+                    </ul>
+                    <ul class="sign_up_btn pull-right dn-smd mt20">
+
+                        @*<ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">*@
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <li class="list-inline-item list_s"><a href="#" class="btn flaticon-user" data-toggle="modal" data-target="#exampleModalCenter"> <span class="dn-lg">Login/Register</span></a></li>
+
+                        }
+                        else if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                        {
+                            <li class="list-inline-item"><a href="/admin/dashboard"><strong>Dashboard</strong></a></li>
+                            <li class="list-inline-item"><a href="/account/logout"><strong>Log Out</strong></a></li>
+
+                        }
+                        else
+                        {
+                            <li class="list-inline-item"><a href="/account/logout"><strong>Log Out</strong></a></li>
+
+
+                            <li class="list-inline-item list_s">
+                                <div>
+                                    <ul class="cart">
+                                        <li>
+                                            <a href="/user" class="btn cart_btn"><strong class="fa fa-user-circle-o"></strong></a>
+                                            <ul class="dropdown_content">
+                                                <li class="list_content">
+                                                    <a href="#">
+                                                        <img class="float-left" src="/Uploads/userphoto.jpg" style="width:50px;" alt="P">
+                                                        <p >@User.Identity.Name</p>
+                                                    </a>
+                                                </li>
+                                                @*<li class="list_content">
+                                                        <a href="/user">
+                                                            <p>My Profile</p>
+
+                                                        </a>
+                                                    </li>*@
+                                                @if (User.IsInRole("User"))
+                                                {
+                                                    <li class="list_content">
+                                                        <a href="/user/order">
+                                                            <p>My Enrolled Courses</p>
+
+                                                        </a>
+                                                    </li>
+
+                                                    <li class="list_content">
+                                                        <a href="/user/payment">
+                                                            <p>Payment History</p>
+                                                        </a>
+                                                    </li>
+                                                }
+
+
+                                                <li class="list_content">
+                                                    <a href="/user/dashboard">
+                                                        <p>Dashboard</p>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            @*<li class="list-inline-item"><a href="/userprofile"><strong>@User.Identity.Name</strong></a></li>*@
+
+                        }
+
+                        @*<li class="list-inline-item list_s">
+                                <div class="search_overlay">
+                                    <a id="search-button-listener" class="mk-search-trigger mk-fullscreen-trigger" href="#">
+                                        <span id="search-button"><i class="flaticon-magnifying-glass"></i></span>
+                                    </a>
+                                </div>
+                            </li>*@
+                    </ul><!-- Button trigger modal -->
+                </nav>
+            </div>
+        </header>
+        <!-- Modal -->
+        <div class="sign_up_modal modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <ul class="sign_up_tab nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Register</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="login_form">
+
+                                @*<div class="heading">
+                                        <h3 class="text-center">Login to your account</h3>
+                                        <p class="text-center">Don't have an account? <a class="text-thm" href="#profile" data-toggle="tab">Sign Up!</a></p>
+                                    </div>*@
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" name="Email" placeholder="Email Address" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" name="Password" placeholder="Password" required>
+                                </div>
+
+                                <span id="loginalerttext" style=" color:red"></span>
+
+                                <div class="form-group custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="exampleCheck1" name="remembermecheck">
+                                    <label class="custom-control-label" for="exampleCheck1">Remember me</label>
+                                    <a class="tdu btn-fpswd float-right" href="/account/forgotpassword">Forgot Password?</a>
+                                </div>
+                                <button type="submit" class="btn btn-log btn-block btn-thm2" id="loginsubmit">Login</button>
+                                <hr>
+                                @*<div class="row mt40">
+                                        <div class="col-lg">
+                                            <button type="submit" class="btn btn-block color-white bgc-fb"><i class="fa fa-facebook float-left mt5"></i> Facebook</button>
+                                        </div>
+                                        <div class="col-lg">
+                                            <button type="submit" class="btn btn-block color-white bgc-gogle"><i class="fa fa-google float-left mt5"></i> Google</button>
+                                        </div>
+                                    </div>*@
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="sign_up_form">
+                                @*<div class="heading">
+                                        <h3 class="text-center">Create New Account</h3>
+                                        <p class="text-center">Have an account? <a class="text-thm" data-toggle="tab" href="#home">Login</a></p>
+                                    </div>*@
+
+                                @*<div class="form-group">
+                                        <input type="text" class="form-control" id="exampleInputName1" name ="UserName" placeholder="Username">
+                                    </div>*@
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputFirstName" name="FirstName" placeholder="Firstname">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputLastName" name="LastName" placeholder="LastName">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputPhoneNumber" name="PhoneNumber" placeholder="MobileNumber">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail2" name="Email" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword2" name="Password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword3" name="ConfirmPassword" placeholder="Confirm Password">
+                                </div>
+                                <span id="registeralerttext" style=" color:red"></span>
+                                @*<div class="form-group custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="exampleCheck2">
+                                        <label class="custom-control-label" for="exampleCheck2">Want to become an Tutor?</label>
+                                    </div>*@
+                                <button type="submit" class="btn btn-log btn-block btn-thm2" id="btn_submitregister">Register</button>
+                                <hr>
+                                @*<div class="row mt40">
+                                        <div class="col-lg">
+                                            <button type="submit" class="btn btn-block color-white bgc-fb"><i class="fa fa-facebook float-left mt5"></i> Facebook</button>
+                                        </div>
+                                        <div class="col-lg">
+                                            <button type="submit" class="btn btn-block color-white bgc-gogle"><i class="fa fa-google float-left mt5"></i> Google</button>
+                                        </div>
+                                    </div>*@
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search Button Bacground Overlay -->
+        <div class="search_overlay dn-992">
+            <div class="mk-fullscreen-search-overlay" id="mk-search-overlay">
+                <a href="#" class="mk-fullscreen-close" id="mk-fullscreen-close-button"><i class="fa fa-times"></i></a>
+                <div id="mk-fullscreen-search-wrapper">
+                    <form method="get" id="mk-fullscreen-searchform">
+                        <input type="text" value="" placeholder="Search courses..." id="mk-fullscreen-search-input">
+                        <i class="flaticon-magnifying-glass fullscreen-search-icon"><input value="" type="submit"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header Nav For Mobile -->
+        <div id="page" class="stylehome1 h0">
+            <div class="mobile-menu">
+                <div class="header stylehome1">
+                    <div class="main_logo_home2">
+                        @*<img class="nav_logo_img img-fluid float-left mt20" src="images/header-logo.png" alt="header-logo.png">*@
+                        <span style="color:navajowhite;">Tutor Finder</span>
+                    </div>
+                    <ul class="menu_bar_home2">
+                        <li class="list-inline-item"><a href="#menu"><span style="color: black;">Menu</span></a></li>
+                    </ul>
+                </div>
+            </div><!-- /.mobile-menu -->
+            <nav id="menu" class="stylehome1">
+                <ul>
+                    <li>
+                        <a href="/"><span class="title" style="color: navajowhite;">Home</span></a>
+                    </li>
+                    <li>
+                        <a href="/courses"><span class="title" style="color: navajowhite;">Courses</span></a>
+                    </li>
+                    <li>
+                        <a href="/tutors"><span class="title" style="color: navajowhite;">Tutors</span></a>
+                    </li>
+                    <li class="last">
+                        <a href="/contactus"><span class="title" style="color: navajowhite;">Contact</span></a>
+                    </li>
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li><a href="/account/login"><span class="flaticon-user"></span> Login</a></li>
+                        <li><a href="/account/register"><span class="flaticon-edit"></span> Register</a></li>
+                    }
+                    else if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                    {
+                        <li><a href="/admin/dashboard"><strong>Dashboard</strong></a></li>
+                        <li><a href="/account/logout"><strong>Log Out</strong></a></li>
+                    }
+                    else
+                    {
+                        <li><a href="/user/dashboard"><strong>Dashboard</strong></a></li>
+                        @if (User.IsInRole("User"))
+                        {
+                            <li>
+                                <span>Profile</span>
+                                <ul>
+                                    <li><a href="/user/order">My Enrolled Courses</a></li>
+                                    <li><a href="/user/payment">Payment History</a></li>
+                                </ul>
+                            </li>
+
+                        }
+
+                        <li></li>
+                        <li class="list-inline-item"><a href="/account/logout"><strong>Log Out(<span style="color: white;">@User.Identity.Name</span>)</strong></a></li>
+                    }
+                </ul>
+            </nav>
+        </div>
+
+        @RenderBody()
+
+        <!-- Our Footer -->
+        <section class="footer_one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-md-3 col-lg-3">
+                        <div class="footer_contact_widget">
+                            <h4>CONTACT</h4>
+                            <p>Khusibu,Nayabazar </p>
+                            <p>Kathmandu, Nepal.</p>
+                            <p>01-4210926</p>
+                            <p>(977)9866199050</p>
+                            @*<p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4635333636293432062322332b3f6825292b">[email&#160;protected]</a></p>*@
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                        <div class="footer_company_widget">
+                            <h4>COMPANY</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="/privacy">Privacy</a></li>
+                                <li><a href="/contactus">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                        <div class="footer_program_widget">
+                            <h4>Other Links</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="/courses">Courses</a></li>
+                                <li><a href="/tutors">Tutors</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                        <div class="footer_support_widget">
+                            <h4>SUPPORT</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/termsandconditions">Terms and Conditions</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    @*<div class="col-sm-6 col-md-6 col-md-3 col-lg-3">
+                            <div class="footer_apps_widget">
+                                <h4>MOBILE</h4>
+                                <div class="app_grid">
+                                    <button class="apple_btn btn-dark">
+                                        <span class="icon">
+                                            <span class="flaticon-apple"></span>
+                                        </span>
+                                        <span class="title">App Store</span>
+                                        <span class="subtitle">Available now on the</span>
+                                    </button>
+                                    <button class="play_store_btn btn-dark">
+                                        <span class="icon">
+                                            <span class="flaticon-google-play"></span>
+                                        </span>
+                                        <span class="title">Google Play</span>
+                                        <span class="subtitle">Get in on</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>*@
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Footer Middle Area -->
+        <section class="footer_middle_area p0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-3 col-lg-3 col-xl-2 pb15 pt15">
+                        <div class="logo-widget home1">
+                            @*<img class="img-fluid" src="/themes/shared/default/images/header-logo.png" alt="header-logo.png">*@
+                            <span>TUTOR FINDER</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-5 col-lg-6 col-xl-6 pb25 pt25 brdr_left_right">
+                        <div class="footer_menu_widget">
+                            <ul>
+                                <li class="list-inline-item"><a href="#">Home</a></li>
+                                <li class="list-inline-item"><a href="/privacy">Privacy</a></li>
+                                <li class="list-inline-item"><a href="termsandconditions">Terms and Conditions</a></li>
+                                @*<li class="list-inline-item"><a href="#">Sitemap</a></li>
+                                    <li class="list-inline-item"><a href="#">Purchase</a></li>*@
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-3 col-xl-4 pb15 pt15">
+                        <div class="footer_social_widget mt15">
+                            <ul>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Footer Bottom Area -->
+        <section class="footer_bottom_area pt25 pb25">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="copyright-widget text-center">
+                            <p>Copyright TutorFinder © 2023. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a class="scrollToHome home5" href="#"><i class="flaticon-up-arrow-1"></i></a>
+    </div>
+    <!-- Wrapper End -->
+    <script type="text/javascript" src="/themes/shared/default/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery-migrate-3.0.0.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/popper.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery.mmenu.all.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/ace-responsive-menu.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/isotop.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/snackbar.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/simplebar.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/parallax.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/scrollto.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery-scrolltofixed-min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/wow.min.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/progressbar.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/slider.js"></script>
+    <script type="text/javascript" src="/themes/shared/default/js/timepicker.js"></script>
+    <!-- Custom script for all pages -->
+    <script type="text/javascript" src="/themes/shared/default/js/script.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+
+        var model =
+        {
+            Email: "",
+            Password: "",
+            // RememberMe :"",
+        }
+        var registerModel =
+        {
+            Email: "",
+            Password: "",
+            ConfirmPassword: "",
+            FirstName: "",
+            LastName: "",
+            PhoneNumber: "",
+        }
+
+        $('#loginsubmit').on('click', function () {
+
+            debugger;
+            var returnUrl = $(location).attr("href");
+            model.Email = $("#exampleInputEmail1").val();
+            model.Password = $("#exampleInputPassword1").val();
+            if (model.Email == "") {
+                $("#loginalerttext").text("* Please Enter Email");
+                return false;
+
+            }
+            if (model.Password == "") {
+                $("#loginalerttext").text("* Please Enter Password");
+                return false;
+
+            }
+            //  model.RememberMe = ($('input[name="remembermecheck"]').is(":checked"));
+
+            $.ajax({
+                type: "POST",
+                url: "/Account/UserLogin",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(model),
+
+                success: function (res) {
+
+
+                        debugger;
+                    if (res.Code == 200) {
+                        window.location.href = returnUrl;
+                        //setInterval('location.reload()', 500);
+                    }
+                    else if (res.Code == 500 && res.Message == "Incorrect") {
+                        $("#loginalerttext").text("* Incorrect Email or Password");
+                        window.location.href = "#";
+                    }
+                    else if (res.Code == 500) {
+                        var mess1 = res.Message.replace(",", "</br>");
+                        $("#loginalerttext").html(mess1);
+                        window.location.href = "#";
+                    }
+                },
+                error: function (res) {
+                    if (res.status == 401) {
+                        alert("Error!!! Please Try Again Later!!! !!!");
+                        return false;
+                    }
+                }
+            });
+        });
+
+
+        $('#btn_submitregister').on('click', function () {
+
+            var returnUrl = $(location).attr("href");
+            registerModel.FirstName = $("#exampleInputFirstName").val();
+            registerModel.LastName = $("#exampleInputLastName").val();
+            registerModel.Email = $("#exampleInputEmail2").val();
+            registerModel.Password = $("#exampleInputPassword2").val();
+            registerModel.ConfirmPassword = $("#exampleInputPassword3").val();
+            registerModel.PhoneNumber = $("#exampleInputPhoneNumber").val();
+
+            if (registerModel.FirstName == "") {
+                $("#registeralerttext").text("* Please Enter FirstName");
+                return false;
+            }
+
+            if (registerModel.LastName == "") {
+                $("#registeralerttext").text("* Please Enter LastName");
+                return false;
+            }
+            if (registerModel.PhoneNumber == "") {
+                $("#registeralerttext").text("* Please Enter PhoneNumber");
+                return false;
+            }
+            if (registerModel.Email == "") {
+                $("#registeralerttext").text("* Please Enter Email");
+                return false;
+            }
+            if (registerModel.Password == "") {
+                $("#registeralerttext").text("* Please Enter Password");
+                return false;
+            }
+            if (registerModel.ConfirmPassword == "") {
+                $("#registeralerttext").text("* Please Enter ConfirmPassword");
+                return false;
+            }
+            if (registerModel.Password != registerModel.ConfirmPassword) {
+                $("#registeralerttext").text("* password and confirmpassword should be same");
+                return false;
+            }
+
+
+            $.ajax({
+                type: "POST",
+                url: "/Account/UserRegister",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(registerModel),
+
+                success: function (res) {
+
+
+                    if (res.Code == 200 & res.Message == "success") {
+                        //alert("User Successfully Created");
+                        window.location.href = returnUrl;
+                        //setInterval('location.reload()', 500);
+                    }
+                    else if (res.Code == 200 & res.Message == "confirmemail") {
+                       
+                        sweetAlert({
+                            title: "Registration Successfull! ",
+                            text: "You are now registered and ready to go.",
+                            type: "success",
+                            timer: 8000
+                        });
+                        debugger;
+                        //alert("Thank you for registration,please check your email and confirm it.");
+                        window.location.href = returnUrl;
+                        
+                        //setTimeout(function () { window.location.href = returnUrl;  }, 500);
+                        //
+                        //setInterval('location.reload()', 500);
+
+                    }
+                    else if (res.Code == 500) {
+
+                        var mess2 = res.Message.replace(",", "</br>");
+                        $("#registeralerttext").html(mess2);
+                        window.location.href = "#";
+                    }
+
+                },
+                error: function (res) {
+                    if (res.status == 401) {
+                        alert("Error !!! Please Try Again Later !!!");
+                        return false;
+                    }
+                }
+            });
+        });
+
+    });
+
+
+
+</script>

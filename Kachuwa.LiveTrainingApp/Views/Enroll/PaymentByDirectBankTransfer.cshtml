@@ -1,0 +1,139 @@
+﻿
+
+
+
+@{
+    ViewData["Title"] = "Direct Payment Detail";
+}
+@using Kachuwa.Identity.Extensions;
+@using Kachuwa.Training.Model
+@model PaymentLog
+
+@{
+    Enroll enrolldetail = ViewBag.EnrollDetail;
+}
+<!-- Inner Page Breadcrumb -->
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    <h4 class="breadcrumb_title">Direct Bank Transfer</h4>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Payment</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Shop Checkouts Content -->
+<section class="shop-checkouts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-8 col-xl-8">
+                <div class="checkout_form">
+
+                    <div class="checkout_coupon ui_kit_button">
+
+                        <h4 class="mb15"> Voucher Details</h4>
+                        <form class="form2" id="coupon_form" name="banktransfer_form" asp-controller="Enroll" asp-action="PaymentByDirectBankTransfer" enctype="multipart/form-data" method="post">
+                            <div class="row">
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputName3">Deposited By </label>
+                                        <input id="form_name8" name="EnrollId" value="@enrolldetail.Id" hidden>
+                                        <input id="form_name9" name="CourseId" value="@enrolldetail.CourseId" hidden>
+                                        <input id="form_name10" name="UserId" value="@enrolldetail.UserId" hidden>
+                                        <input id="form_name11" name="PaymentSource" value="@enrolldetail.PaymentMethod" hidden>
+
+
+                                        <input id="form_name3" name="DepositedBy" class="form-control" required="required" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="exampleInputName3">Voucher Number *</label>
+                                        <input id="form_name4" name="VoucherNumber" class="form-control mb10" placeholder="Enter Voucher Number" required="required" type="text">
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="exampledepositattachment">Deposit Voucher Attachment</label>
+                                        <input type="file" id="voucherattachment" name="VoucherAttachment" class="form-control" onchange = "showimagepreview1(this)">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="ui_kit_button payment_widget_btn">
+                                <button type="submit" class="btn dbxshad btn-lg btn-thm3 circle  saveplaceorder">Submit</button>
+                                <button type="button" id="btn_cancelpayment" class="btn dbxshad btn-lg btn-thm3 circle">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-xl-4" id="dvVoucherPreview">
+                <div class="order_sidebar_widget mb30">
+                    <h4 class="title">Bank Voucher Preview</h4>
+                    <img id="smimg" src="" height="300" width="400" />
+                </div>
+                   
+                </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+        $(document).ready(function () {
+
+            $('#dvVoucherPreview').hide();
+
+            $('#voucherattachment').on('change', function () {
+                var fileExtension = ['jpg', 'png','jpeg'];
+                var filename = $('#voucherattachment').val();
+                if (filename.length == 0) {
+                   
+                    $('#dvVoucherPreview').hide();
+                    return false;
+                }
+                else {
+                    var extension = filename.replace(/^.*\./, '').toLowerCase();
+                    if ($.inArray(extension, fileExtension) == -1) {
+                        alert("Please select only jpg or png or jpeg image only .");
+                        $('#dvVoucherPreview').hide();
+                        $('#voucherattachment').val("");
+                        return false;
+                    }
+                }
+            });
+
+
+    });
+
+    $('#btn_cancelpayment').on('click', function () {
+        var enrollId = $("#form_name8").val();
+        window.location.href = "/enroll/payment/" + enrollId;
+    });
+
+    function showimagepreview1(input) {
+        $('#dvVoucherPreview').show();
+        if (input.files && input.files[0]) {
+            var filerdr = new FileReader();
+            filerdr.onload = function (e) {
+                $('#smimg').attr('src', e.target.result);
+            }
+            filerdr.readAsDataURL(input.files[0]);
+        }
+    }
+    </script>
+

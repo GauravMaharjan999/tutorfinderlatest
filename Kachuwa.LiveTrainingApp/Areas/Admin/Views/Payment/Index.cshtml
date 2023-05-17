@@ -1,0 +1,125 @@
+﻿
+<div id="contestantform" class="kachuwa-form">
+    <section name="section1" class="cardform-section">
+        <div class="row">
+            <div id="grid_md" class="gc-pqgrid"></div>
+        </div>
+    </section>
+</div>
+
+
+@section scripts{
+    <script>
+        $(function () {
+            function onTabsActive(evt, ui) {
+                //grid requires refresh whenever corresponding tab is refreshed.
+                ui.newPanel.find(".pq-grid").pqGrid("refresh");
+            };
+
+
+            var $gridMain = $("div#grid_md").pqGrid({
+                width: 'auto', height: 550,
+                dataModel: {
+                    location: "remote",
+                    sorting: "local",
+                    dataType: "JSON",
+                    method: "GET",
+                    url: "/api/v1/payment/allpaymentlist",
+                    getData: function (dataJSON) {
+                        var data = dataJSON.Data;
+                        if (data == "") {
+                            return true;
+                        }
+                        else {
+                            return { curPage: dataJSON.CurrentPage, totalRecords: data[0].RowTotal, data: data };
+                        }
+                    }
+                },
+                colModel: [
+                    { title: "UserEmail", dataType: "string", dataIndx: "UserEmail", width: '20%' },
+                    { title: "CourseName", dataType: "string", dataIndx: "CourseName", width: '30%' },
+                    
+                     { title: "CourseFee(Rs)", dataType: "string", dataIndx: "CourseFee", width: '10%' },
+
+                  
+                   { title: "Payment By", dataType: "string", dataIndx: "PaymentSource", width: '8%' },
+
+                   
+                    {
+                        title: "Is Verified", datatype: "checkbox", dataIndx: "IsVerified", width: '6%',
+                        render: function (ui) {
+
+                            if (ui.cellData == true) {
+                                return ui.cellData;
+                            }
+                            else if (ui.cellData == false) {
+                                return '<span style="color:red">' + ui.cellData + '</span>';
+                            }
+                            else {
+                                return ui.cellData;
+                            }
+                        }
+                    },
+
+                    {
+                        title: "Action", editable: false, Width: '25%', sortable: false,
+                        render: function (ui) {
+                            var rowData = ui.rowData;
+                            if (rowData.IsVerified == true) {
+                                return '<button type="button" class="detail_btn"><span class="ui-button-icon-primary ui-icon ui-icon-info"><span>Detail</button>';
+                            }
+                            else {
+                                return '<button type="button" class="detail_btn"><span class="ui-button-icon-primary ui-icon ui-icon-info"><span>Detail</button>	&nbsp;\
+                                                            <button type="button" class="approve_btn"><span class="ui-button-icon-primary ui-icon ui-icon-edit">Approve<span></button>';
+                            }
+                               
+
+                        }
+                    }
+                ],
+                //pageModel: { type: "local", rPP: 10, rPPOptions: [10, 15, 50], strDisplay: "{0} to {1} of {2}" },
+                pageModel: { type: "remote", rPP: 10, strRpp: "{0}" },
+                title: "<b>Payment History </b>",
+                resizable: true,
+                wrap: false,
+                hwrap: false,
+                virtualX: true, virtualY: true,
+                editable: false,
+                numberCell: { show: true, resizable: false, title: "S.N.", minWidth: 40 },
+                selectionModel: { type: 'cell' }
+              
+            });
+           
+
+            $gridMain.on('pqgridrefresh pqgridrefreshrow', function () {
+                var $grid = $(this);
+                if (!$grid) {
+                    return;
+                }
+
+               
+
+                //detail button
+                $grid.find("button.detail_btn").unbind("click").bind
+                    ("click", function (evt) {
+                        var $tr = $(this).closest("tr");
+                        var rowIndx = $grid.pqGrid("getRowIndx", { $tr: $tr }).rowIndx;
+                        var row = $grid.pqGrid('getRowData', { rowIndx: rowIndx });
+                        window.location.href = "/admin/payment/detail/" + row.Id;
+                        return true;
+                    });
+
+                //Approve button
+                $grid.find("button.approve_btn").unbind("click").bind
+                    ("click", function (evt) {
+                        var $tr = $(this).closest("tr");
+                        var rowIndx = $grid.pqGrid("getRowIndx", { $tr: $tr }).rowIndx;
+                        var row = $grid.pqGrid('getRowData', { rowIndx: rowIndx });
+                        window.location.href = "/admin/payment/approve/" + row.Id;
+                        return true;
+                    });
+            });
+
+        });
+    </script>
+}

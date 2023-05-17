@@ -1,0 +1,87 @@
+﻿@model Kachuwa.Identity.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+<section class="inner_page_breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 offset-xl-3 text-center">
+                <div class="breadcrumb_content">
+                    <h4 class="breadcrumb_title">@ViewData["Title"]</h4>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Account</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Register</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="login-register-page" style="background-image: url(assets/images/posters/movie-collection.jpeg)">
+    <div class="container">
+        <!-- =============== START OF LOGIN & REGISTER POPUP =============== -->
+        <div class="row login-register">
+            <!-- ===== Start of Signin wrapper ===== -->
+            <div class="col-sm-12 col-lg-6 offset-lg-3">
+                <div class="sign_up_form inner_page">
+                    <div class="small-dialog-headline">
+                        @*<h4 class="text-center">Sign Up</h4>*@
+                    </div>
+                    <div class="heading">
+                        <h3 class="text-center">Register to start learning</h3>
+                    </div>
+                    <div class="small-dialog-content">
+                        <!-- Start of Registration form -->
+                        <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                            <p class="status">
+                                <div class="form-group">
+                                    <label for="FirstName">FirstName *</label>
+                                    <input name="FirstName" id="movify_user_firstname" class="form-control" type="text" placeholder="Enter First Name" value="@Model.FirstName">
+                                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="LastName">LastName *</label>
+                                    <input name="LastName" id="movify_user_lastname" class="form-control" type="text" placeholder="Enter Last Name" value="@Model.LastName">
+                                    <span asp-validation-for="LastName" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="PhoneNumber">Phone Number *</label>
+                                    <input name="PhoneNumber" id="movify_user_phonenumber" class="form-control" type="text" placeholder="Enter Mobile Number" value="@Model.PhoneNumber">
+                                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email">Email *</label>
+                                    <input name="Email" id="movify_user_email" class="form-control" type="email" placeholder="Enter Email" value="@Model.Email">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Password">Password *</label>
+                                    <input name="Password" id="movify_password" class="form-control" type="password" placeholder="Enter Password" value="@Model.Password">
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="ConfirmPassword">Confirm Password *</label>
+                                    <input name="ConfirmPassword" id="movify_confirmpassword" class="form-control" type="password" placeholder="Enter Password" value="@Model.ConfirmPassword">
+                                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-block btn-thm2 btn-main btn-effect nomargin" value="Register">
+                                </div>
+                        </form><!-- End of Registration form -->
+                        <div class="bottom-links">
+                            <span>Already have an account?   <a class="signInClick">Sign in</a></span>
+                            <a class="forgetPasswordClick pull-right">Forgot Password</a>
+                        </div>
+                    </div>
+                </div><!-- .small-dialog-content -->
+            </div><!-- ===== End of Signup wrapper ===== --><!-- ===== Start of Forget Password wrapper ===== -->
+        </div><!-- =============== END OF LOGIN & REGISTER POPUP =============== -->
+        <a href="/" class="text-white">Back to Home</a>
+    </div>
+</main>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

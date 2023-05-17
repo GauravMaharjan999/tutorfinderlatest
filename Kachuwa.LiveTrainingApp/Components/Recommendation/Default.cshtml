@@ -1,0 +1,104 @@
+﻿@using Kachuwa.Training.Model
+@model IEnumerable<Course>
+
+
+<section id="our-courses" class="our-courses">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center">
+                    <h3 class="mt0">Recommended Courses</h3>
+                    <p>ONLY FOR YOU</p>
+                </div>
+            </div>
+        </div>
+        @*<div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center">
+                    <h3 class="mt0">Our Courses</h3>
+                    <p>Can Learn  Differnt Courses</p>
+                </div>
+            </div>
+        </div>*@
+        @*<div class="row">
+                @foreach (var item in Model)
+                {
+                    if (item.ProfileImagePath != "/")
+                    {
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="img_hvr_box" onclick="location.href='/course/@item.Id'" style="background-image: url(@item.ProfileImagePath); height: 350px;">
+                                <div class="overlay" style="padding-top: 200px;">
+
+                                    <div class="details">
+                                        <h5>@item.Name</h5>
+                                        @if (item.Duration != 0)
+                                        {
+                                            <p>(@item.Duration hours)</p>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                }
+
+
+            </div>*@
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+
+                <div class="col-lg-6 col-xl-4" onclick="location.href='/course/@item.Id?CourseName=@item.Name'">
+                    <div class="top_courses">
+                        @if (item.ProfileImagePath != "/")
+                        {
+                            <div class="thumb">
+                                <img class="img-whp" src="@item.ProfileImagePath" alt="t1.jpg" style="height: 350px;">
+                                <div class="overlay">
+                                    @*<div class="tag">Best Seller</div>*@
+                                    <div class="icon"><span class="flaticon-like"></span></div>
+                                    <a class="tc_preview_course">Preview Course</a>
+                                </div>
+                            </div>
+                        }
+                        <div class="details">
+                            <div class="tc_content">
+                                @*<p>Ali TUFAN</p>*@
+                                <h5>@item.Name</h5>
+                                <ul class="tc_review">
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="list-inline-item"><a href="#">(6)</a></li>
+                                </ul>
+                            </div>
+                            <div class="tc_footer">
+                                <ul class="tc_meta float-left">
+                                    @*<li class="list-inline-item"><a href="#"><i class="flaticon-profile"></i></a></li>
+                                        <li class="list-inline-item"><a href="#">1548</a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="flaticon-comment"></i></a></li>
+                                        <li class="list-inline-item"><a href="#">25</a></li>*@
+                                    @if (item.Duration != 0)
+                                    {
+                                        <li class="list-inline-item"><a href="#">Duration: @item.Duration hours</a></li>
+                                    }
+
+                                </ul>
+                                <div class="tc_price float-right">Rs @item.CourseFee</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            }
+
+
+        </div>
+    </div>
+</section>

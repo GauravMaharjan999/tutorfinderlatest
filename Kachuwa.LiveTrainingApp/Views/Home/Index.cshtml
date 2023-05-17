@@ -1,0 +1,236 @@
+﻿@{
+    ViewData["Title"] = "Tutor Finder";
+}
+
+@using Kachuwa.Identity.Extensions;
+<!-- Home Design -->
+<section class="home-five">
+    @*<div class="container">
+        <div class="row">
+            <div class="col-lg-12">*@
+                @await Component.InvokeAsync("Banner",new { key = "Homebanner"})
+                @*<div class="home5_slider">
+            <div class="item">
+                <div class="home-text">
+                    <h2>We Can T<span class="text-thm">each You!</span></h2>
+                    <p>Technology is bringing a massive wave of evolution on learning things on different ways.</p>
+                    <a class="btn home_btn" href="#">Join In Free</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="home-text">
+                    <h2>We Can T<span class="text-thm">each You!</span></h2>
+                    <p>Technology is brining a massive wave of evolution on learning things on different ways.</p>
+                    <a class="btn home_btn" href="#">Join In Free</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="home-text">
+                    <h2>We Can T<span class="text-thm">each You!</span></h2>
+                    <p>Technology is brining a massive wave of evolution on learning things on different ways.</p>
+                    <a class="btn home_btn" href="#">Join In Free</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="home-text">
+                    <h2>We Can T<span class="text-thm">each You!</span></h2>
+                    <p>Technology is brining a massive wave of evolution on learning things on different ways.</p>
+                    <a class="btn home_btn" href="#">Join In Free</a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="home-text">
+                    <h2>We Can T<span class="text-thm">each You!</span></h2>
+                    <p>Technology is brining a massive wave of evolution on learning things on different ways.</p>
+                    <a class="btn home_btn" href="#">Join In Free</a>
+                </div>
+            </div>
+        </div>*@
+            @*</div>
+        </div>
+    </div>*@
+</section>
+
+
+<!-- Training Tutor -->
+@await Component.InvokeAsync("TrainingTutor")
+
+
+@await Component.InvokeAsync("CourseHomePage")
+@*@if (User.Identity.IsAuthenticated)
+{
+@await Component.InvokeAsync("Recommendation")
+    
+}
+*@
+
+
+
+<!-- Divider -->
+<section class="divider_home1 parallax bg-img2" data-stellar-background-ratio="0.3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="divider-one">
+                    <p class="color-white">STARTING ONLINE LEARNING</p>
+                    <h1 class="color-white text-uppercase">Enhance your skills with best Online Tutors</h1>
+                    <a class="btn btn-transparent divider-btn" href="#" id="getstartednow">Get Started Now</a>
+                    <input type="hidden" value="@User.Identity.GetIdentityUserId()" id="hdnidentityuserid" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Our Testimonials -->
+<section id="our-testimonials" class="our-testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="main-title text-center">
+                    <h3 class="mt0">What Our Users have to Say</h3>
+                    @*<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>*@
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="testimonialsec">
+                    <ul class="tes-nav">
+                        <li>
+                            <img class="img-fluid" src="/themes/shared/default/images/testimonial/1.jpg" alt="1.jpg">
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="/themes/shared/default/images/testimonial/2.jpg" alt="2.jpg">
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="/themes/shared/default/images/testimonial/3.jpg" alt="3.jpg">
+                        </li>
+                        <li>
+                            <img class="img-fluid" src="/themes/shared/default/images/testimonial/4.jpg" alt="4.jpg">
+                        </li>
+                    </ul>
+                    <ul class="tes-for">
+                        <li>
+                            <div class="testimonial_item">
+                                <div class="details">
+                                    <h5>Rahul Lama</h5>
+                                    <span class="small text-thm">Student</span>
+                                    <p>The best part about Tutor Finder is the selection. You can find a course for anything you want to learn!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial_item">
+                                <div class="details">
+                                    <h5>Sujan Gharti Magar</h5>
+                                    <span class="small text-thm">Tutor</span>
+                                    <p>Tutor Finder has been best platform for distance learning.Students can learing staying at home </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial_item">
+                                <div class="details">
+                                    <h5>Aayu Shrestha</h5>
+                                    <span class="small text-thm">Parent</span>
+                                    <p>This has helped my children to have learn more about their interested courses.No need to worry about finding Institutes</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial_item">
+                                <div class="details">
+                                    <h5>Sudip Shrestha</h5>
+                                    <span class="small text-thm">Student</span>
+                                    <p>Thank you Tutor Finder! You've renewed my passion for learning and my dream of becoming a App developer.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Our Blog -->
+
+
+<!-- Popular Job Categories -->
+<section class="home1-divider2 parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-lg-7">
+                <div class="app_grid">
+                    <h1 class="mt0">Join Soon & Enjoy Learning</h1>
+                    <p>Visit Our Courses,<br> Get Enroll and Start Learning</p>
+                    @*<button class="apple_btn btn-transparent">
+                        <span class="icon">
+                            <span class="flaticon-apple"></span>
+                        </span>
+                        <span class="title">App Store</span>
+                        <span class="subtitle">Available now on the</span>
+                    </button>
+                    <button class="play_store_btn btn-transparent">
+                        <span class="icon">
+                            <span class="flaticon-google-play"></span>
+                        </span>
+                        <span class="title">Google Play</span>
+                        <span class="subtitle">Get in on</span>
+                    </button>*@
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Our Partners -->
+
+
+<!-- Our Newslatters -->
+@*<section id="our-newslatters" class="our-newslatters">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="main-title text-center">
+                        <h3 
+                            >Get Newsletter</h3>
+                        <p>Your download should start automatically, if not Click here. Should I give up, huh?.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="footer_apps_widget_home1">
+                        <form class="form-inline mailchimp_form">
+                            <input type="email" class="form-control" placeholder="Email address">
+                            <button type="submit" class="btn btn-lg btn-thm dbxshad">Get it now <span class="flaticon-right-arrow-1"></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+
+
+<script>
+
+
+    $('#getstartednow').on('click', function () {
+
+        var identityuserId = parseInt($("#hdnidentityuserid").val());
+        if (identityuserId == 0) {
+            $('#exampleModalCenter').modal('toggle');
+        }
+        else {
+            window.location.href = '/courses/';
+        }
+    });
+
+
+</script>

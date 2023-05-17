@@ -1,0 +1,317 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Microsoft.ML\Microsoft.Data.Analysis.Interactive\Microsoft.Data.Analysis.Interactive.csproj" />
+    <None Include="Microsoft.ML\Microsoft.Data.Analysis\Microsoft.Data.Analysis.csproj" />
+    <None Include="Microsoft.ML\Microsoft.Extensions.ML\Microsoft.Extensions.ML.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.AutoML.Interactive\Microsoft.ML.AutoML.Interactive.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.AutoML\Microsoft.ML.AutoML.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.CodeGenerator\Microsoft.ML.CodeGenerator.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Console\Microsoft.ML.Console.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Core\Microsoft.ML.Core.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.CpuMath\Microsoft.ML.CpuMath.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.DataView\Microsoft.ML.DataView.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Data\Microsoft.ML.Data.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.DnnAnalyzer\Microsoft.ML.DnnAnalyzer\Microsoft.ML.DnnAnalyzer.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.DnnImageFeaturizer.AlexNet\Microsoft.ML.DnnImageFeaturizer.AlexNet.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.DnnImageFeaturizer.ResNet101\Microsoft.ML.DnnImageFeaturizer.ResNet101.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.DnnImageFeaturizer.ResNet18\Microsoft.ML.DnnImageFeaturizer.ResNet18.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.DnnImageFeaturizer.ResNet50\Microsoft.ML.DnnImageFeaturizer.ResNet50.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Ensemble\Microsoft.ML.Ensemble.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.EntryPoints\Microsoft.ML.EntryPoints.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Experimental\Microsoft.ML.Experimental.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.FastTree\Microsoft.ML.FastTree.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.ImageAnalytics\Microsoft.ML.ImageAnalytics.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.KMeansClustering\Microsoft.ML.KMeansClustering.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.LightGbm\Microsoft.ML.LightGbm.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Maml\Microsoft.ML.Maml.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Mkl.Components\Microsoft.ML.Mkl.Components.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Mkl.Redist\Microsoft.ML.Mkl.Redist.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.OneDal\Microsoft.ML.OneDal.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.OnnxConverter\Microsoft.ML.OnnxConverter.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.OnnxTransformer\Microsoft.ML.OnnxTransformer.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Parquet\Microsoft.ML.Parquet.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.PCA\Microsoft.ML.PCA.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Recommender\Microsoft.ML.Recommender.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.ResultProcessor\Microsoft.ML.ResultProcessor.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.SamplesUtils\Microsoft.ML.SamplesUtils.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.SearchSpace\Microsoft.ML.SearchSpace.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.StandardTrainers\Microsoft.ML.StandardTrainers.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Sweeper\Microsoft.ML.Sweeper.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.TensorFlow\Microsoft.ML.TensorFlow.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.TimeSeries\Microsoft.ML.TimeSeries.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Tokenizers\Microsoft.ML.Tokenizers.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.TorchSharp\Microsoft.ML.TorchSharp.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Transforms\Microsoft.ML.Transforms.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML.Vision\Microsoft.ML.Vision.csproj" />
+    <None Include="Microsoft.ML\Microsoft.ML\Microsoft.ML.csproj" />
+    <None Include="Microsoft.ML\Native\Native.proj" />
+    <None Include="Microsoft.ML\Native\newbuild.proj" />
+    <None Include="Microsoft.ML\Redist\build.proj" />
+    <None Include="Microsoft.ML\Redist\Microsoft.ML.DnnImageFeaturizer.ModelRedist\Microsoft.ML.DnnImageFeaturizer.ModelRedist.proj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\courses.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\recommendation-ratings-test.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\recommendation-ratings-train.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\Converters.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Converters.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrame.BinaryOperations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DataFrame.BinaryOperations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrame.BinaryOperators.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DataFrame.BinaryOperators.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrameColumn.BinaryOperations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DataFrameColumn.BinaryOperations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrameColumn.BinaryOperators.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DataFrameColumn.BinaryOperators.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrameColumn.Computations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DataFrameColumn.Computations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveColumnContainer.BinaryOperations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveColumnContainer.BinaryOperations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperationAPIs.ExplodedColumns.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumn.BinaryOperationAPIs.ExplodedColumns.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperationImplementations.Exploded.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumn.BinaryOperationImplementations.Exploded.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperations.Combinations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumn.BinaryOperations.Combinations.ttinclude</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperations.Combinations.ttinclude">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumn.BinaryOperations.Combinations.tt</DependentUpon>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumn.BinaryOperations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperators.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumn.BinaryOperators.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.Computations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumn.Computations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.ReversedBinaryOperations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumn.ReversedBinaryOperations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumnArithmetic.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumnArithmetic.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumnComputations.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PrimitiveDataFrameColumnComputations.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Azure\Console\AzureModelBuilder.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AzureModelBuilder.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Azure\Model\AzureImageModelOutputClass.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AzureImageModelOutputClass.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Azure\Model\AzureObjectDetectionModelOutputClass.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AzureObjectDetectionModelOutputClass.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ConsumeModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ConsumeModel.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelBuilder.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelBuilder.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelInputClass.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelInputClass.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelOutputClass.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelOutputClass.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelProject.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelProject.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\PredictProgram.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PredictProgram.cs</LastGenOutput>
+    </None>
+    <None Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\PredictProject.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PredictProject.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Microsoft.ML\Native\MatrixFactorizationNative\libmf\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\Converters.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Converters.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrame.BinaryOperations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataFrame.BinaryOperations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrame.BinaryOperators.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataFrame.BinaryOperators.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrameColumn.BinaryOperations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataFrameColumn.BinaryOperations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrameColumn.BinaryOperators.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataFrameColumn.BinaryOperators.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\DataFrameColumn.Computations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataFrameColumn.Computations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveColumnContainer.BinaryOperations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveColumnContainer.BinaryOperations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperationAPIs.ExplodedColumns.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumn.BinaryOperationAPIs.ExplodedColumns.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperationImplementations.Exploded.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumn.BinaryOperationImplementations.Exploded.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumn.BinaryOperations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.BinaryOperators.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumn.BinaryOperators.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.Computations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumn.Computations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumn.ReversedBinaryOperations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumn.ReversedBinaryOperations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumnArithmetic.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumnArithmetic.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.Data.Analysis\PrimitiveDataFrameColumnComputations.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PrimitiveDataFrameColumnComputations.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Azure\Console\AzureModelBuilder.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AzureModelBuilder.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Azure\Model\AzureImageModelOutputClass.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AzureImageModelOutputClass.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Azure\Model\AzureObjectDetectionModelOutputClass.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AzureObjectDetectionModelOutputClass.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ConsumeModel.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ConsumeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelBuilder.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModelBuilder.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelInputClass.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModelInputClass.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelOutputClass.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModelOutputClass.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\ModelProject.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModelProject.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\PredictProgram.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PredictProgram.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Microsoft.ML\Microsoft.ML.CodeGenerator\Templates\Console\PredictProject.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PredictProject.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

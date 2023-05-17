@@ -1,0 +1,87 @@
+﻿@using Kachuwa.Training.Model
+@model IEnumerable<PaymentLogViewModel>
+
+@{
+    ViewData["Title"] = "Payment History";
+}
+
+
+<div class="col-lg-12">
+    <div class="my_course_content_container">
+        <div class="my_setting_content">
+            <div class="my_setting_content_header">
+                <div class="my_sch_title">
+                    <h4 class="m0">Payment History</h4>
+                </div>
+            </div>
+
+
+            <div class="my_setting_content_details pb0">
+                <div class="cart_page_form style2">
+
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr class="carttable_row">
+                                <th class="cartm_title">Course</th>
+                                <th class="cartm_title">CourseFee</th>
+                                <th class="cartm_title">PaymentBy</th>
+                                <th class="cartm_title">IsVerified</th>
+                                <th class="cartm_title">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table_body">
+                            @if (Model.Count() != 0)
+                            {
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th scope="row">
+                                            <ul class="cart_list">
+                                                <li class="list-inline-item"><a class="cart_title" href='/Course/@item.CourseId'>@item.CourseName</a></li>
+                                            </ul>
+                                        </th>
+                                        <td class="cart_total">@item.CourseFee</td>
+                                        <td>@item.PaymentSource</td>
+
+                                        @if (item.IsVerified == false)
+                                        {
+                                            <td><span style="color:red;">&#10060; Not Verified </span></td>
+                                        }
+                                        else
+                                        {
+                                            <td style="color:green;">  &#9989; Verified</td>
+                                        }
+
+                                        <td class="text-thm tdu"><a href="/user/payment/detail/@item.Id">Detail</a></td>
+                                    </tr>
+                                }
+
+                            }
+
+
+                            @*<tr class="borderless_table_row">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="cart_total color-dark fz18 pb10">Total</td>
+                                    <td class="color-gray2 fz15 pb10">$2,590.00</td>
+                                </tr>
+                                <tr class="borderless_table_row style2">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="cart_total color-dark fz18 pt10">Total Paid</td>
+                                    <td class="color-gray2 fz15 pt10">$3,590.00</td>
+                                </tr>*@
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

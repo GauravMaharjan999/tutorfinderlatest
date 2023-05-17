@@ -1,0 +1,139 @@
+﻿
+@using Kachuwa.FileUploader.Constants
+@using Newtonsoft.Json
+@model Kachuwa.FileUploader.Model.FileUploadSetting
+@{ string guid = Guid.NewGuid().ToString();}
+
+<link href="~/module/KachuwaFileUploader/resources/filepond/filepond.min.css" rel="stylesheet" />
+<link href="~/module/KachuwaFileUploader/resources/filepond/plugins/filepond-plugin-image-preview.min.css" rel="stylesheet" />
+<!-- include FilePond library -->
+<script src="/module/KachuwaFileUploader/resources/filepond/filepond.min.js"></script>
+<script src="/module/KachuwaFileUploader/resources/filepond/filepond.esm.min.js"></script>
+<!-- include FilePond plugins -->
+
+<!-- include FilePond jQuery adapter -->
+<script src="/module/KachuwaFileUploader/resources/filepond/plugins/filepond-plugin-image-preview.min.js"></script>
+<script src="/module/KachuwaFileUploader/resources/filepond/jquery/filepond.jquery.js"></script>
+
+
+<div id="@Model.UniqueId" class="row">
+    <div class="container">
+        <input type="file" class="my-pond" name="filepond" accept="@Model.AcceptFile"  />
+        <input type="hidden" name="uploaderextradata" value="@Model.ExtraDataFieldValue?.ToString()" data-name="@Model.ExtraDataFieldName"  />
+
+    </div>
+</div>
+
+<script>
+    $(function () {
+        var $ajaxCall = function(url, param, successFx, error) {
+            $.ajax({
+                type: "POST",
+                // contentType: "application/json; charset=utf-8",
+                async: false,
+                url: url,
+                data: param,
+                success: successFx,
+                error: error
+            });
+        };
+        var guid = '@Model.UniqueId';
+        // First register any plugins
+        $.fn.filepond.registerPlugin(FilePondPluginImagePreview);
+        FilePond[guid] = {
+            onloadcallback: function () { },
+            onerrorcallback: function () {}
+        }
+        // Turn input element into a pond
+       // $('.my-pond').filepond();
+
+        // Set allowMultiple property to true
+        var allowMultiple =@Model.AllowMultiple.ToString().ToLower();
+        var existingFiles=@Html.Raw(JsonConvert.SerializeObject(Model.ExistingFiles));
+        FilePond[guid] = {};
+        var _files = [];
+        $.each(existingFiles,
+            function(i, f) {
+                _files.push({ source: f, options: { type: 'local', metadata: {source:f,edit:true} } });
+            });
+       // console.log(_files)
+        $('#' + guid + ' .my-pond').filepond({
+            files: _files,
+            ignoredFiles: [],
+            className: '@Model.ClassName',
+            allowMultiple: allowMultiple,
+            maxFiles: @Model.MaxFile,
+            // imagePreviewHeight: null,
+            //imagePreviewMaxFileSize: null,
+            imagePreviewMaxHeight: 256,
+            imagePreviewMinHeight: 44,
+            // imagePreviewTransparencyIndicator: null,
+            instantUpload: @Model.AutoUpload.ToString().ToLower(),
+            name: "filepond",
+            onerror: function() {},
+            onremovefile: function(file) {
+               
+                var fileSource = file.getMetadata('source');
+                console.log('removing file', file, fileSource);
+                if (fileSource != undefined ) {
+                    $ajaxCall("/api/v1/fileuploader/remove", { file: fileSource }, function () { }, function () { });
+                    FilePond[guid].onEditFileRemove(fileSource);
+                }
+            },
+            onwarning: function (warn) { console.log(warn); },
+            //onprocessfile: function (c) {
+            //    console.log(c);
+            //    if (editing) {
+            //        return false;
+            //    }
+            //},
+            server: {
+                //process: '/api/v1/file/upload',//POST
+                process: {
+                    url: '/api/v1/fileuploader/upload',
+                    method: 'POST',
+                    withCredentials: false,
+                    headers: {
+                        '@FUConstants.UploadDir': '@Model.UploadDir',
+                        '@FUConstants.AcceptFiles': '@Model.AcceptFile',
+
+                    },
+                    timeout: 7000,
+                    onload: function(response) {
+                        var x = $.parseJSON(response);
+                        FilePond[guid].onloadcallback(x);
+                        return x.Data;
+                    },
+                    onerror: function (response) {
+                        var x = $.parseJSON(response);
+                        FilePond[guid].onerrorcallback(x);
+                    }
+                },
+
+                fetch: null, //GET
+                revert: {
+                    url: '/api/v1/fileuploader/revert',
+                    method: 'POST',
+                    withCredentials: false,
+                    headers: {},
+                    timeout: 7000,
+                    onload: function (response) {
+                        var x = $.parseJSON(response);
+                        FilePond[guid].onRemoveFile(x);
+                    },
+                    onerror: null
+                }, //DELETE
+                load: "/",
+                restore: null
+
+            }
+        });
+       $(window).trigger("fileuploadready");
+      
+        //// Manually add a file using the addfile method
+        //$('.my-pond').first().filepond('addFile', 'index.html').then(function (file) {
+        //    console.log('file added', file);
+        //});
+
+    });
+</script>

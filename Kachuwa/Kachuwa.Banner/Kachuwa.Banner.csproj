@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Areas\Admin\Views\Banner\Edit.cshtml" />
+    <None Remove="Areas\Admin\Views\Banner\Index.cshtml" />
+    <None Remove="Areas\Admin\Views\Banner\New.cshtml" />
+    <None Remove="Areas\Admin\Views\_ViewImports.cshtml" />
+    <None Remove="Areas\Admin\Views\_ViewStart.cshtml" />
+    <None Remove="Components\BannerSetting\Default.cshtml" />
+    <None Remove="Components\Banner\Default.cshtml" />
+    <None Remove="resources\css\banner.css" />
+    <None Remove="resources\css\bannerloader.css" />
+    <None Remove="resources\js\banner.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Areas\Admin\Views\Banner\Index.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Banner\Edit.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\Banner\New.cshtml" />
+    <EmbeddedResource Include="Areas\Admin\Views\_ViewImports.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Areas\Admin\Views\_ViewStart.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\BannerSetting\Default.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Banner\Default.cshtml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resources\css\bannerloader.css" />
+    <EmbeddedResource Include="resources\css\banner.css" />
+    <EmbeddedResource Include="resources\js\banner.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="db\mssql\uninstall\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kachuwa.Admin\Kachuwa.Admin.csproj" />
+    <ProjectReference Include="..\Kachuwa.Core\Kachuwa.Core.csproj" />
+    <ProjectReference Include="..\Kachuwa.Identity\Kachuwa.Identity.csproj" />
+    <ProjectReference Include="..\Kachuwa.Web\Kachuwa.Web.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,870 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="external\bento4\aac2mp4.exe" />
+    <None Remove="external\bento4\Bento4CDll.dll" />
+    <None Remove="external\bento4\bin\aac2mp4.exe" />
+    <None Remove="external\bento4\bin\Bento4CDll.dll" />
+    <None Remove="external\bento4\bin\mp42aac.exe" />
+    <None Remove="external\bento4\bin\mp42avc.exe" />
+    <None Remove="external\bento4\bin\mp42hevc.exe" />
+    <None Remove="external\bento4\bin\mp42hls.exe" />
+    <None Remove="external\bento4\bin\mp42ts.exe" />
+    <None Remove="external\bento4\bin\mp4compact.exe" />
+    <None Remove="external\bento4\bin\mp4dash.bat" />
+    <None Remove="external\bento4\bin\mp4dashclone.bat" />
+    <None Remove="external\bento4\bin\mp4dcfpackager.exe" />
+    <None Remove="external\bento4\bin\mp4decrypt.exe" />
+    <None Remove="external\bento4\bin\mp4dump.exe" />
+    <None Remove="external\bento4\bin\mp4edit.exe" />
+    <None Remove="external\bento4\bin\mp4encrypt.exe" />
+    <None Remove="external\bento4\bin\mp4extract.exe" />
+    <None Remove="external\bento4\bin\mp4fragment.exe" />
+    <None Remove="external\bento4\bin\mp4hls.bat" />
+    <None Remove="external\bento4\bin\Mp4IframeIndex.exe" />
+    <None Remove="external\bento4\bin\mp4info.exe" />
+    <None Remove="external\bento4\bin\mp4mux.exe" />
+    <None Remove="external\bento4\bin\mp4rtphintinfo.exe" />
+    <None Remove="external\bento4\bin\mp4split.exe" />
+    <None Remove="external\bento4\bin\mp4tag.exe" />
+    <None Remove="external\bento4\mp42aac.exe" />
+    <None Remove="external\bento4\mp42avc.exe" />
+    <None Remove="external\bento4\mp42hevc.exe" />
+    <None Remove="external\bento4\mp42hls.exe" />
+    <None Remove="external\bento4\mp42ts.exe" />
+    <None Remove="external\bento4\mp4compact.exe" />
+    <None Remove="external\bento4\mp4dash.bat" />
+    <None Remove="external\bento4\mp4dashclone.bat" />
+    <None Remove="external\bento4\mp4dcfpackager.exe" />
+    <None Remove="external\bento4\mp4decrypt.exe" />
+    <None Remove="external\bento4\mp4dump.exe" />
+    <None Remove="external\bento4\mp4edit.exe" />
+    <None Remove="external\bento4\mp4encrypt.exe" />
+    <None Remove="external\bento4\mp4extract.exe" />
+    <None Remove="external\bento4\mp4fragment.exe" />
+    <None Remove="external\bento4\mp4hls.bat" />
+    <None Remove="external\bento4\Mp4IframeIndex.exe" />
+    <None Remove="external\bento4\mp4info.exe" />
+    <None Remove="external\bento4\mp4mux.exe" />
+    <None Remove="external\bento4\mp4rtphintinfo.exe" />
+    <None Remove="external\bento4\mp4split.exe" />
+    <None Remove="external\bento4\mp4tag.exe" />
+    <None Remove="external\ffmpeg\x64\avcodec-58.dll" />
+    <None Remove="external\ffmpeg\x64\avdevice-58.dll" />
+    <None Remove="external\ffmpeg\x64\avfilter-7.dll" />
+    <None Remove="external\ffmpeg\x64\avformat-58.dll" />
+    <None Remove="external\ffmpeg\x64\avutil-56.dll" />
+    <None Remove="external\ffmpeg\x64\ffmpeg.exe" />
+    <None Remove="external\ffmpeg\x64\ffplay.exe" />
+    <None Remove="external\ffmpeg\x64\ffprobe.exe" />
+    <None Remove="external\ffmpeg\x64\postproc-55.dll" />
+    <None Remove="external\ffmpeg\x64\swresample-3.dll" />
+    <None Remove="external\ffmpeg\x64\swscale-5.dll" />
+    <None Remove="external\ffmpeg\x86\avcodec-58.dll" />
+    <None Remove="external\ffmpeg\x86\avdevice-58.dll" />
+    <None Remove="external\ffmpeg\x86\avfilter-7.dll" />
+    <None Remove="external\ffmpeg\x86\avformat-58.dll" />
+    <None Remove="external\ffmpeg\x86\avutil-56.dll" />
+    <None Remove="external\ffmpeg\x86\ffmpeg.exe" />
+    <None Remove="external\ffmpeg\x86\ffplay.exe" />
+    <None Remove="external\ffmpeg\x86\ffprobe.exe" />
+    <None Remove="external\ffmpeg\x86\postproc-55.dll" />
+    <None Remove="external\ffmpeg\x86\swresample-3.dll" />
+    <None Remove="external\ffmpeg\x86\swscale-5.dll" />
+    <None Remove="external\bento4\include\Ap4.h" />
+    <None Remove="external\bento4\include\Ap48bdlAtom.h" />
+    <None Remove="external\bento4\include\Ap4AdtsParser.h" />
+    <None Remove="external\bento4\include\Ap4AesBlockCipher.h" />
+    <None Remove="external\bento4\include\Ap4AinfAtom.h" />
+    <None Remove="external\bento4\include\Ap4Array.h" />
+    <None Remove="external\bento4\include\Ap4Atom.h" />
+    <None Remove="external\bento4\include\Ap4AtomFactory.h" />
+    <None Remove="external\bento4\include\Ap4AtomixAdapters.h" />
+    <None Remove="external\bento4\include\Ap4AtomSampleTable.h" />
+    <None Remove="external\bento4\include\Ap4AvccAtom.h" />
+    <None Remove="external\bento4\include\Ap4AvcParser.h" />
+    <None Remove="external\bento4\include\Ap4BitStream.h" />
+    <None Remove="external\bento4\include\Ap4BlocAtom.h" />
+    <None Remove="external\bento4\include\Ap4ByteStream.h" />
+    <None Remove="external\bento4\include\Ap4Co64Atom.h" />
+    <None Remove="external\bento4\include\Ap4Command.h" />
+    <None Remove="external\bento4\include\Ap4CommandFactory.h" />
+    <None Remove="external\bento4\include\Ap4CommonEncryption.h" />
+    <None Remove="external\bento4\include\Ap4Config.h" />
+    <None Remove="external\bento4\include\Ap4Constants.h" />
+    <None Remove="external\bento4\include\Ap4ContainerAtom.h" />
+    <None Remove="external\bento4\include\Ap4CttsAtom.h" />
+    <None Remove="external\bento4\include\Ap4DataBuffer.h" />
+    <None Remove="external\bento4\include\Ap4Debug.h" />
+    <None Remove="external\bento4\include\Ap4Dec3Atom.h" />
+    <None Remove="external\bento4\include\Ap4DecoderConfigDescriptor.h" />
+    <None Remove="external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h" />
+    <None Remove="external\bento4\include\Ap4Descriptor.h" />
+    <None Remove="external\bento4\include\Ap4DescriptorFactory.h" />
+    <None Remove="external\bento4\include\Ap4DrefAtom.h" />
+    <None Remove="external\bento4\include\Ap4DvccAtom.h" />
+    <None Remove="external\bento4\include\Ap4DynamicCast.h" />
+    <None Remove="external\bento4\include\Ap4ElstAtom.h" />
+    <None Remove="external\bento4\include\Ap4EsDescriptor.h" />
+    <None Remove="external\bento4\include\Ap4EsdsAtom.h" />
+    <None Remove="external\bento4\include\Ap4Expandable.h" />
+    <None Remove="external\bento4\include\Ap4File.h" />
+    <None Remove="external\bento4\include\Ap4FileByteStream.h" />
+    <None Remove="external\bento4\include\Ap4FileCopier.h" />
+    <None Remove="external\bento4\include\Ap4FileWriter.h" />
+    <None Remove="external\bento4\include\Ap4FragmentSampleTable.h" />
+    <None Remove="external\bento4\include\Ap4FrmaAtom.h" />
+    <None Remove="external\bento4\include\Ap4FtypAtom.h" />
+    <None Remove="external\bento4\include\Ap4GrpiAtom.h" />
+    <None Remove="external\bento4\include\Ap4HdlrAtom.h" />
+    <None Remove="external\bento4\include\Ap4HevcParser.h" />
+    <None Remove="external\bento4\include\Ap4HintTrackReader.h" />
+    <None Remove="external\bento4\include\Ap4Hmac.h" />
+    <None Remove="external\bento4\include\Ap4HmhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4HvccAtom.h" />
+    <None Remove="external\bento4\include\Ap4IkmsAtom.h" />
+    <None Remove="external\bento4\include\Ap4Interfaces.h" />
+    <None Remove="external\bento4\include\Ap4IodsAtom.h" />
+    <None Remove="external\bento4\include\Ap4Ipmp.h" />
+    <None Remove="external\bento4\include\Ap4IproAtom.h" />
+    <None Remove="external\bento4\include\Ap4IsfmAtom.h" />
+    <None Remove="external\bento4\include\Ap4IsltAtom.h" />
+    <None Remove="external\bento4\include\Ap4IsmaCryp.h" />
+    <None Remove="external\bento4\include\Ap4KeyWrap.h" />
+    <None Remove="external\bento4\include\Ap4LinearReader.h" />
+    <None Remove="external\bento4\include\Ap4List.h" />
+    <None Remove="external\bento4\include\Ap4Marlin.h" />
+    <None Remove="external\bento4\include\Ap4MdhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4MehdAtom.h" />
+    <None Remove="external\bento4\include\Ap4MetaData.h" />
+    <None Remove="external\bento4\include\Ap4MfhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4MfroAtom.h" />
+    <None Remove="external\bento4\include\Ap4MoovAtom.h" />
+    <None Remove="external\bento4\include\Ap4Movie.h" />
+    <None Remove="external\bento4\include\Ap4MovieFragment.h" />
+    <None Remove="external\bento4\include\Ap4Mp4AudioInfo.h" />
+    <None Remove="external\bento4\include\Ap4Mpeg2Ts.h" />
+    <None Remove="external\bento4\include\Ap4MvhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4NalParser.h" />
+    <None Remove="external\bento4\include\Ap4NeptuneAdapters.h" />
+    <None Remove="external\bento4\include\Ap4NmhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4ObjectDescriptor.h" />
+    <None Remove="external\bento4\include\Ap4OdafAtom.h" />
+    <None Remove="external\bento4\include\Ap4OddaAtom.h" />
+    <None Remove="external\bento4\include\Ap4OdheAtom.h" />
+    <None Remove="external\bento4\include\Ap4OhdrAtom.h" />
+    <None Remove="external\bento4\include\Ap4OmaDcf.h" />
+    <None Remove="external\bento4\include\Ap4PdinAtom.h" />
+    <None Remove="external\bento4\include\Ap4Piff.h" />
+    <None Remove="external\bento4\include\Ap4Processor.h" />
+    <None Remove="external\bento4\include\Ap4Protection.h" />
+    <None Remove="external\bento4\include\Ap4PsshAtom.h" />
+    <None Remove="external\bento4\include\Ap4Results.h" />
+    <None Remove="external\bento4\include\Ap4RtpAtom.h" />
+    <None Remove="external\bento4\include\Ap4RtpHint.h" />
+    <None Remove="external\bento4\include\Ap4SaioAtom.h" />
+    <None Remove="external\bento4\include\Ap4SaizAtom.h" />
+    <None Remove="external\bento4\include\Ap4Sample.h" />
+    <None Remove="external\bento4\include\Ap4SampleDescription.h" />
+    <None Remove="external\bento4\include\Ap4SampleEntry.h" />
+    <None Remove="external\bento4\include\Ap4SampleSource.h" />
+    <None Remove="external\bento4\include\Ap4SampleTable.h" />
+    <None Remove="external\bento4\include\Ap4SbgpAtom.h" />
+    <None Remove="external\bento4\include\Ap4SchmAtom.h" />
+    <None Remove="external\bento4\include\Ap4SdpAtom.h" />
+    <None Remove="external\bento4\include\Ap4SegmentBuilder.h" />
+    <None Remove="external\bento4\include\Ap4SencAtom.h" />
+    <None Remove="external\bento4\include\Ap4SgpdAtom.h" />
+    <None Remove="external\bento4\include\Ap4SidxAtom.h" />
+    <None Remove="external\bento4\include\Ap4SLConfigDescriptor.h" />
+    <None Remove="external\bento4\include\Ap4SmhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4StcoAtom.h" />
+    <None Remove="external\bento4\include\Ap4SthdAtom.h" />
+    <None Remove="external\bento4\include\Ap4StreamCipher.h" />
+    <None Remove="external\bento4\include\Ap4String.h" />
+    <None Remove="external\bento4\include\Ap4StscAtom.h" />
+    <None Remove="external\bento4\include\Ap4StsdAtom.h" />
+    <None Remove="external\bento4\include\Ap4StssAtom.h" />
+    <None Remove="external\bento4\include\Ap4StszAtom.h" />
+    <None Remove="external\bento4\include\Ap4SttsAtom.h" />
+    <None Remove="external\bento4\include\Ap4Stz2Atom.h" />
+    <None Remove="external\bento4\include\Ap4SyntheticSampleTable.h" />
+    <None Remove="external\bento4\include\Ap4TencAtom.h" />
+    <None Remove="external\bento4\include\Ap4TfdtAtom.h" />
+    <None Remove="external\bento4\include\Ap4TfhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4TfraAtom.h" />
+    <None Remove="external\bento4\include\Ap4TimsAtom.h" />
+    <None Remove="external\bento4\include\Ap4TkhdAtom.h" />
+    <None Remove="external\bento4\include\Ap4Track.h" />
+    <None Remove="external\bento4\include\Ap4TrakAtom.h" />
+    <None Remove="external\bento4\include\Ap4TrefTypeAtom.h" />
+    <None Remove="external\bento4\include\Ap4TrexAtom.h" />
+    <None Remove="external\bento4\include\Ap4TrunAtom.h" />
+    <None Remove="external\bento4\include\Ap4Types.h" />
+    <None Remove="external\bento4\include\Ap4UrlAtom.h" />
+    <None Remove="external\bento4\include\Ap4Utils.h" />
+    <None Remove="external\bento4\include\Ap4UuidAtom.h" />
+    <None Remove="external\bento4\include\Ap4Version.h" />
+    <None Remove="external\bento4\include\Ap4VmhdAtom.h" />
+    <None Remove="external\bento4\include\Bento4C.h" />
+    <None Remove="external\bento4\utils\aes.py" />
+    <None Remove="external\bento4\utils\check-indexes.py" />
+    <None Remove="external\bento4\utils\mp4-dash-clone.py" />
+    <None Remove="external\bento4\utils\mp4-dash-encode.py" />
+    <None Remove="external\bento4\utils\mp4-dash.py" />
+    <None Remove="external\bento4\utils\mp4-hls.py" />
+    <None Remove="external\bento4\utils\mp4utils.py" />
+    <None Remove="external\bento4\utils\mp4utils.pyc" />
+    <None Remove="external\bento4\utils\pr-derive-key.py" />
+    <None Remove="external\bento4\utils\skm.py" />
+    <None Remove="external\bento4\utils\subtitles.py" />
+    <None Remove="external\bento4\utils\subtitles.pyc" />
+    <None Remove="external\bento4\utils\wv-request.py" />
+    <None Remove="logos\logo.png" />
+    <None Remove="logos\logo_X1080P.png" />
+    <None Remove="logos\logo_X144P.png" />
+    <None Remove="logos\logo_X240P.png" />
+    <None Remove="logos\logo_X2K.png" />
+    <None Remove="logos\logo_X360P.png" />
+    <None Remove="logos\logo_X480P.png" />
+    <None Remove="logos\logo_X4K.png" />
+    <None Remove="logos\logo_X720P.png" />
+    <None Remove="logos\logo_X8K.png" />
+    <None Remove="logos\logo_XQHD.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="external\bento4\bin\aac2mp4.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\Bento4CDll.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp42aac.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp42avc.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp42hevc.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp42hls.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp42ts.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4compact.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4dash.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4dashclone.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4dcfpackager.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4decrypt.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4dump.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4edit.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4encrypt.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4extract.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4fragment.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4hls.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\Mp4IframeIndex.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4info.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4mux.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4rtphintinfo.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4split.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\bin\mp4tag.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\avcodec-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\avdevice-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\avfilter-7.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\avformat-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\avutil-56.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\ffmpeg.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\ffplay.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\ffprobe.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\postproc-55.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\swresample-3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x64\swscale-5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\avcodec-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\avdevice-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\avfilter-7.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\avformat-58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\avutil-56.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\ffmpeg.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\ffplay.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\ffprobe.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\postproc-55.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\swresample-3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\ffmpeg\x86\swscale-5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap48bdlAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AdtsParser.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AesBlockCipher.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AinfAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Array.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Atom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AtomFactory.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AtomixAdapters.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AtomSampleTable.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AvccAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4AvcParser.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4BitStream.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4BlocAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4ByteStream.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Co64Atom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Command.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4CommandFactory.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4CommonEncryption.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Config.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Constants.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4ContainerAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4CttsAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4DataBuffer.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Debug.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Dec3Atom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4DecoderConfigDescriptor.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4DecoderSpecificInfoDescriptor.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Descriptor.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4DescriptorFactory.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4DrefAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4DvccAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4DynamicCast.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4ElstAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4EsDescriptor.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4EsdsAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Expandable.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4File.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4FileByteStream.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4FileCopier.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4FileWriter.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4FragmentSampleTable.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4FrmaAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4FtypAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4GrpiAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4HdlrAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4HevcParser.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4HintTrackReader.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Hmac.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4HmhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4HvccAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4IkmsAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Interfaces.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4IodsAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Ipmp.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4IproAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4IsfmAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4IsltAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4IsmaCryp.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4KeyWrap.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4LinearReader.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4List.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Marlin.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MdhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MehdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MetaData.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MfhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MfroAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MoovAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Movie.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MovieFragment.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Mp4AudioInfo.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Mpeg2Ts.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4MvhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4NalParser.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4NeptuneAdapters.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4NmhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4ObjectDescriptor.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4OdafAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4OddaAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4OdheAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4OhdrAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4OmaDcf.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4PdinAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Piff.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Processor.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Protection.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4PsshAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Results.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4RtpAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4RtpHint.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SaioAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SaizAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Sample.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SampleDescription.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SampleEntry.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SampleSource.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SampleTable.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SbgpAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SchmAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SdpAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SegmentBuilder.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SencAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SgpdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SidxAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SLConfigDescriptor.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SmhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4StcoAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SthdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4StreamCipher.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4String.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4StscAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4StsdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4StssAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4StszAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SttsAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Stz2Atom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4SyntheticSampleTable.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TencAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TfdtAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TfhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TfraAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TimsAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TkhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Track.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TrakAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TrefTypeAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TrexAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4TrunAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Types.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4UrlAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Utils.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4UuidAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4Version.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Ap4VmhdAtom.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\include\Bento4C.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\aes.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\check-indexes.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\mp4-dash-clone.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\mp4-dash-encode.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\mp4-dash.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\mp4-hls.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\mp4utils.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\mp4utils.pyc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\pr-derive-key.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\skm.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\subtitles.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\subtitles.pyc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="external\bento4\utils\wv-request.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X1080P.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X144P.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X240P.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X2K.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X360P.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X480P.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X4K.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X720P.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_X8K.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logos\logo_XQHD.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="external\bento4\utils\rce\" />
+    <Folder Include="Live\NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kachuwa\Kachuwa.Core\Kachuwa.Core.csproj" />
+  </ItemGroup>
+
+</Project>

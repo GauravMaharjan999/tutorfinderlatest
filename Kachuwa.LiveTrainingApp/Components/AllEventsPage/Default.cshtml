@@ -1,0 +1,74 @@
+﻿@using Kachuwa.Training.Model
+@model IEnumerable<Event>
+
+@foreach (var item in Model)
+{
+
+    <div class="row event_lists p0" >
+        <div class="col-xl-5 pr15-xl pr0">
+            <div class="blog_grid_post event_lists mb35">
+                <div class="thumb">
+                    
+                    @if (item.ProfileImagePath != "/" || item.ProfileImagePath != null)
+                    {
+                        <img class="img-fluid w100" src="@item.ProfileImagePath" alt="el1.jpg">
+                        <div class="post_date"><h2>@item.FromDate.Day</h2> <span>@item.FromDate.ToString("MMM")</span></div>
+                    }
+                    @if (item.IsFree == true)
+                    {
+                        <div class="eventprice"><h2>Free</h2> </div>
+                    }
+                    else
+                    {
+                        <div class="eventprice"><h2>Price</h2><span>Rs. @item.Price</span> </div>
+                    }
+
+
+                </div>
+                <div class="thumb">
+                  
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-7 pl15-xl pl0">
+            <div class="blog_grid_post style2 event_lists mb35">
+                <div class="details">
+                    <a class="pull-right" href="/event/@item.Id?EventName=@item.Title"> <span>View Detail</span> </a>
+
+                    @if (item.Title != null)
+                    {
+                        <h3>@item.Title</h3>
+                    }
+
+                    @if (item.ShortDescription != null)
+                    {
+                        <p>@item.ShortDescription</p>
+                    }
+
+
+                        <ul class="mb0">
+                            <li><a href="#"><span class="flaticon-appointment"></span>Date: @item.FromDate.ToString("yyyy-MM-dd") - @item.ToDate.ToString("yyyy-MM-dd")</a></li>
+                            @if (item.ContactNumber != null)
+                            {
+                                <li><a><span class="flaticon-phone-call"></span>@item.ContactNumber</a></li>
+                            }
+                            @if (item.Address != null)
+                            {
+                                <li><a><span class="flaticon-placeholder"></span>@item.Address</a></li>
+
+                            }
+                        </ul>
+                    @if (item.FromDate > DateTime.Now.Date)
+                    {
+                        // <a type="button" class="btn btn-success button play flaticon-account pull-right" href="/event/register/@item.Id?EventName=@item.Title" style="color:white;"> <span style="color:white;">Register Now</span> </a>
+                    }
+                    else
+                    {
+                        <p type="button" class="btn btn-warning pull-right"> <span>Registration Closed</span> </p>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
